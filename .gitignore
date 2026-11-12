@@ -1,0 +1,15 @@
+node_modules
+dist
+dev-dist
+*.local
+.env
+.env.*
+!.env.example
+# 個人データ（初期データ）は誤公開を防ぐため既定でコミットしない
+seed/*.json
+seed/*.csv
+test-results
+playwright-report
+
+# 配布用のまとめファイル
+*.zip

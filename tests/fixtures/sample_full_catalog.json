@@ -1,0 +1,922 @@
+{
+  "note": "テスト用の架空データです。実際の評価データではありません。",
+  "summary": {
+    "total_works": 107,
+    "rated_count": 44,
+    "average_rating": 3,
+    "pending_count": 7,
+    "unwatched_count": 1,
+    "want_count": 3,
+    "unconfirmed_count": 52
+  },
+  "works": [
+    {
+      "work_no": 1,
+      "title": "青い灯台",
+      "category": "ドラマ",
+      "release_year": 2001,
+      "my_rating": 1,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 2,
+      "title": "青い映写室",
+      "category": "アニメ",
+      "release_year": 2002,
+      "my_rating": 1,
+      "status": "評価済み",
+      "watched_on": "2026-11-03",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 3,
+      "title": "青い列車",
+      "category": "映画",
+      "release_year": 2003,
+      "my_rating": 1,
+      "status": "評価済み",
+      "watched_on": "2026-10",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 4,
+      "title": "青い港",
+      "category": "ドラマ",
+      "release_year": 2004,
+      "my_rating": 1,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 5,
+      "title": "青い図書館",
+      "category": "アニメ",
+      "release_year": 2005,
+      "status": "評価保留",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 6,
+      "title": "青い郵便局",
+      "category": "映画",
+      "release_year": 2006,
+      "my_rating": 1,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 7,
+      "title": "青い温室",
+      "category": "ドラマ",
+      "release_year": 2007,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 8,
+      "title": "青い観覧車",
+      "category": "アニメ",
+      "release_year": 2008,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 9,
+      "title": "青い劇場",
+      "category": "映画",
+      "release_year": 2009,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 10,
+      "title": "青い手紙",
+      "category": "ドラマ",
+      "release_year": 2010,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 11,
+      "title": "青い坂道",
+      "category": "アニメ",
+      "release_year": 2011,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 12,
+      "title": "白い灯台",
+      "category": "映画",
+      "release_year": 2012,
+      "status": "評価保留",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 13,
+      "title": "白い映写室",
+      "category": "ドラマ",
+      "release_year": 2013,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 14,
+      "title": "灯台守",
+      "category": "映画",
+      "release_year": 2019,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 15,
+      "title": "白い列車",
+      "category": "映画",
+      "release_year": 2015,
+      "my_rating": 2,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 16,
+      "title": "白い港",
+      "category": "ドラマ",
+      "release_year": 2016,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 17,
+      "title": "白い図書館",
+      "category": "アニメ",
+      "release_year": 2017,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 18,
+      "title": "白い郵便局",
+      "category": "映画",
+      "release_year": 2018,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 19,
+      "title": "白い温室",
+      "category": "ドラマ",
+      "release_year": 2019,
+      "status": "評価保留",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 20,
+      "title": "白い観覧車",
+      "category": "アニメ",
+      "release_year": 2020,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 21,
+      "title": "白い劇場",
+      "category": "映画",
+      "release_year": 2021,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 22,
+      "title": "三体",
+      "category": "ドラマ",
+      "release_year": 2023,
+      "country": "中国",
+      "my_rating": 1,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 23,
+      "title": "白い手紙",
+      "category": "アニメ",
+      "release_year": 2023,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 24,
+      "title": "白い坂道",
+      "category": "映画",
+      "release_year": 2024,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 25,
+      "title": "真夜中の灯台",
+      "category": "ドラマ",
+      "release_year": 2025,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 26,
+      "title": "真夜中の映写室",
+      "category": "アニメ",
+      "release_year": 2000,
+      "status": "評価保留",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 27,
+      "title": "真夜中の列車",
+      "category": "映画",
+      "release_year": 2001,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 28,
+      "title": "真夜中の港",
+      "category": "ドラマ",
+      "release_year": 2002,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 29,
+      "title": "真夜中の図書館",
+      "category": "アニメ",
+      "release_year": 2003,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 30,
+      "title": "真夜中の郵便局",
+      "category": "映画",
+      "release_year": 2004,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 31,
+      "title": "宇宙を駆けるよだか",
+      "category": "ドラマ",
+      "release_year": 2018,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 32,
+      "title": "真夜中の温室",
+      "category": "アニメ",
+      "release_year": 2006,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 33,
+      "title": "真夜中の観覧車",
+      "category": "映画",
+      "release_year": 2007,
+      "status": "評価保留",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 34,
+      "title": "真夜中の劇場",
+      "category": "ドラマ",
+      "release_year": 2008,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 35,
+      "title": "真夜中の手紙",
+      "category": "アニメ",
+      "release_year": 2009,
+      "my_rating": 3,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 36,
+      "title": "灯台守",
+      "category": "ドラマ",
+      "release_year": 2023,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 37,
+      "title": "真夜中の坂道",
+      "category": "ドラマ",
+      "release_year": 2011,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 38,
+      "title": "ルパン三世 PART III",
+      "category": "アニメ",
+      "release_year": 1984,
+      "status": "未視聴",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 39,
+      "title": "七月の灯台",
+      "category": "映画",
+      "release_year": 2013,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 40,
+      "title": "七月の映写室",
+      "category": "ドラマ",
+      "release_year": 2014,
+      "status": "評価保留",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 41,
+      "title": "七月の列車",
+      "category": "アニメ",
+      "release_year": 2015,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 42,
+      "title": "七月の港",
+      "category": "映画",
+      "release_year": 2016,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 43,
+      "title": "七月の図書館",
+      "category": "ドラマ",
+      "release_year": 2017,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 44,
+      "title": "七月の郵便局",
+      "category": "アニメ",
+      "release_year": 2018,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 45,
+      "title": "七月の温室",
+      "category": "映画",
+      "release_year": 2019,
+      "my_rating": 4,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 46,
+      "title": "七月の観覧車",
+      "category": "ドラマ",
+      "release_year": 2020,
+      "my_rating": 5,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 47,
+      "title": "モンスター",
+      "category": "",
+      "release_year": 2021,
+      "status": "未確認",
+      "needs_review": "映画・ドラマ・アニメ・原作漫画のどれか未特定",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 48,
+      "title": "七月の劇場",
+      "category": "映画",
+      "release_year": 2022,
+      "my_rating": 5,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 49,
+      "title": "七月の手紙",
+      "category": "ドラマ",
+      "release_year": 2023,
+      "my_rating": 5,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 50,
+      "title": "全領域異常解決室",
+      "category": "ドラマ",
+      "release_year": 2024,
+      "status": "評価保留",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 51,
+      "title": "七月の坂道",
+      "category": "映画",
+      "release_year": 2025,
+      "my_rating": 5,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 52,
+      "title": "遠い灯台",
+      "category": "ドラマ",
+      "release_year": 2000,
+      "my_rating": 5,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 53,
+      "title": "遠い映写室",
+      "category": "アニメ",
+      "release_year": 2001,
+      "my_rating": 5,
+      "status": "評価済み",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 54,
+      "title": "遠い列車",
+      "category": "映画",
+      "release_year": 2002,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 55,
+      "title": "遠い港",
+      "category": "ドラマ",
+      "release_year": 2003,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 56,
+      "title": "遠い図書館",
+      "category": "アニメ",
+      "release_year": 2004,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 57,
+      "title": "遠い郵便局",
+      "category": "映画",
+      "release_year": 2005,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 58,
+      "title": "遠い温室",
+      "category": "ドラマ",
+      "release_year": 2006,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 59,
+      "title": "遠い観覧車",
+      "category": "アニメ",
+      "release_year": 2007,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 60,
+      "title": "風の谷の住人",
+      "category": "原作漫画",
+      "release_year": 2008,
+      "status": "未確認",
+      "needs_review": "漫画とアニメ化作品のどちらか不明",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 61,
+      "title": "遠い劇場",
+      "category": "ドラマ",
+      "release_year": 2009,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 62,
+      "title": "遠い手紙",
+      "category": "アニメ",
+      "release_year": 2010,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 63,
+      "title": "遠い坂道",
+      "category": "映画",
+      "release_year": 2011,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 64,
+      "title": "最後の灯台",
+      "category": "ドラマ",
+      "release_year": 2012,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 65,
+      "title": "最後の映写室",
+      "category": "アニメ",
+      "release_year": 2013,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 66,
+      "title": "最後の列車",
+      "category": "映画",
+      "release_year": 2014,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 67,
+      "title": "最後の港",
+      "category": "ドラマ",
+      "release_year": 2015,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 68,
+      "title": "最後の図書館",
+      "category": "アニメ",
+      "release_year": 2016,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 69,
+      "title": "最後の郵便局",
+      "category": "映画",
+      "release_year": 2017,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 70,
+      "title": "最後の温室",
+      "category": "ドラマ",
+      "release_year": 2018,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 71,
+      "title": "最後の観覧車",
+      "category": "アニメ",
+      "release_year": 2019,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 72,
+      "title": "最後の劇場",
+      "category": "映画",
+      "release_year": 2020,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 73,
+      "title": "最後の手紙",
+      "category": "ドラマ",
+      "release_year": 2021,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 74,
+      "title": "最後の坂道",
+      "category": "アニメ",
+      "release_year": 2022,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 75,
+      "title": "小さな灯台",
+      "category": "映画",
+      "release_year": 2023,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 76,
+      "title": "小さな映写室",
+      "category": "ドラマ",
+      "release_year": 2024,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 77,
+      "title": "小さな列車",
+      "category": "アニメ",
+      "release_year": 2025,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 78,
+      "title": "小さな港",
+      "category": "映画",
+      "release_year": 2000,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 79,
+      "title": "小さな図書館",
+      "category": "ドラマ",
+      "release_year": 2001,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 80,
+      "title": "小さな郵便局",
+      "category": "アニメ",
+      "release_year": 2002,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 81,
+      "title": "小さな温室",
+      "category": "映画",
+      "release_year": 2003,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 82,
+      "title": "小さな観覧車",
+      "category": "ドラマ",
+      "release_year": 2004,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 83,
+      "title": "小さな劇場",
+      "category": "アニメ",
+      "release_year": 2005,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 84,
+      "title": "小さな手紙",
+      "category": "映画",
+      "release_year": 2006,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 85,
+      "title": "小さな坂道",
+      "category": "ドラマ",
+      "release_year": 2007,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 86,
+      "title": "さよならの灯台",
+      "category": "アニメ",
+      "release_year": 2008,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 87,
+      "title": "さよならの映写室",
+      "category": "映画",
+      "release_year": 2009,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 88,
+      "title": "さよならの列車",
+      "category": "ドラマ",
+      "release_year": 2010,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 89,
+      "title": "さよならの港",
+      "category": "アニメ",
+      "release_year": 2011,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 90,
+      "title": "さよならの図書館",
+      "category": "映画",
+      "release_year": 2012,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 91,
+      "title": "さよならの郵便局",
+      "category": "ドラマ",
+      "release_year": 2013,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 92,
+      "title": "さよならの温室",
+      "category": "アニメ",
+      "release_year": 2014,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 93,
+      "title": "さよならの観覧車",
+      "category": "映画",
+      "release_year": 2015,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 94,
+      "title": "さよならの劇場",
+      "category": "ドラマ",
+      "release_year": 2016,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 95,
+      "title": "さよならの手紙",
+      "category": "アニメ",
+      "release_year": 2017,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 96,
+      "title": "さよならの坂道",
+      "category": "映画",
+      "release_year": 2018,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 97,
+      "title": "秘密の灯台",
+      "category": "ドラマ",
+      "release_year": 2019,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 98,
+      "title": "秘密の映写室",
+      "category": "アニメ",
+      "release_year": 2020,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 99,
+      "title": "秘密の列車",
+      "category": "映画",
+      "release_year": 2021,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 100,
+      "title": "秘密の港",
+      "category": "ドラマ",
+      "release_year": 2022,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 101,
+      "title": "秘密の図書館",
+      "category": "アニメ",
+      "release_year": 2023,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 102,
+      "title": "秘密の郵便局",
+      "category": "映画",
+      "release_year": 2024,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 103,
+      "title": "秘密の温室",
+      "category": "ドラマ",
+      "release_year": 2025,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 104,
+      "title": "秘密の観覧車",
+      "category": "アニメ",
+      "release_year": 2000,
+      "status": "未確認",
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 105,
+      "title": "秘密の劇場",
+      "category": "映画",
+      "release_year": 2001,
+      "status": "見たい",
+      "watchlist_no": 1,
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 106,
+      "title": "秘密の手紙",
+      "category": "ドラマ",
+      "release_year": 2002,
+      "status": "見たい",
+      "watchlist_no": 2,
+      "registered_at": "2025-04-01"
+    },
+    {
+      "work_no": 107,
+      "title": "秘密の坂道",
+      "category": "アニメ",
+      "release_year": 2003,
+      "status": "見たい",
+      "watchlist_no": 3,
+      "registered_at": "2025-04-01"
+    }
+  ]
+}

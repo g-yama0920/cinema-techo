@@ -1,0 +1,490 @@
+{
+  "note": "テスト用の架空データです。実際の評価データではありません。",
+  "summary": {
+    "ratedCount": 41,
+    "pendingCount": 7,
+    "unwatchedCount": 1,
+    "averageRating": 3.56
+  },
+  "records": [
+    {
+      "no": 1,
+      "title": "海辺の映写技師",
+      "type": "映画",
+      "year": 2019,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 2,
+      "title": "夜行列車の約束",
+      "type": "映画",
+      "year": 2021,
+      "status": "評価済み",
+      "rating": 5,
+      "watchedOn": "2026-11-03",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 3,
+      "title": "七月の灯台",
+      "type": "ドラマ",
+      "year": 2022,
+      "status": "評価済み",
+      "rating": 3,
+      "watchedOn": "2026-11-08",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 4,
+      "title": "紙飛行機の街",
+      "type": "アニメ",
+      "year": 2020,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 5,
+      "title": "真夜中の郵便局",
+      "type": "映画",
+      "year": 2018,
+      "status": "評価保留",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 6,
+      "title": "青い屋根の下で",
+      "type": "ドラマ",
+      "year": 2023,
+      "status": "評価済み",
+      "rating": 2,
+      "watchedOn": "2026/11/01",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 7,
+      "title": "星を数える少年",
+      "type": "アニメ",
+      "year": 2017,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01",
+      "memo": "テスト用のメモです。"
+    },
+    {
+      "no": 8,
+      "title": "雨の日の探偵",
+      "type": "ドラマ",
+      "year": 2021,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 9,
+      "title": "銀幕の向こう側",
+      "type": "映画",
+      "year": 2016,
+      "status": "評価済み",
+      "rating": 4,
+      "watchedOn": "2026-10-21",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 10,
+      "title": "風見鶏の家",
+      "type": "映画",
+      "year": 2015,
+      "status": "評価済み",
+      "rating": 1,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 11,
+      "title": "氷の上のワルツ",
+      "type": "アニメ",
+      "year": 2022,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 12,
+      "title": "港町ブルース",
+      "type": "映画",
+      "year": 2012,
+      "status": "評価保留",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 13,
+      "title": "路面電車",
+      "type": "ドラマ",
+      "year": 2020,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 14,
+      "title": "灯台守",
+      "type": "映画",
+      "year": 2019,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 15,
+      "title": "きつねの嫁入り",
+      "type": "アニメ",
+      "year": 2014,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 16,
+      "title": "最後の上映会",
+      "type": "映画",
+      "year": 2023,
+      "status": "評価済み",
+      "rating": 5,
+      "watchedOn": "2026-10-21",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 17,
+      "title": "月曜日の魔法使い",
+      "type": "アニメ",
+      "year": 2024,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 18,
+      "title": "屋上の天文台",
+      "type": "ドラマ",
+      "year": 2019,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 19,
+      "title": "砂丘のオルガン",
+      "type": "映画",
+      "year": 2011,
+      "status": "評価保留",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 20,
+      "title": "旅する図書館",
+      "type": "ドラマ",
+      "year": 2024,
+      "status": "評価済み",
+      "rating": 2,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 21,
+      "title": "白い自転車",
+      "type": "映画",
+      "year": 2010,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 22,
+      "title": "三体",
+      "type": "ドラマ",
+      "year": 2023,
+      "country": "中国",
+      "status": "評価済み",
+      "rating": 1,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 23,
+      "title": "蒸気機関の少女",
+      "type": "アニメ",
+      "year": 2016,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 24,
+      "title": "金魚と花火",
+      "type": "映画",
+      "year": 2022,
+      "status": "評価済み",
+      "rating": 4,
+      "watchedOn": "2026-11-10",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 25,
+      "title": "坂道のアトリエ",
+      "type": "ドラマ",
+      "year": 2018,
+      "status": "評価済み",
+      "rating": 1,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 26,
+      "title": "水平線の手紙",
+      "type": "映画",
+      "year": 2020,
+      "status": "評価保留",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 27,
+      "title": "八月の合唱団",
+      "type": "ドラマ",
+      "year": 2017,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 28,
+      "title": "黒猫喫茶",
+      "type": "アニメ",
+      "year": 2023,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 29,
+      "title": "遠い国の切手",
+      "type": "映画",
+      "year": 2013,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 30,
+      "title": "鉄塔と少女",
+      "type": "アニメ",
+      "year": 2021,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 31,
+      "title": "宇宙を駆けるよだか",
+      "type": "ドラマ",
+      "year": 2018,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 32,
+      "title": "冬の観覧車",
+      "type": "映画",
+      "year": 2024,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 33,
+      "title": "商店街の英雄",
+      "type": "ドラマ",
+      "year": 2016,
+      "status": "評価保留",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 34,
+      "title": "夜明けのラジオ",
+      "type": "映画",
+      "year": 2009,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 35,
+      "title": "ガラスの温室",
+      "type": "ドラマ",
+      "year": 2025,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 36,
+      "title": "灯台守",
+      "type": "ドラマ",
+      "year": 2023,
+      "status": "評価済み",
+      "rating": 2,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 37,
+      "title": "桜並木のふたり",
+      "type": "アニメ",
+      "year": 2019,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 38,
+      "title": "ルパン三世 PART III",
+      "type": "アニメ",
+      "year": 1984,
+      "status": "未視聴",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 39,
+      "title": "廃線の向こう",
+      "type": "映画",
+      "year": 2018,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 40,
+      "title": "屋形船の夜",
+      "type": "ドラマ",
+      "year": 2015,
+      "status": "評価保留",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 41,
+      "title": "空中ブランコ",
+      "type": "映画",
+      "year": 2025,
+      "status": "評価済み",
+      "rating": 4,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 42,
+      "title": "朝顔通信",
+      "type": "アニメ",
+      "year": 2012,
+      "status": "評価済み",
+      "rating": 1,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 43,
+      "title": "鉱山町の兄弟",
+      "type": "映画",
+      "year": 2008,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 44,
+      "title": "影絵の劇場",
+      "type": "アニメ",
+      "year": 2025,
+      "status": "評価済み",
+      "rating": 4,
+      "watchedOn": "2026-09",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 45,
+      "title": "蛍の川",
+      "type": "ドラマ",
+      "year": 2011,
+      "status": "評価保留",
+      "rating": null,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 46,
+      "title": "南十字星",
+      "type": "映画",
+      "year": 2026,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 47,
+      "title": "モンスター",
+      "type": "",
+      "year": null,
+      "status": "評価済み",
+      "rating": 3,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 48,
+      "title": "終点の駅舎",
+      "type": "ドラマ",
+      "year": 2026,
+      "status": "評価済み",
+      "rating": 4,
+      "watchedOn": "2025",
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 49,
+      "title": "小さな映画館",
+      "type": "映画",
+      "year": 2026,
+      "status": "評価済み",
+      "rating": 5,
+      "registeredAt": "2025-04-01"
+    },
+    {
+      "no": 50,
+      "title": "全領域異常解決室",
+      "type": "ドラマ",
+      "year": 2024,
+      "rating": null,
+      "status": "評価未回答"
+    }
+  ],
+  "watchlist": [
+    {
+      "no": 1,
+      "title": "灰色の港",
+      "type": "映画",
+      "year": 2026
+    },
+    {
+      "no": 2,
+      "title": "雪国の電話交換手",
+      "type": "ドラマ",
+      "plannedDate": "2026-11-22"
+    },
+    {
+      "no": 3,
+      "title": "夕焼け探偵団",
+      "type": "アニメ",
+      "services": "Netflix"
+    }
+  ]
+}
