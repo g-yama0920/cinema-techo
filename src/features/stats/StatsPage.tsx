@@ -69,13 +69,13 @@ export function StatsPage() {
         />
         {kind !== 'all' && (
           <div className="flex items-center justify-between">
-            <button type="button" onClick={() => shift(-1)} className="grid h-11 w-11 place-items-center border border-ink bg-paper-light" aria-label={kind === 'year' ? '前の年' : '前の月'}>
+            <button type="button" onClick={() => shift(-1)} className="grid h-11 w-11 place-items-center rounded-full bg-paper-light" aria-label={kind === 'year' ? '前の年' : '前の月'}>
               <IconChevronLeft />
             </button>
             <p className="text-xl font-bold" aria-live="polite">
               {periodLabel}
             </p>
-            <button type="button" onClick={() => shift(1)} className="grid h-11 w-11 place-items-center border border-ink bg-paper-light" aria-label={kind === 'year' ? '次の年' : '次の月'}>
+            <button type="button" onClick={() => shift(1)} className="grid h-11 w-11 place-items-center rounded-full bg-paper-light" aria-label={kind === 'year' ? '次の年' : '次の月'}>
               <IconChevronRight />
             </button>
           </div>
@@ -83,7 +83,7 @@ export function StatsPage() {
       </div>
 
       {/* 数字 */}
-      <section aria-label={`${periodLabel}の概要`} className="mt-5 grid grid-cols-3 border border-ink bg-paper-light">
+      <section aria-label={`${periodLabel}の概要`} className="mt-5 grid grid-cols-3 gap-2">
         <Tile label="視聴本数" value={`${stats.watchedWorks}`} unit="本" note={stats.watchEvents > stats.watchedWorks ? `視聴 ${stats.watchEvents} 回` : undefined} />
         <Tile label="総視聴時間" value={stats.totalMinutes ? formatMinutes(stats.totalMinutes) : '—'} small note={stats.minutesUnknown ? `時間不明 ${stats.minutesUnknown} 回は除外` : undefined} />
         <Tile label="平均評価" value={formatAverage(stats.averageRating)} note={`評価 ${stats.ratedCount} 本`} />
@@ -146,9 +146,9 @@ export function StatsPage() {
 
 function Tile({ label, value, unit, note, small }: { label: string; value: string; unit?: string; note?: string; small?: boolean }) {
   return (
-    <div className="flex min-w-0 flex-col items-center justify-start border-l border-ink px-1 py-3.5 text-center first:border-l-0">
+    <div className="flex min-w-0 flex-col items-center justify-start rounded-md bg-paper-light px-1 py-3.5 text-center">
       <span className="text-[11px] font-bold">{label}</span>
-      <span className={`mt-1 font-display leading-tight ${small ? 'text-[17px]' : 'text-[30px]'}`}>
+      <span className={`num mt-1 leading-tight font-black ${small ? 'text-[19px]' : 'text-[34px]'}`}>
         {value}
         {unit && <span className="ml-0.5 font-sans text-xs font-bold">{unit}</span>}
       </span>
@@ -163,7 +163,7 @@ function Block({ title, en, children }: { title: string; en: string; children: R
       <p className="kicker text-red">{en}</p>
       <h2 className="mt-1 flex items-end gap-3">
         <span className="shrink-0 text-lg font-bold">{title}</span>
-        <span className="mb-[5px] h-px flex-1 bg-ink" />
+        <span className="mb-[5px] h-px flex-1 bg-line" />
       </h2>
       <div className="mt-3">{children}</div>
     </section>
@@ -233,7 +233,7 @@ function Columns({ data, highlight }: { data: { label: string; key: string; coun
                   </span>
                 )}
                 <span
-                  className="pointer-events-none absolute z-10 hidden border border-ink bg-ink px-1.5 py-0.5 text-[11px] font-bold whitespace-nowrap text-paper group-focus-within:block group-hover:block"
+                  className="pointer-events-none absolute z-10 hidden border border-line bg-ink px-1.5 py-0.5 text-[11px] font-bold whitespace-nowrap text-paper group-focus-within:block group-hover:block"
                   style={{ bottom: `calc(${(d.count / top) * 100}% + 4px)` }}
                 >
                   {d.label} {d.count}本
@@ -243,7 +243,7 @@ function Columns({ data, highlight }: { data: { label: string; key: string; coun
           </ul>
         </div>
       </div>
-      <div className="ml-[1.875rem] flex justify-around gap-[2px] border-t border-ink pt-1" aria-hidden="true">
+      <div className="ml-[1.875rem] flex justify-around gap-[2px] border-t border-line pt-1" aria-hidden="true">
         {data.map((d) => (
           <span key={d.key} className={`flex-1 text-center text-[10px] ${d.key === highlight ? 'font-bold text-red' : 'text-ink-soft'}`}>
             {d.label.replace('月', '')}
@@ -255,7 +255,7 @@ function Columns({ data, highlight }: { data: { label: string; key: string; coun
         <table className="mt-1 w-full max-w-xs text-left">
           <tbody>
             {data.map((d) => (
-              <tr key={d.key} className="border-b border-dashed border-gray">
+              <tr key={d.key} className="border-b border-line">
                 <th scope="row" className="py-1 font-normal">
                   {d.label}
                 </th>
@@ -320,7 +320,7 @@ function GenreTable({ genres }: { genres: { name: string; count: number; average
     <div>
       <table className="w-full text-left text-[13px]">
         <thead>
-          <tr className="border-b border-ink text-[11px] text-ink-soft">
+          <tr className="border-b border-line text-[11px] text-ink-soft">
             <th scope="col" className="py-1 font-bold">
               ジャンル
             </th>
@@ -334,7 +334,7 @@ function GenreTable({ genres }: { genres: { name: string; count: number; average
         </thead>
         <tbody>
           {shown.map((g) => (
-            <tr key={g.name} className="border-b border-dashed border-gray">
+            <tr key={g.name} className="border-b border-line">
               <th scope="row" className="max-w-[7rem] truncate py-1.5 pr-2 font-bold">
                 {g.name}
               </th>
@@ -370,7 +370,7 @@ function Ranked({ data, unit = '本', empty }: { data: NamedCount[]; unit?: stri
     <ol className="space-y-1.5">
       {data.slice(0, 6).map((d, i) => (
         <li key={d.name} className="grid grid-cols-[1.25rem_6.5rem_1fr] items-center gap-2 text-[13px]">
-          <span className="font-display text-xs text-red">{i + 1}</span>
+          <span className="num text-base text-red">{i + 1}</span>
           <span className="truncate font-bold">{d.name}</span>
           <span className="flex items-center gap-1.5">
             <span className="h-3 rounded-r-[4px] bg-[var(--color-chart-movie)]" style={{ width: `${(d.count / max) * 75}%`, minWidth: 3 }} aria-hidden="true" />

@@ -51,14 +51,14 @@ export function CalendarPage() {
     <div>
       <PageHeader en="CALENDAR" ja="カレンダー" />
       <div className="mt-4 flex items-center justify-between gap-2">
-        <button type="button" onClick={() => go(-1)} className="grid h-12 w-12 place-items-center border border-ink bg-paper-light hover:bg-paper-deep" aria-label="前の月">
+        <button type="button" onClick={() => go(-1)} className="grid h-11 w-11 place-items-center rounded-full bg-paper-light hover:bg-paper-deep" aria-label="前の月">
           <IconChevronLeft />
         </button>
         <h2 className="text-center" aria-live="polite">
           <span className="num block text-[11px] tracking-[0.2em] text-red">{year}</span>
           <span className="text-2xl font-bold">{month}月</span>
         </h2>
-        <button type="button" onClick={() => go(1)} className="grid h-12 w-12 place-items-center border border-ink bg-paper-light hover:bg-paper-deep" aria-label="次の月">
+        <button type="button" onClick={() => go(1)} className="grid h-11 w-11 place-items-center rounded-full bg-paper-light hover:bg-paper-deep" aria-label="次の月">
           <IconChevronRight />
         </button>
       </div>
@@ -78,16 +78,16 @@ export function CalendarPage() {
           />
         </div>
         {!isThisMonth && (
-          <button type="button" onClick={() => go((now.getFullYear() - year) * 12 + (now.getMonth() + 1 - month))} className="min-h-10 shrink-0 border border-ink px-3 text-[13px] font-bold">
+          <button type="button" onClick={() => go((now.getFullYear() - year) * 12 + (now.getMonth() + 1 - month))} className="min-h-10 shrink-0 border border-line px-3 text-[13px] font-bold">
             今月
           </button>
         )}
       </div>
 
-      <div className="mt-4 border-t border-l border-ink bg-paper-light" role="group" aria-label={`${year}年${month}月`}>
+      <div className="mt-4 border-t border-l border-line bg-paper-light" role="group" aria-label={`${year}年${month}月`}>
         <div className="grid grid-cols-7" aria-hidden="true">
           {WEEKDAYS_JA.map((w, i) => (
-            <div key={w} className={`border-r border-b border-ink py-1 text-center text-[11px] font-bold ${i === 0 ? 'text-red' : i === 6 ? 'text-teal' : ''}`}>
+            <div key={w} className={`border-r border-b border-line py-1 text-center text-[11px] font-bold ${i === 0 ? 'text-red' : i === 6 ? 'text-teal' : ''}`}>
               {w}
             </div>
           ))}
@@ -97,7 +97,7 @@ export function CalendarPage() {
             d ? (
               <DayCell key={d} date={d} items={items.get(d) ?? []} isToday={d === today} weekday={i % 7} onOpen={() => setDay(d)} />
             ) : (
-              <div key={`e${i}`} className="border-r border-b border-ink bg-paper" aria-hidden="true" />
+              <div key={`e${i}`} className="border-r border-b border-line bg-paper" aria-hidden="true" />
             ),
           )}
         </div>
@@ -111,7 +111,7 @@ export function CalendarPage() {
           予定 <span className="num text-sm">{plannedCount}</span> 件
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-3 w-3 border border-dashed border-ink bg-mustard" aria-hidden="true" />
+          <span className="inline-block h-3 w-3 border border-dashed border-line bg-mustard" aria-hidden="true" />
           視聴予定
         </span>
       </div>
@@ -139,10 +139,10 @@ function DayCell({ date, items, isToday, weekday, onOpen }: { date: string; item
       type="button"
       onClick={onOpen}
       aria-label={label}
-      className={`relative flex min-h-[84px] flex-col border-r border-b border-ink p-[3px] text-left hover:bg-paper-deep md:min-h-[150px] md:p-1.5 ${isToday ? 'bg-mustard/30' : ''}`}
+      className={`relative flex min-h-[84px] flex-col border-r border-b border-line p-[3px] text-left hover:bg-paper-deep md:min-h-[150px] md:p-1.5 ${isToday ? 'bg-white/[0.06] ring-1 ring-red ring-inset' : ''}`}
     >
       <span
-        className={`num text-[11px] leading-none md:text-sm ${isToday ? 'bg-red px-[3px] py-[2px] text-paper' : weekday === 0 ? 'text-red' : weekday === 6 ? 'text-teal' : ''}`}
+        className={`num text-[11px] leading-none md:text-sm ${isToday ? 'bg-red px-[3px] py-[2px] text-white' : weekday === 0 ? 'text-red' : weekday === 6 ? 'text-teal' : ''}`}
       >
         {d}
       </span>
@@ -151,7 +151,7 @@ function DayCell({ date, items, isToday, weekday, onOpen }: { date: string; item
           <span className={`block ${first.kind === 'planned' ? 'opacity-80 outline-2 -outline-offset-2 outline-mustard outline-dashed' : ''}`}>
             <Poster work={first.bundle.work} size="w92" />
           </span>
-          {first.kind === 'planned' && <span className="absolute inset-x-0 bottom-0 bg-mustard text-center text-[9px] leading-[14px] font-bold text-ink">予定</span>}
+          {first.kind === 'planned' && <span className="absolute inset-x-0 bottom-0 bg-mustard text-center text-[9px] leading-[14px] font-bold text-black">予定</span>}
           {items.length > 1 && (
             <span className="num absolute -top-[2px] -right-[2px] min-w-[18px] border border-paper bg-ink px-[3px] text-center text-[10px] leading-[16px] text-paper">+{items.length - 1}</span>
           )}
@@ -194,10 +194,10 @@ function DaySheet({ date, items, onClose }: { date: string; items: CalendarItem[
       ) : (
         <div>
           {items.length ? (
-            <ul className="border-t border-ink">
+            <ul className="border-t border-line">
               {items.map((x) => (
                 <li key={x.kind === 'watched' ? x.event.id : x.entry.id}>
-                  <Link to={`/works/${x.bundle.work.id}`} className="flex gap-3 border-b border-ink py-2.5 hover:bg-paper-light">
+                  <Link to={`/works/${x.bundle.work.id}`} className="flex gap-3 border-b border-line py-2.5 hover:bg-paper-light">
                     <div className="w-12 shrink-0">
                       <Poster work={x.bundle.work} size="w92" />
                     </div>
@@ -262,10 +262,10 @@ function WorkPicker({ mode, onPick, onBack }: { mode: 'watched' | 'planned'; onP
         </label>
         <input id="pick-q" type="search" className="field pl-9" placeholder="タイトルで絞り込み" value={q} onChange={(e) => setQ(e.target.value)} />
       </div>
-      <ul className="mt-2 max-h-[50dvh] overflow-y-auto border-t border-ink">
+      <ul className="mt-2 max-h-[50dvh] overflow-y-auto border-t border-line">
         {list.slice(0, 80).map((b) => (
           <li key={b.work.id}>
-            <button type="button" onClick={() => onPick(b)} className="flex min-h-12 w-full items-center gap-3 border-b border-dashed border-gray py-2 text-left hover:bg-paper-light">
+            <button type="button" onClick={() => onPick(b)} className="flex min-h-12 w-full items-center gap-3 border-b border-line py-2 text-left hover:bg-paper-light">
               <span className="min-w-0 flex-1 truncate font-bold">{displayTitle(b.work)}</span>
               <StatusBadge status={b.user.status} />
             </button>

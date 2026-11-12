@@ -1,5 +1,6 @@
-/* 和文フォントの @font-face 定義（unicode-range で必要な文字の分だけ読み込まれる）。
-   定義自体が大きいため main.tsx から非同期に読み込み、初回表示をブロックしない */
-@import '@fontsource/dela-gothic-one/400.css';
-@import '@fontsource/zen-kaku-gothic-new/400.css';
-@import '@fontsource/zen-kaku-gothic-new/700.css';
+/* 書体：英字の見出し・数字は Bebas Neue（細長い太字）、日本語は Noto Sans JP。
+   @font-face 定義が大きいため main.tsx から非同期に読み込み、初回表示をブロックしない */
+@import '@fontsource/bebas-neue/400.css';
+@import '@fontsource/noto-sans-jp/400.css';
+@import '@fontsource/noto-sans-jp/700.css';
+@import '@fontsource/noto-sans-jp/900.css';

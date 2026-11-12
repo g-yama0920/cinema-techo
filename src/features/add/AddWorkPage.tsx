@@ -94,7 +94,7 @@ function AddWork() {
           ) : (
             <TmdbSearchPanel onPick={pick} autoFocus initialQuery={draft.title} />
           )}
-          <div className="mt-6 border-t border-ink pt-5">
+          <div className="mt-6 border-t border-line pt-5">
             <p className="text-sm text-ink-soft">TMDb に無い作品、映像化前の原作なども登録できます。</p>
             <Button className="mt-2" block onClick={() => setMode('manual')}>
               手動で登録する
@@ -109,12 +109,12 @@ function AddWork() {
 function Steps({ step }: { step: number }) {
   const items = ['作品を探す', '内容を確認', '状態を選んで保存'];
   return (
-    <ol className="grid grid-cols-3 border border-ink text-center text-[11px] font-bold" aria-label="追加の手順">
+    <ol className="grid grid-cols-3 border border-line text-center text-[11px] font-bold" aria-label="追加の手順">
       {items.map((t, i) => {
         const n = i + 1;
         const active = n === step || (step === 2 && n === 3);
         return (
-          <li key={t} className={`border-l border-ink px-1 py-1.5 first:border-l-0 ${active ? 'bg-ink text-paper' : n < step ? 'bg-paper-deep' : ''}`} aria-current={n === step ? 'step' : undefined}>
+          <li key={t} className={`border-l border-line px-1 py-1.5 first:border-l-0 ${active ? 'bg-ink text-paper' : n < step ? 'bg-paper-deep' : ''}`} aria-current={n === step ? 'step' : undefined}>
             <span className="num mr-1">{n}</span>
             {t}
           </li>
@@ -241,7 +241,7 @@ function Confirm({
         {draft.type === 'other' && <p className="mt-1.5 text-xs text-ink-soft">漫画・小説など映像化前の作品や、種別が不明なものは「その他」（要確認）として登録します。</p>}
       </div>
 
-      <details className="border-t border-ink pt-2" open={!!draft.edition || !!draft.alternateTitles}>
+      <details className="border-t border-line pt-2" open={!!draft.edition || !!draft.alternateTitles}>
         <summary className="flex min-h-11 cursor-pointer list-none items-center font-bold">同名作品の区別・別題（任意）</summary>
         <div className="mt-2 grid gap-4">
           <div>
@@ -260,7 +260,7 @@ function Confirm({
       </details>
 
       {dupes.length > 0 && (
-        <div className={`border px-3.5 py-3 text-sm ${exact ? 'border-red bg-paper-light' : 'border-ink bg-paper-light'}`} role="alert">
+        <div className={`border px-3.5 py-3 text-sm ${exact ? 'border-red bg-paper-light' : 'border-line bg-paper-light'}`} role="alert">
           <p className="flex items-center gap-2 font-bold text-red">
             <IconAlert size={18} />
             {exact ? 'この作品は登録済みです' : '同じタイトルの作品があります'}
@@ -280,7 +280,7 @@ function Confirm({
       )}
 
       {/* 状態 */}
-      <section className="border-t border-ink pt-4">
+      <section className="border-t border-line pt-4">
         <p className="label">状態</p>
         <SegmentedTabs
           label="状態"

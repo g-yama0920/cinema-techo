@@ -95,7 +95,7 @@ export function SeedImportPage() {
           評価値はそのまま保持し、日付が無い記録に日付を補うことはしません。何度取り込んでも同じ作品は増えません。
         </p>
 
-        <label className="flex min-h-16 cursor-pointer items-center justify-center gap-2 border border-dashed border-ink bg-paper-light px-4 text-center font-bold hover:bg-paper-deep">
+        <label className="flex min-h-16 cursor-pointer items-center justify-center gap-2 border border-dashed border-line bg-paper-light px-4 text-center font-bold hover:bg-paper-deep">
           <IconUpload size={22} />
           {source ? '別のファイルを選ぶ' : 'JSON（と照合用 CSV）を選ぶ'}
           <input type="file" multiple accept="application/json,.json,text/csv,.csv" className="sr-only" onChange={(e) => onFiles(e.target.files)} />
@@ -112,10 +112,10 @@ export function SeedImportPage() {
             <h2 id="pv" className="flex items-end gap-3">
               <span className="text-lg font-bold">取り込み前の確認</span>
               <span className="kicker text-gray">Preview</span>
-              <span className="mb-[5px] h-px flex-1 bg-ink" />
+              <span className="mb-[5px] h-px flex-1 bg-line" />
             </h2>
 
-            <div className="grid grid-cols-4 border-t border-l border-ink bg-paper-light text-center">
+            <div className="grid grid-cols-4 border-t border-l border-line bg-paper-light text-center">
               <Box label="作品" value={summary.totalWorks} strong />
               <Box label="評価済み" value={summary.rated} />
               <Box label="評価保留" value={summary.pending} />
@@ -177,7 +177,7 @@ export function SeedImportPage() {
                 </p>
 
                 {plan.diffs.length > 0 && (
-                  <div className="border border-ink bg-paper-light p-3 text-sm">
+                  <div className="border border-line bg-paper-light p-3 text-sm">
                     <p className="font-bold">登録済みの作品と内容が違うもの：{plan.diffs.length} 件</p>
                     <p className="mt-0.5 text-xs text-ink-soft">既定では変更しません（登録済みのデータを優先）。ファイルの内容に合わせたい場合だけ下のチェックを入れてください。</p>
                     <ul className="mt-2 max-h-48 space-y-1 overflow-y-auto text-xs">
@@ -197,9 +197,9 @@ export function SeedImportPage() {
                   </div>
                 )}
 
-                <details className="border border-ink bg-paper-light" open={plan.added > 0 && plan.added <= 30}>
+                <details className="border border-line bg-paper-light" open={plan.added > 0 && plan.added <= 30}>
                   <summary className="flex min-h-11 cursor-pointer list-none items-center px-3 font-bold">一覧を表示（{source.seed.records.length + source.seed.watchlist.length}件）</summary>
-                  <div className="max-h-[55vh] overflow-y-auto border-t border-ink">
+                  <div className="max-h-[55vh] overflow-y-auto border-t border-line">
                     <table className="w-full text-left text-[13px]">
                       <thead className="sticky top-0 bg-paper-deep">
                         <tr>
@@ -212,7 +212,7 @@ export function SeedImportPage() {
                         {source.seed.records.map((r) => {
                           const row = plan.rows.find((x) => x.kind === 'record' && x.label === `No.${r.legacyId}`);
                           return (
-                            <tr key={r.legacyId} className="border-t border-dashed border-gray align-top">
+                            <tr key={r.legacyId} className="border-t border-line align-top">
                               <td className="num px-2 py-1.5">{r.legacyId}</td>
                               <td className="px-2 py-1.5">
                                 <span className="font-bold">{r.title}</span>
@@ -234,7 +234,7 @@ export function SeedImportPage() {
                         {source.seed.watchlist.map((w) => {
                           const row = plan.rows.find((x) => x.kind === 'watchlist' && x.label === `見たい No.${w.number}`);
                           return (
-                            <tr key={`w${w.number}`} className="border-t border-dashed border-gray align-top">
+                            <tr key={`w${w.number}`} className="border-t border-line align-top">
                               <td className="num px-2 py-1.5 text-mustard">W{w.number}</td>
                               <td className="px-2 py-1.5">
                                 <span className="font-bold">{w.title}</span>
@@ -303,7 +303,7 @@ function CsvResult({ recon }: { recon: ReturnType<typeof reconcileWithCsv> }) {
 
 function Box({ label, value, text, strong }: { label: string; value?: number; text?: string; strong?: boolean }) {
   return (
-    <div className="border-r border-b border-ink px-1 py-2.5">
+    <div className="border-r border-b border-line px-1 py-2.5">
       <p className={`num leading-none ${strong ? 'text-2xl text-red' : 'text-xl'}`}>{text ?? value}</p>
       <p className="mt-1 text-[10.5px] font-bold">{label}</p>
     </div>
@@ -312,7 +312,7 @@ function Box({ label, value, text, strong }: { label: string; value?: number; te
 
 function Line({ k, children }: { k: string; children: ReactNode }) {
   return (
-    <div className="grid grid-cols-[7.5rem_1fr] gap-2 border-b border-dashed border-gray py-1.5">
+    <div className="grid grid-cols-[7.5rem_1fr] gap-2 border-b border-line py-1.5">
       <dt className="font-bold text-ink-soft">{k}</dt>
       <dd>{children}</dd>
     </div>

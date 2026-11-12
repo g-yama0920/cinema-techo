@@ -67,7 +67,7 @@ export function SettingsPage() {
         </Section>
 
         <Section title="既存の記録" en="Seed Data">
-          <Link to="/settings/seed" className="flex min-h-14 items-center justify-between border border-ink bg-paper-light px-4 font-bold hover:bg-paper-deep">
+          <Link to="/settings/seed" className="flex min-h-14 items-center justify-between border border-line bg-paper-light px-4 font-bold hover:bg-paper-deep">
             <span>
               初期データ（movie_tracker_full_catalog.json）を取り込む
               <span className="block text-xs font-normal text-ink-soft">{s.seedImportedAt ? `取り込み済み（${formatDateTime(s.seedImportedAt)}）・再実行しても重複しません` : '未取り込み'}</span>
@@ -80,15 +80,15 @@ export function SettingsPage() {
 
         <Section title="このアプリについて" en="About">
           <dl className="text-sm">
-            <div className="grid grid-cols-[7rem_1fr] border-b border-dashed border-gray py-2">
+            <div className="grid grid-cols-[7rem_1fr] border-b border-line py-2">
               <dt className="font-bold text-ink-soft">名前</dt>
               <dd>シネマ手帖（個人用）</dd>
             </div>
-            <div className="grid grid-cols-[7rem_1fr] border-b border-dashed border-gray py-2">
+            <div className="grid grid-cols-[7rem_1fr] border-b border-line py-2">
               <dt className="font-bold text-ink-soft">バージョン</dt>
               <dd className="num">{__APP_VERSION__}</dd>
             </div>
-            <div className="grid grid-cols-[7rem_1fr] border-b border-dashed border-gray py-2">
+            <div className="grid grid-cols-[7rem_1fr] border-b border-line py-2">
               <dt className="font-bold text-ink-soft">次の管理番号</dt>
               <dd className="num">No.{index.snapshot.counters.nextCatalogNo}（見たい No.{index.snapshot.counters.nextWatchlistNo}）</dd>
             </div>
@@ -109,7 +109,7 @@ function Section({ title, en, children }: { title: string; en: string; children:
       <h2 className="mb-3 flex items-end gap-3">
         <span className="text-lg font-bold">{title}</span>
         <span className="kicker text-gray">{en}</span>
-        <span className="mb-[5px] h-px flex-1 bg-ink" />
+        <span className="mb-[5px] h-px flex-1 bg-line" />
       </h2>
       {children}
     </section>
@@ -134,7 +134,7 @@ function StorageInfo() {
     setInfo((x) => ({ ...x, persisted: r }));
   };
   return (
-    <div className="mt-4 border-t border-dashed border-gray pt-3 text-sm">
+    <div className="mt-4 border-t border-line pt-3 text-sm">
       <p>
         保存の保護：
         <span className="font-bold">{info.persisted === true ? '有効（自動削除されにくい状態）' : info.persisted === false ? '未設定' : '確認できません'}</span>
@@ -182,7 +182,7 @@ function ImportButton() {
   const p = state && !('error' in state) ? state.preview : null;
   return (
     <>
-      <label className="inline-flex min-h-14 cursor-pointer items-center justify-center gap-2 border border-ink bg-paper-light px-5 font-bold hover:bg-paper-deep">
+      <label className="inline-flex min-h-14 cursor-pointer items-center justify-center gap-2 border border-line bg-paper-light px-5 font-bold hover:bg-paper-deep">
         <IconUpload size={20} />
         JSON から読み込む
         <input
@@ -273,7 +273,7 @@ function ImportButton() {
 
 function Info({ k, children }: { k: string; children: ReactNode }) {
   return (
-    <div className="grid grid-cols-[7rem_1fr] gap-2 border-b border-dashed border-gray py-1.5">
+    <div className="grid grid-cols-[7rem_1fr] gap-2 border-b border-line py-1.5">
       <dt className="font-bold text-ink-soft">{k}</dt>
       <dd>{children}</dd>
     </div>

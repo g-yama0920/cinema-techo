@@ -42,7 +42,7 @@ export function TmdbEnrichPanel({ available }: { available: boolean | null }) {
   const count = (k: EnrichOutcome['result']) => outcomes.filter((o) => o.result === k).length;
 
   return (
-    <div className="mt-4 border-t border-dashed border-gray pt-3">
+    <div className="mt-4 border-t border-line pt-3">
       <p className="label">作品情報の一括取得</p>
       <p className="text-sm">
         取得済み <span className="num">{linked}</span> ／ 未取得 <span className="num">{targets.length}</span>
@@ -69,9 +69,9 @@ export function TmdbEnrichPanel({ available }: { available: boolean | null }) {
               中止する
             </Button>
           )}
-          <ul className="max-h-[50dvh] overflow-y-auto border-t border-ink">
+          <ul className="max-h-[50dvh] overflow-y-auto border-t border-line">
             {outcomes.map((o) => (
-              <li key={o.workId} className="border-b border-dashed border-gray py-2">
+              <li key={o.workId} className="border-b border-line py-2">
                 <Link to={`/works/${o.workId}`} className="font-bold underline-offset-2 hover:underline" onClick={() => setOpen(false)}>
                   <span className="num mr-1.5 text-xs text-gray">No.{padNo(o.catalogNo)}</span>
                   {o.title}

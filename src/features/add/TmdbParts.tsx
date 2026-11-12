@@ -17,7 +17,7 @@ import { tmdb, useTmdb } from './useTmdb';
 export function TmdbAttribution({ compact = false }: { compact?: boolean }) {
   const [logo, setLogo] = useState(true);
   return (
-    <div className={`flex items-center gap-2.5 text-[11px] leading-snug text-ink-soft ${compact ? '' : 'border-t border-ink pt-3'}`}>
+    <div className={`flex items-center gap-2.5 text-[11px] leading-snug text-ink-soft ${compact ? '' : 'border-t border-line pt-3'}`}>
       {logo ? (
         <img src={`${import.meta.env.BASE_URL}brand/tmdb-logo.svg`} alt="TMDB" className="h-3 w-auto shrink-0" onError={() => setLogo(false)} />
       ) : (
@@ -150,10 +150,10 @@ export function TmdbSearchPanel({ initialQuery = '', onPick, autoFocus }: { init
         )}
         {state.s === 'done' && state.results.length > 0 && (
           <>
-            <ul className="border-t border-ink">
+            <ul className="border-t border-line">
               {state.results.map((r) => (
                 <li key={`${r.mediaType}-${r.tmdbId}`}>
-                  <button type="button" onClick={() => onPick(r)} className="flex w-full gap-3 border-b border-ink py-2.5 text-left hover:bg-paper-light">
+                  <button type="button" onClick={() => onPick(r)} className="flex w-full gap-3 border-b border-line py-2.5 text-left hover:bg-paper-light">
                     <div className="w-14 shrink-0">
                       <Poster work={{ title: r.title, type: r.suggestedType, releaseYear: r.year, posterPath: r.posterPath, catalogNo: 0 }} size="w154" decorative />
                     </div>

@@ -8,8 +8,8 @@ import { UpdateBanner } from './UpdateBanner';
 const NAV = [
   { to: '/', en: 'HOME', ja: 'ホーム', icon: IconHome, end: true },
   { to: '/calendar', en: 'CALENDAR', ja: 'カレンダー', icon: IconCalendar },
-  { to: '/works', en: 'WORKS', ja: '作品一覧', icon: IconWorks },
-  { to: '/watchlist', en: 'WATCHLIST', ja: '見たいリスト', icon: IconList },
+  { to: '/works', en: 'WORKS', ja: '作品', icon: IconWorks },
+  { to: '/watchlist', en: 'WATCHLIST', ja: '見たい', icon: IconList },
   { to: '/stats', en: 'STATS', ja: '統計', icon: IconStats },
 ];
 
@@ -22,11 +22,10 @@ export function Shell() {
         本文へ移動
       </a>
       {/* PC：上部ナビ */}
-      <header className="sticky top-0 z-30 hidden border-b border-ink bg-paper/95 backdrop-blur md:block">
+      <header className="sticky top-0 z-30 hidden bg-gradient-to-b from-black/90 to-paper/70 backdrop-blur md:block">
         <div className="mx-auto flex h-16 max-w-6xl items-center gap-6 px-6">
           <NavLink to="/" className="flex items-baseline gap-2">
-            <span className="font-display text-xl tracking-wide">シネマ手帖</span>
-            <span className="kicker text-red">Cinema Techo</span>
+            <span className="text-2xl font-black tracking-tight text-red">シネマ手帖</span>
           </NavLink>
           <nav aria-label="メイン" className="ml-auto flex h-full items-stretch">
             {NAV.map((n) => (
@@ -35,7 +34,7 @@ export function Shell() {
                 to={n.to}
                 end={n.end}
                 className={({ isActive }) =>
-                  `flex items-center gap-2 border-l border-ink px-4 text-[13px] font-bold last:border-r ${isActive ? 'bg-ink text-paper' : 'hover:bg-paper-deep'}`
+                  `flex items-center gap-2 px-4 text-[14px] transition-colors ${isActive ? 'font-bold text-ink' : 'text-ink-soft hover:text-ink'}`
                 }
               >
                 <n.icon size={18} />
@@ -45,7 +44,7 @@ export function Shell() {
             <NavLink
               to="/settings"
               aria-label="設定・バックアップ"
-              className={({ isActive }) => `ml-3 grid w-11 place-items-center ${isActive ? 'text-red' : 'hover:text-red'}`}
+              className={({ isActive }) => `ml-3 grid w-11 place-items-center ${isActive ? 'text-ink' : 'text-ink-soft hover:text-ink'}`}
             >
               <IconGear />
             </NavLink>
@@ -78,7 +77,7 @@ export function Shell() {
       {/* スマホ：下部固定ナビ */}
       <nav
         aria-label="メイン"
-        className="fixed inset-x-0 bottom-0 z-40 border-t-[1.5px] border-ink bg-paper pb-[var(--safe-b)] md:hidden"
+        className="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[#121212]/95 pb-[var(--safe-b)] backdrop-blur md:hidden"
       >
         <ul className="mx-auto grid h-[var(--nav-h)] max-w-lg grid-cols-5">
           {NAV.map((n) => (
@@ -88,14 +87,14 @@ export function Shell() {
                 end={n.end}
                 aria-label={n.ja}
                 className={({ isActive }) =>
-                  `relative flex h-full flex-col items-center justify-center gap-1 ${isActive ? 'text-red' : 'text-ink'}`
+                  `relative flex h-full flex-col items-center justify-center gap-1 ${isActive ? 'text-ink' : 'text-gray'}`
                 }
               >
                 {({ isActive }) => (
                   <>
-                    {isActive && <span className="absolute inset-x-3 top-0 h-[3px] bg-red" aria-hidden="true" />}
-                    <n.icon size={23} strokeWidth={isActive ? 2.2 : 1.8} />
-                    <span className="font-display text-[8.5px] tracking-[0.1em]">{n.en}</span>
+                    {isActive && <span className="absolute top-0 h-[3px] w-6 rounded-b bg-red" aria-hidden="true" />}
+                    <n.icon size={23} strokeWidth={isActive ? 2.2 : 1.7} />
+                    <span className="text-[10px] font-bold">{n.ja}</span>
                   </>
                 )}
               </NavLink>

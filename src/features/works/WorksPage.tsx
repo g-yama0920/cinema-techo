@@ -71,7 +71,7 @@ export function WorksPage() {
         en="WORKS"
         ja="作品一覧"
         right={
-          <Link to="/add" className="flex min-h-11 items-center gap-1.5 border border-red bg-red px-3.5 text-sm font-bold text-paper hover:bg-red-deep">
+          <Link to="/add" className="flex min-h-10 items-center gap-1.5 rounded bg-red px-3.5 text-sm font-bold text-white hover:bg-red-deep">
             <IconPlus size={18} strokeWidth={2.4} />
             追加
           </Link>
@@ -101,6 +101,7 @@ export function WorksPage() {
         </div>
 
         <SegmentedTabs
+          scroll
           label="区分"
           value={query.type}
           onChange={(v) => update({ type: v })}
@@ -113,11 +114,7 @@ export function WorksPage() {
           ]}
         />
 
-        <div
-          role="radiogroup"
-          aria-label="視聴状態"
-          className={`grid border-t border-l border-ink bg-paper-light ${statusOptions.length > 6 ? 'grid-cols-4' : 'grid-cols-3'} md:grid-cols-7`}
-        >
+        <div role="radiogroup" aria-label="視聴状態" className="-mx-4 flex gap-1.5 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:flex-wrap md:px-0 [&::-webkit-scrollbar]:hidden">
           {statusOptions.map((s) => {
             const active = query.status === s;
             return (
@@ -127,10 +124,10 @@ export function WorksPage() {
                 role="radio"
                 aria-checked={active}
                 onClick={() => update({ status: s })}
-                className={`flex min-h-11 items-center justify-center gap-1 border-r border-b border-ink px-1 text-[13px] font-bold ${s === 'all' && statusOptions.length === 7 ? 'col-span-2 md:col-span-1' : ''} ${active ? 'bg-red text-paper' : 'hover:bg-paper-deep'}`}
+                className={`flex min-h-9 shrink-0 items-center gap-1 rounded px-3 text-[13px] font-bold whitespace-nowrap ${active ? 'bg-red text-white' : 'bg-paper-light text-ink-soft hover:text-ink'}`}
               >
                 {s === 'all' ? 'すべて' : STATUS_LABEL[s]}
-                <span className={`num text-[10px] ${active ? 'text-paper/80' : 'text-gray'}`}>{counts[s]}</span>
+                <span className={`text-[11px] ${active ? 'text-white/75' : 'text-gray'}`}>{counts[s]}</span>
               </button>
             );
           })}
@@ -142,14 +139,14 @@ export function WorksPage() {
             role="switch"
             aria-checked={query.review}
             onClick={() => update({ review: query.review ? '' : '1' })}
-            className={`flex min-h-11 w-full items-center justify-between border px-3 text-sm font-bold ${query.review ? 'border-red bg-red text-paper' : 'border-red bg-paper-light text-red'}`}
+            className={`flex min-h-9 items-center gap-2 rounded-full border px-3.5 text-[13px] font-bold ${query.review ? 'border-red bg-red text-white' : 'border-red/70 text-red'}`}
           >
-            <span>確認待ちだけ表示（同名作品・原作との区別など）</span>
-            <span className="num">{reviewCount}</span>
+            <span>確認待ちのみ（同名作品・原作の区別など）</span>
+            <span>{reviewCount}</span>
           </button>
         )}
 
-        <div className="flex items-center gap-2 border-y border-ink py-1.5">
+        <div className="flex items-center gap-2 pt-1">
           <p className="mr-auto text-sm font-bold" aria-live="polite">
             <span className="num text-base">{results.length}</span> 件
           </p>
@@ -160,7 +157,7 @@ export function WorksPage() {
             id="works-sort"
             value={query.sort}
             onChange={(e) => update({ sort: e.target.value })}
-            className="min-h-11 max-w-[11.5rem] border border-ink bg-paper-light px-2 font-bold"
+            className="min-h-10 max-w-[11.5rem] rounded border border-gray-light bg-paper-light px-2 font-bold"
           >
             {SORTS.map((s) => (
               <option key={s} value={s}>
@@ -168,14 +165,14 @@ export function WorksPage() {
               </option>
             ))}
           </select>
-          <div role="radiogroup" aria-label="表示方法" className="flex border border-ink">
+          <div role="radiogroup" aria-label="表示方法" className="flex overflow-hidden rounded border border-gray-light">
             <button
               type="button"
               role="radio"
               aria-checked={query.view === 'grid'}
               aria-label="ポスター表示"
               onClick={() => update({ view: 'grid' })}
-              className={`grid h-11 w-11 place-items-center ${query.view === 'grid' ? 'bg-ink text-paper' : 'bg-paper-light'}`}
+              className={`grid h-10 w-10 place-items-center ${query.view === 'grid' ? 'bg-ink text-paper' : 'bg-paper-light'}`}
             >
               <IconGrid size={20} />
             </button>
@@ -185,7 +182,7 @@ export function WorksPage() {
               aria-checked={query.view === 'list'}
               aria-label="リスト表示"
               onClick={() => update({ view: 'list' })}
-              className={`grid h-11 w-11 place-items-center border-l border-ink ${query.view === 'list' ? 'bg-ink text-paper' : 'bg-paper-light'}`}
+              className={`grid h-10 w-10 place-items-center ${query.view === 'list' ? 'bg-ink text-paper' : 'bg-paper-light'}`}
             >
               <IconRows size={20} />
             </button>
@@ -199,18 +196,18 @@ export function WorksPage() {
             title={index.bundles.length ? '条件に合う作品はありません' : 'まだ作品がありません'}
             action={
               index.bundles.length ? (
-                <button type="button" className="min-h-11 border border-ink bg-paper-light px-4 font-bold" onClick={() => setSp(new URLSearchParams('type=all'), { replace: true })}>
+                <button type="button" className="min-h-11 rounded border border-line bg-paper-light px-4 font-bold" onClick={() => setSp(new URLSearchParams('type=all'), { replace: true })}>
                   条件をリセット
                 </button>
               ) : (
-                <Link to="/add" className="flex min-h-11 items-center border border-red bg-red px-4 font-bold text-paper">
+                <Link to="/add" className="flex min-h-11 items-center border border-red bg-red px-4 font-bold text-white">
                   作品を追加
                 </Link>
               )
             }
           />
         ) : query.view === 'grid' ? (
-          <ul className="grid grid-cols-3 gap-x-3 gap-y-6 sm:grid-cols-4 md:grid-cols-5 md:gap-x-5 lg:grid-cols-6">
+          <ul className="grid grid-cols-3 gap-x-2 gap-y-5 sm:grid-cols-4 md:grid-cols-5 md:gap-x-3 lg:grid-cols-6">
             {results.map((b) => (
               <li key={b.work.id} className="min-w-0">
                 <WorkCard bundle={b} />
@@ -218,7 +215,7 @@ export function WorksPage() {
             ))}
           </ul>
         ) : (
-          <ul className="border-t border-ink md:grid md:grid-cols-2 md:gap-x-8">
+          <ul className="md:grid md:grid-cols-2 md:gap-x-6">
             {results.map((b) => (
               <li key={b.work.id} className="min-w-0">
                 <WorkRow bundle={b} />

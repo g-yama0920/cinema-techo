@@ -41,7 +41,7 @@ export function WatchlistPage() {
         en="WATCHLIST"
         ja="見たいリスト"
         right={
-          <Link to="/add" className="flex min-h-11 items-center gap-1.5 border border-red bg-red px-3.5 text-sm font-bold text-paper hover:bg-red-deep">
+          <Link to="/add" className="flex min-h-11 items-center gap-1.5 border border-red bg-red px-3.5 text-sm font-bold text-white hover:bg-red-deep">
             <IconPlus size={18} strokeWidth={2.4} />
             追加
           </Link>
@@ -56,14 +56,14 @@ export function WatchlistPage() {
 
       {list.length === 0 ? (
         <div className="mt-6">
-          <EmptyState title="見たい作品はまだありません" action={<Link to="/add" className="flex min-h-11 items-center border border-red bg-red px-4 font-bold text-paper">作品を追加</Link>}>
+          <EmptyState title="見たい作品はまだありません" action={<Link to="/add" className="flex min-h-11 items-center border border-red bg-red px-4 font-bold text-white">作品を追加</Link>}>
             作品詳細の「見たいに追加」からも登録できます。
           </EmptyState>
         </div>
       ) : (
-        <ol className="mt-5 grid gap-x-8 border-t border-ink lg:grid-cols-2">
+        <ol className="mt-5 grid gap-x-8 border-t border-line lg:grid-cols-2">
           {list.map(({ entry, bundle }, i) => (
-            <li key={entry.id} className="border-b border-ink py-3">
+            <li key={entry.id} className="border-b border-line py-3">
               <div className="flex gap-3">
                 <div className="flex w-12 shrink-0 flex-col items-center">
                   <span className="kicker text-[9px] text-gray">No.</span>
@@ -104,24 +104,24 @@ export function WatchlistPage() {
                   </dl>
                   {bundle.user.status === 'watching' && <StatusBadge status="watching" className="mt-1" />}
                 </div>
-                <div className="flex shrink-0 flex-col border border-ink">
+                <div className="flex shrink-0 flex-col overflow-hidden rounded border border-line">
                   <button type="button" className="grid h-11 w-11 place-items-center disabled:text-gray-light" disabled={i === 0} onClick={() => move(i, -1)} aria-label={`${bundle.work.title}を1つ上へ`}>
                     <IconChevronUp size={20} />
                   </button>
-                  <button type="button" className="grid h-11 w-11 place-items-center border-t border-ink disabled:text-gray-light" disabled={i === list.length - 1} onClick={() => move(i, 1)} aria-label={`${bundle.work.title}を1つ下へ`}>
+                  <button type="button" className="grid h-11 w-11 place-items-center border-t border-line disabled:text-gray-light" disabled={i === list.length - 1} onClick={() => move(i, 1)} aria-label={`${bundle.work.title}を1つ下へ`}>
                     <IconChevronDown size={20} />
                   </button>
                 </div>
               </div>
               <div className="mt-2.5 grid grid-cols-[1fr_auto_auto] gap-2 pl-[3.75rem]">
-                <button type="button" onClick={() => setWatching(bundle)} className="min-h-11 border border-ink bg-ink text-sm font-bold text-paper hover:bg-ink-soft">
+                <button type="button" onClick={() => setWatching(bundle)} className="min-h-11 rounded border border-line bg-ink text-sm font-bold text-paper hover:bg-ink-soft">
                   見た・評価する
                 </button>
-                <button type="button" onClick={() => setEditing({ entry, bundle })} className="flex min-h-11 items-center gap-1 border border-ink bg-paper-light px-3 text-sm font-bold hover:bg-paper-deep">
+                <button type="button" onClick={() => setEditing({ entry, bundle })} className="flex min-h-11 items-center gap-1 border border-line bg-paper-light px-3 text-sm font-bold hover:bg-paper-deep">
                   <IconEdit size={16} />
                   予定
                 </button>
-                <button type="button" onClick={() => setRemoving({ entry, bundle })} className="min-h-11 border border-ink bg-paper-light px-3 text-sm font-bold hover:bg-paper-deep">
+                <button type="button" onClick={() => setRemoving({ entry, bundle })} className="min-h-11 rounded border border-line bg-paper-light px-3 text-sm font-bold hover:bg-paper-deep">
                   外す
                 </button>
               </div>
@@ -131,16 +131,16 @@ export function WatchlistPage() {
       )}
 
       {index.closedWatchlist.length > 0 && (
-        <details className="mt-8 border border-ink bg-paper-light">
+        <details className="mt-8 border border-line bg-paper-light">
           <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between px-4 font-bold">
             番号の履歴（見終わった・外した作品）
             <span className="num text-sm text-gray">{index.closedWatchlist.length}</span>
           </summary>
-          <ul className="border-t border-ink px-4">
+          <ul className="border-t border-line px-4">
             {index.closedWatchlist.map((e) => {
               const b = e.workId ? index.byId.get(e.workId) : undefined;
               return (
-                <li key={e.id} className="flex items-center gap-3 border-b border-dashed border-gray py-2.5 text-sm last:border-0">
+                <li key={e.id} className="flex items-center gap-3 border-b border-line py-2.5 text-sm last:border-0">
                   <span className="num w-12 shrink-0 text-gray">No.{e.fixedNumber}</span>
                   {b ? (
                     <Link to={`/works/${b.work.id}`} className="min-w-0 flex-1 truncate font-bold underline-offset-2 hover:underline">
@@ -248,7 +248,7 @@ function EntrySheet({ entry, bundle, onClose }: { entry: WatchlistEntry; bundle:
           <input id="wl-svc" className="field" value={services} onChange={(e) => setServices(e.target.value)} />
           <div className="mt-2 flex flex-wrap gap-1.5">
             {[...new Set([...providerNames, ...PLATFORM_SUGGESTIONS])].slice(0, 12).map((p) => (
-              <button key={p} type="button" onClick={() => add(p)} className="min-h-9 border border-ink bg-paper-light px-2 text-xs font-bold hover:bg-paper-deep">
+              <button key={p} type="button" onClick={() => add(p)} className="min-h-9 border border-line bg-paper-light px-2 text-xs font-bold hover:bg-paper-deep">
                 + {p}
               </button>
             ))}

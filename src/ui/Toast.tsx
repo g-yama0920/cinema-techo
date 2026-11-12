@@ -53,13 +53,13 @@ export function ToastProvider({ children }: { children: ReactNode }) {
         {items.map((t) => (
           <div
             key={t.id}
-            className={`pointer-events-auto flex w-full max-w-md items-center gap-3 border px-4 py-3 text-sm font-bold shadow-[var(--shadow-print-sm)] ${t.tone === 'error' ? 'border-red bg-red text-paper' : 'border-ink bg-ink text-paper'}`}
+            className={`pointer-events-auto flex w-full max-w-md items-center gap-3 rounded-md px-4 py-3 text-sm font-bold shadow-[var(--shadow-print-sm)] ${t.tone === 'error' ? 'bg-red text-white' : 'bg-[#2f2f2f] text-ink'}`}
           >
             <span className="flex-1">{t.message}</span>
             {t.actionLabel && (
               <button
                 type="button"
-                className="-my-2 min-h-11 px-2 text-mustard underline underline-offset-4"
+                className="-my-2 min-h-11 px-2 font-bold text-ink underline underline-offset-4"
                 onClick={() => {
                   t.onAction?.();
                   dismiss(t.id);

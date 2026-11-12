@@ -9,12 +9,12 @@ export function UpdateBanner() {
   if (!needRefresh) return null;
   return (
     <div className="fixed inset-x-0 top-[calc(var(--safe-t)+8px)] z-50 flex justify-center px-4" role="status">
-      <div className="flex w-full max-w-md items-center gap-3 border border-ink bg-mustard px-4 py-2.5 text-sm font-bold shadow-[var(--shadow-print-sm)]">
+      <div className="flex w-full max-w-md items-center gap-3 rounded-md bg-[#2f2f2f] px-4 py-2.5 text-sm font-bold shadow-[var(--shadow-print-sm)]">
         <span className="flex-1">新しいバージョンがあります</span>
         <button type="button" className="min-h-10 px-2 underline underline-offset-4" onClick={() => setNeedRefresh(false)}>
           あとで
         </button>
-        <button type="button" className="min-h-10 border border-ink bg-ink px-3 text-paper" onClick={() => updateServiceWorker(true)}>
+        <button type="button" className="min-h-10 rounded bg-ink px-3 text-paper" onClick={() => updateServiceWorker(true)}>
           更新
         </button>
       </div>

@@ -30,7 +30,7 @@ export function Poster({
 }) {
   const [failed, setFailed] = useState(false);
   const url = tmdbImageUrl(work.posterPath, size);
-  const base = `relative aspect-[2/3] w-full overflow-hidden border border-ink bg-paper-deep ${shadow ? 'shadow-[var(--shadow-print)]' : ''} ${className}`;
+  const base = `relative aspect-[2/3] w-full overflow-hidden rounded bg-paper-deep ${shadow ? 'shadow-[var(--shadow-print)]' : ''} ${className}`;
   if (url && !failed) {
     return (
       <div className={base}>
@@ -48,13 +48,8 @@ export function Poster({
   return <PosterPlaceholder work={work} className={base} decorative={decorative} />;
 }
 
-const SCHEMES = [
-  { bg: 'var(--color-red)', fg: 'var(--color-paper)', ac: 'var(--color-mustard)', onAc: 'var(--color-ink)' },
-  { bg: 'var(--color-teal)', fg: 'var(--color-paper)', ac: 'var(--color-mustard)', onAc: 'var(--color-ink)' },
-  { bg: 'var(--color-ink)', fg: 'var(--color-paper)', ac: 'var(--color-red)', onAc: 'var(--color-paper)' },
-  { bg: 'var(--color-mustard)', fg: 'var(--color-ink)', ac: 'var(--color-red)', onAc: 'var(--color-paper)' },
-  { bg: 'var(--color-paper-deep)', fg: 'var(--color-ink)', ac: 'var(--color-teal)', onAc: 'var(--color-paper)' },
-];
+/** 画像が無いときの地色（深い色だけを使い、白い文字が読めるようにする） */
+const SCHEMES = ['#5c0b12', '#0f2b46', '#2c1842', '#0c3430', '#3d2a10', '#262626', '#41121f', '#122a2a'];
 
 function hash(s: string): number {
   let h = 2166136261;
@@ -67,46 +62,44 @@ function hash(s: string): number {
 
 function titleSize(title: string): string {
   const len = [...title].length;
-  if (len <= 2) return '30cqw';
-  if (len <= 4) return '21cqw';
-  if (len <= 6) return '16cqw';
-  if (len <= 9) return '13cqw';
-  if (len <= 14) return '11cqw';
+  if (len <= 2) return '26cqw';
+  if (len <= 4) return '19cqw';
+  if (len <= 6) return '15cqw';
+  if (len <= 9) return '12.5cqw';
+  if (len <= 14) return '10.5cqw';
   return '9cqw';
 }
 
 function PosterPlaceholder({ work, className, decorative }: { work: PosterWork; className: string; decorative: boolean }) {
   const h = hash(`${work.title}${work.catalogNo}`);
-  const s = SCHEMES[h % SCHEMES.length];
-  // 長いタイトルは円の外にはみ出すため「円」の図案を使わない
-  const variant = [...work.title].length > 6 ? 1 + ((h >>> 4) % 2) : (h >>> 4) % 3;
+  const bg = SCHEMES[h % SCHEMES.length];
   return (
-    <div className={`${className} @container`} style={{ background: s.bg, color: s.fg }} {...(decorative ? { 'aria-hidden': true } : { role: 'img', 'aria-label': `${work.title}（ポスター画像なし）` })}>
-      {variant === 0 && (
-        <div className="absolute left-1/2 top-[46%] aspect-square w-[78%] -translate-x-1/2 -translate-y-1/2 rounded-full" style={{ background: s.ac, opacity: 0.9 }} />
-      )}
-      {variant === 1 && <div className="absolute inset-x-0 bottom-[17%] h-[13%]" style={{ background: s.ac }} />}
-      {variant === 2 && (
-        <>
-          <div className="absolute inset-x-[5%] top-[19%] h-px" style={{ background: s.fg, opacity: 0.7 }} />
-          <div className="absolute inset-x-[5%] bottom-[19%] h-px" style={{ background: s.fg, opacity: 0.7 }} />
-        </>
-      )}
-      <div className="absolute inset-[4.5%] border" style={{ borderColor: s.fg, opacity: 0.55 }} />
-      <div className="absolute inset-x-[10%] top-[8%] flex items-start justify-between font-display leading-none" style={{ fontSize: '6.4cqw', letterSpacing: '0.12em' }}>
+    <div
+      className={`${className} @container text-white`}
+      style={{ background: bg }}
+      {...(decorative ? { 'aria-hidden': true } : { role: 'img', 'aria-label': `${work.title}（ポスター画像なし）` })}
+    >
+      {/* 斜めの光と下の暗がり（配信サービスのサムネイル風） */}
+      <div className="absolute inset-0" style={{ background: 'radial-gradient(120% 70% at 85% 0%, rgb(255 255 255 / 0.14), transparent 60%)' }} />
+      <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgb(0 0 0 / 0.85) 0%, rgb(0 0 0 / 0.25) 45%, transparent 70%)' }} />
+      <div className="absolute top-[7%] left-[8%] flex items-center gap-[3cqw] font-display leading-none" style={{ fontSize: '8cqw', letterSpacing: '0.08em' }}>
+        <span className="block h-[9cqw] w-[2.2cqw] bg-red" aria-hidden="true" />
         <span>{WORK_TYPE_EN[work.type]}</span>
-        {work.catalogNo > 0 && <span>{padNo(work.catalogNo)}</span>}
       </div>
+      {work.catalogNo > 0 && (
+        <span className="absolute top-[7%] right-[8%] font-display leading-none text-white/60" style={{ fontSize: '8cqw' }}>
+          {padNo(work.catalogNo)}
+        </span>
+      )}
       <div
-        className="absolute inset-x-[9%] top-[22%] bottom-[25%] flex items-center justify-center text-center font-display leading-[1.18] break-words [overflow-wrap:anywhere]"
-        style={{ fontSize: titleSize(work.title), color: variant === 0 ? s.onAc : s.fg }}
+        className="absolute inset-x-[8%] bottom-[15%] text-left leading-[1.15] font-black break-words [overflow-wrap:anywhere]"
+        style={{ fontSize: titleSize(work.title), textShadow: '0 2px 8px rgb(0 0 0 / 0.6)' }}
       >
         <span className="line-clamp-4">{work.title}</span>
       </div>
-      <div className="absolute inset-x-[10%] bottom-[7.5%] flex items-end justify-between font-display leading-none" style={{ fontSize: '6.4cqw', letterSpacing: '0.08em' }}>
-        <span>{work.releaseYear ?? '—'}</span>
-        <span aria-hidden="true">★</span>
-      </div>
+      <span className="absolute bottom-[6%] left-[8%] font-display leading-none text-white/70" style={{ fontSize: '8cqw', letterSpacing: '0.06em' }}>
+        {work.releaseYear ?? ''}
+      </span>
     </div>
   );
 }

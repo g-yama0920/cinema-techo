@@ -1,41 +1,47 @@
 @import 'tailwindcss';
 
-
 /*
- * デザイントークン：レトロな映画雑誌 × 現代的なスマホアプリ
- * クリーム地・細い罫線・赤い星・角丸とグラデーションは使わない
+ * デザイントークン：動画配信サービス風のダークテーマ
+ * 黒に近い背景・白い文字・鮮やかな赤のアクセント・ポスターを主役にした横スクロール
+ * 英字の見出しと数字は細長い太字（Bebas Neue）、日本語は Noto Sans JP
+ *
+ * 互換のため従来のトークン名（paper / ink など）を使い続け、値だけを置き換えている
+ *   paper = 背景、paper-light = カード・入力欄、paper-deep = 押した・選んだ状態
+ *   ink = 主な文字色（白）。bg-ink は白いボタン（文字は text-paper ＝黒）
+ *   line = 区切り線
  */
 @theme {
-  --color-paper: #f1e6c9;
-  --color-paper-deep: #e8dab5;
-  --color-paper-light: #f7efdb;
-  --color-ink: #253330;
-  --color-ink-soft: #4a5753;
-  --color-red: #b5392d;
-  --color-red-deep: #93291f;
-  --color-mustard: #dbae32;
-  --color-teal: #31746d;
-  --color-gray: #938f80;
-  --color-gray-light: #c9c0a8;
+  --color-paper: #141414;
+  --color-paper-light: #1f1f1f;
+  --color-paper-deep: #2b2b2b;
+  --color-ink: #ffffff;
+  --color-ink-soft: #b3b3b3;
+  --color-line: #333333;
+  --color-red: #e50914;
+  --color-red-deep: #b20710;
+  --color-mustard: #f5b82e;
+  --color-teal: #46d369;
+  --color-gray: #8c8c8c;
+  --color-gray-light: #4d4d4d;
 
-  /* グラフ用（検証ツールで色覚多様性・明度帯・彩度を確認済み。ブランド色から1段階調整） */
-  --color-chart-movie: #b5392d;
-  --color-chart-drama: #008a70;
-  --color-chart-anime: #b98a16;
-  --color-chart-other: #938f80;
+  /* グラフ用（検証ツールで暗い背景 #1f1f1f に対する色覚多様性・明度帯・彩度・コントラストを確認済み） */
+  --color-chart-movie: #e50914;
+  --color-chart-drama: #2a9fd6;
+  --color-chart-anime: #c4862a;
+  --color-chart-other: #8c8c8c;
 
-  --font-display: 'Dela Gothic One', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
-  --font-sans: 'Zen Kaku Gothic New', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+  --font-display: 'Bebas Neue', 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+  --font-sans: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Helvetica Neue', Arial, sans-serif;
 
-  --radius-xs: 2px;
-  --shadow-print: 3px 3px 0 0 var(--color-ink);
-  --shadow-print-sm: 2px 2px 0 0 var(--color-ink);
+  --radius-xs: 4px;
+  --shadow-print: 0 12px 32px rgb(0 0 0 / 0.65);
+  --shadow-print-sm: 0 6px 18px rgb(0 0 0 / 0.55);
 }
 
 @layer base {
   :root {
-    color-scheme: light;
-    --nav-h: 64px;
+    color-scheme: dark;
+    --nav-h: 62px;
     --safe-b: env(safe-area-inset-bottom, 0px);
     --safe-t: env(safe-area-inset-top, 0px);
   }
@@ -49,9 +55,9 @@
     background: var(--color-paper);
     color: var(--color-ink);
     font-family: var(--font-sans);
-    font-feature-settings: 'palt' 1;
-    line-height: 1.7;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden;
     overscroll-behavior-y: none;
@@ -69,66 +75,78 @@
   textarea {
     font-size: max(16px, 1em);
   }
+  select option {
+    background: var(--color-paper-light);
+    color: var(--color-ink);
+  }
   /* ブラウザ標準の検索クリアボタンは使わない（必要な画面は独自のボタンを置く） */
   input[type='search']::-webkit-search-cancel-button {
     -webkit-appearance: none;
     appearance: none;
   }
+  input[type='date']::-webkit-calendar-picker-indicator,
+  input[type='month']::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
   :focus-visible {
-    outline: 3px solid var(--color-teal);
+    outline: 2px solid #ffffff;
     outline-offset: 2px;
   }
   ::selection {
-    background: var(--color-mustard);
-    color: var(--color-ink);
+    background: var(--color-red);
+    color: #ffffff;
   }
   img {
     max-width: 100%;
   }
   dialog::backdrop {
-    background: rgb(37 51 48 / 0.55);
+    background: rgb(0 0 0 / 0.72);
   }
 }
 
 @layer components {
-  /* 罫線 */
+  /* 区切り（細く控えめに） */
   .rule {
-    border-top: 1px solid var(--color-ink);
+    border-top: 1px solid var(--color-line);
   }
   .rule-double {
-    border-top: 3px solid var(--color-ink);
-    box-shadow: 0 3px 0 0 var(--color-paper), 0 4px 0 0 var(--color-ink);
+    border-top: 0;
+    height: 0;
   }
   .rule-dotted {
-    border-top: 1px dashed var(--color-gray);
+    border-top: 1px solid var(--color-line);
   }
 
+  /* 小見出し（英字の小さな見出し） */
   .kicker {
-    font-family: var(--font-display);
+    font-family: var(--font-sans);
+    font-weight: 700;
     font-size: 0.6875rem;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
   }
 
+  /* 数字・英字の見出し */
   .num {
     font-family: var(--font-display);
-    font-variant-numeric: tabular-nums;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.03em;
+    font-synthesis: none;
   }
 
   /* 入力欄 */
   .field {
     width: 100%;
     min-height: 48px;
-    padding: 10px 12px;
-    background: var(--color-paper-light);
-    border: 1px solid var(--color-ink);
+    padding: 10px 14px;
+    background: var(--color-paper-deep);
+    border: 1px solid var(--color-gray-light);
     border-radius: var(--radius-xs);
+    color: var(--color-ink);
     outline: none;
   }
   .field:focus {
-    box-shadow: inset 0 0 0 1px var(--color-ink);
-    background: #fffaf0;
+    border-color: #ffffff;
+    background: #333333;
   }
   .field::placeholder {
     color: var(--color-gray);
@@ -137,21 +155,22 @@
     display: block;
     font-weight: 700;
     font-size: 0.8125rem;
+    color: var(--color-ink-soft);
     margin-bottom: 6px;
   }
 
-  /* 横スクロール棚（ページ全体は横スクロールさせない） */
+  /* 横スクロールの列（ページ全体は横スクロールさせない） */
   .shelf {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 112px;
-    gap: 14px;
+    grid-auto-columns: 108px;
+    gap: 8px;
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     scroll-padding-inline: 1rem;
     scrollbar-width: none;
-    padding-bottom: 6px;
+    padding-bottom: 4px;
   }
   .shelf::-webkit-scrollbar {
     display: none;
@@ -161,8 +180,8 @@
   }
   @media (min-width: 768px) {
     .shelf {
-      grid-auto-columns: 140px;
-      gap: 18px;
+      grid-auto-columns: 160px;
+      gap: 10px;
       scroll-padding-inline: 0;
     }
   }
@@ -172,7 +191,17 @@
   }
   @media (min-width: 768px) {
     .pb-nav {
-      padding-bottom: 48px;
+      padding-bottom: 56px;
+    }
+  }
+
+  /* ポスターのホバー（PC のみ。少し拡大） */
+  @media (hover: hover) {
+    .lift {
+      transition: transform 180ms ease;
+    }
+    .group:hover .lift {
+      transform: scale(1.04);
     }
   }
 }

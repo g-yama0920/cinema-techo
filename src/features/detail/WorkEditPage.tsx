@@ -177,7 +177,7 @@ function EditForm({ bundle }: { bundle: WorkBundle }) {
           </div>
           <Field id="e-poster" label="ポスター画像（TMDb のパス または URL）" value={f.posterPath} onChange={set('posterPath')} placeholder="/abc123.jpg" />
 
-          <div className="border-t border-ink pt-4">
+          <div className="border-t border-line pt-4">
             <p className="label">TMDb との紐付け</p>
             {work.tmdbId ? (
               <div className="flex items-center justify-between gap-3 text-sm">

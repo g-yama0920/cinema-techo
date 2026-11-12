@@ -13,11 +13,11 @@ export function WorkCard({ bundle, showStatus = true, caption }: { bundle: WorkB
   const { work, user } = bundle;
   return (
     <Link to={`/works/${work.id}`} className="group block min-w-0" aria-label={cardLabel(bundle)}>
-      <div className="transition-transform group-active:translate-x-[1px] group-active:translate-y-[1px]">
+      <div className="lift rounded transition-transform group-active:scale-[0.98]">
         <Poster work={work} size="w342" />
       </div>
-      <div className="mt-2 min-w-0">
-        <p className="line-clamp-2 text-[13px] leading-snug font-bold group-hover:text-red">
+      <div className="mt-1.5 min-w-0">
+        <p className="line-clamp-2 text-[12.5px] leading-snug font-bold text-ink/90 group-hover:text-ink">
           {work.title}
           {work.edition && <span className="text-[11px] font-normal text-ink-soft">（{work.edition}）</span>}
         </p>
@@ -38,7 +38,7 @@ export function WorkRow({ bundle }: { bundle: WorkBundle }) {
   const last = latestWatchDate(bundle);
   const wl = activeWatchlistEntry(bundle);
   return (
-    <Link to={`/works/${work.id}`} className="group flex gap-3 border-b border-ink py-3 hover:bg-paper-light" aria-label={cardLabel(bundle)}>
+    <Link to={`/works/${work.id}`} className="group flex gap-3 rounded-md px-1 py-2.5 hover:bg-paper-light" aria-label={cardLabel(bundle)}>
       <div className="w-[64px] shrink-0">
         <Poster work={work} size="w154" />
       </div>
@@ -47,7 +47,7 @@ export function WorkRow({ bundle }: { bundle: WorkBundle }) {
           <span className="num shrink-0 text-[11px] text-gray">No.{padNo(work.catalogNo)}</span>
           {work.needsReview && <span className="text-[11px] font-bold text-red">確認待ち</span>}
         </div>
-        <p className="line-clamp-2 leading-snug font-bold group-hover:text-red">
+        <p className="line-clamp-2 leading-snug font-bold">
           {work.title}
           {work.edition && <span className="text-xs font-normal text-ink-soft">（{work.edition}）</span>}
         </p>

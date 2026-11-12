@@ -49,7 +49,7 @@ export function ReviewEditor({ user }: { user: UserWork }) {
           {saved ? (user.review ? '保存済み' : '') : '未保存の変更があります'}
         </span>
         {!saved && (
-          <button type="button" onClick={save} className="min-h-10 border border-ink bg-ink px-3 font-bold text-paper">
+          <button type="button" onClick={save} className="min-h-10 rounded border border-line bg-ink px-3 font-bold text-paper">
             保存
           </button>
         )}
@@ -88,7 +88,7 @@ export function TagEditor({ user }: { user: UserWork }) {
       {user.tags.length > 0 && (
         <ul className="mb-3 flex flex-wrap gap-2">
           {user.tags.map((t) => (
-            <li key={t} className="flex items-center border border-ink bg-paper-light pl-2.5 text-sm font-bold">
+            <li key={t} className="flex items-center border border-line bg-paper-light pl-2.5 text-sm font-bold">
               #{t}
               <button
                 type="button"
@@ -107,7 +107,7 @@ export function TagEditor({ user }: { user: UserWork }) {
           タグを追加
         </label>
         <input id="tag-input" className="field" placeholder="タグを追加（例: 再見したい）" value={draft} onChange={(e) => setDraft(e.target.value)} onKeyDown={onKey} enterKeyHint="done" />
-        <button type="button" onClick={add} disabled={!draft.trim()} className="min-h-12 shrink-0 border border-ink bg-paper-light px-4 font-bold disabled:text-gray">
+        <button type="button" onClick={add} disabled={!draft.trim()} className="min-h-12 shrink-0 rounded border border-line bg-paper-light px-4 font-bold disabled:text-gray">
           追加
         </button>
       </div>

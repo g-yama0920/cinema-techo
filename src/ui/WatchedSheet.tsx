@@ -98,7 +98,7 @@ export function WatchedSheet({
           <StarInput value={rating} onChange={setRating} size={38} />
         </div>
         <PartialDateInput value={date} onChange={setDate} />
-        <details className="group border-t border-ink pt-3">
+        <details className="group border-t border-line pt-3">
           <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between font-bold">
             詳細を入力（任意）
             <span className="text-xs text-ink-soft group-open:hidden">配信サービス・視聴時間など</span>
