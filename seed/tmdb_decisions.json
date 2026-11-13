@@ -1,0 +1,530 @@
+{
+ "1": {
+  "tmdbId": 46437,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "2": {
+  "tmdbId": 1034220,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "3": {
+  "tmdbId": 42509,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "4": {
+  "tmdbId": 45782,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "5": {
+  "tmdbId": 113622,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "6": {
+  "tmdbId": 76757,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "7": {
+  "tmdbId": 61628,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "8": {
+  "tmdbId": 110316,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "9": {
+  "tmdbId": 43865,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "10": {
+  "tmdbId": 249906,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "11": {
+  "tmdbId": 210269,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "12": {
+  "tmdbId": 90955,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "13": {
+  "tmdbId": 65249,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "14": {
+  "tmdbId": 126849,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "15": {
+  "tmdbId": 60863,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "16": {
+  "tmdbId": 220542,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "17": {
+  "tmdbId": 55925,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "18": {
+  "tmdbId": 31816,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "19": {
+  "tmdbId": 6964,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "20": {
+  "tmdbId": 1464533,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "21": {
+  "tmdbId": 117933,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "22": {
+  "tmdbId": 88803,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "23": {
+  "tmdbId": 240411,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "24": {
+  "tmdbId": 129600,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "25": {
+  "tmdbId": 42009,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "26": {
+  "tmdbId": 37854,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "27": {
+  "tmdbId": 1654940,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "28": {
+  "tmdbId": 90293,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "29": {
+  "tmdbId": 581389,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "30": {
+  "none": true,
+  "note": "候補：2005年の映画「ニュー・ワールド」、2013年の韓国映画「新しき世界」、2020年のドラマ「ブレイブ・ニュー・ワールド」。元の分類（SF）と合う候補を特定できません"
+ },
+ "31": {
+  "tmdbId": 81315,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "32": {
+  "tmdbId": 222972,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "33": {
+  "tmdbId": 207468,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "34": {
+  "tmdbId": 86031,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "35": {
+  "tmdbId": 117465,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "36": {
+  "tmdbId": 112613,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "37": {
+  "tmdbId": 75214,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "38": {
+  "tmdbId": 31572,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "39": {
+  "tmdbId": 13916,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "40": {
+  "tmdbId": 846967,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "41": {
+  "tmdbId": 81181,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "42": {
+  "tmdbId": 110534,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "43": {
+  "tmdbId": 849869,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "44": {
+  "tmdbId": 874476,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "45": {
+  "tmdbId": 61888,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "46": {
+  "tmdbId": 1356890,
+  "mediaType": "movie",
+  "match": "auto"
+ },
+ "47": {
+  "none": true,
+  "note": "作品の同定をしない指定（版が不明）"
+ },
+ "48": {
+  "tmdbId": 70626,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "49": {
+  "tmdbId": 110356,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "50": {
+  "tmdbId": 261792,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "51": {
+  "tmdbId": 204541,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "52": {
+  "tmdbId": 704933,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "53": {
+  "none": true,
+  "note": "候補：1989年の映画「アビス」、2019年の韓国ドラマ「アビス」、2023年の映画「アビス」"
+ },
+ "54": {
+  "tmdbId": 138183,
+  "mediaType": "tv",
+  "match": "estimated"
+ },
+ "55": {
+  "none": true,
+  "note": "候補：2009年の日本映画、2021年のドラマ、2014年の韓国映画（いずれも「さまよう刃」）"
+ },
+ "56": {
+  "tmdbId": 94423,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "57": {
+  "tmdbId": 93405,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "58": {
+  "tmdbId": 646380,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "59": {
+  "tmdbId": 101,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "60": {
+  "tmdbId": 85937,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "61": {
+  "tmdbId": 114410,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "62": {
+  "tmdbId": 221731,
+  "mediaType": "movie",
+  "match": "estimated"
+ },
+ "63": {
+  "tmdbId": 698201,
+  "mediaType": "movie",
+  "match": "estimated"
+ },
+ "64": {
+  "tmdbId": 619803,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "65": {
+  "tmdbId": 97766,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "66": {
+  "tmdbId": 429617,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "67": {
+  "tmdbId": 361358,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "68": {
+  "tmdbId": 1133602,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "69": {
+  "none": true,
+  "note": "候補：2024年の日本ドラマ「Destiny」ほか。元の分類（バトル・アクション）と合うか確認が必要"
+ },
+ "70": {
+  "tmdbId": 223500,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "71": {
+  "tmdbId": 131041,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "72": {
+  "tmdbId": 45783,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "73": {
+  "tmdbId": 231873,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "74": {
+  "tmdbId": 1188258,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "75": {
+  "tmdbId": 736146,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "76": {
+  "tmdbId": 447523,
+  "mediaType": "movie",
+  "match": "estimated"
+ },
+ "77": {
+  "none": true,
+  "note": "候補：2010年の映画、2019年のアニメ映画「HUMAN LOST 人間失格」、2021年の韓国ドラマ「LOST 人間失格」"
+ },
+ "78": {
+  "tmdbId": 248087,
+  "mediaType": "movie",
+  "match": "estimated"
+ },
+ "79": {
+  "tmdbId": 216228,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "80": {
+  "tmdbId": 1024621,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "81": {
+  "tmdbId": 61678,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "82": {
+  "tmdbId": 496243,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "83": {
+  "tmdbId": 75820,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "84": {
+  "tmdbId": 614560,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "85": {
+  "tmdbId": 118043,
+  "mediaType": "tv",
+  "match": "estimated"
+ },
+ "86": {
+  "tmdbId": 120089,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "87": {
+  "tmdbId": 93816,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "88": {
+  "tmdbId": 728754,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "89": {
+  "tmdbId": 78685,
+  "mediaType": "tv",
+  "match": "estimated"
+ },
+ "90": {
+  "tmdbId": 512195,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "91": {
+  "tmdbId": 224740,
+  "mediaType": "tv",
+  "match": "auto"
+ },
+ "92": {
+  "tmdbId": 322570,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "93": {
+  "tmdbId": 296286,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "94": {
+  "tmdbId": 240274,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "95": {
+  "tmdbId": 131305,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "96": {
+  "tmdbId": 257221,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "97": {
+  "tmdbId": 96462,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "98": {
+  "tmdbId": 64840,
+  "mediaType": "tv",
+  "match": "estimated"
+ },
+ "99": {
+  "tmdbId": 682110,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "100": {
+  "tmdbId": 93016,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "101": {
+  "tmdbId": 216290,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "102": {
+  "tmdbId": 220783,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "103": {
+  "tmdbId": 1369010,
+  "mediaType": "movie",
+  "match": "confirmed"
+ },
+ "104": {
+  "tmdbId": 311842,
+  "mediaType": "tv",
+  "match": "estimated"
+ },
+ "105": {
+  "none": true,
+  "note": "候補：2023年のアニメ「るろうに剣心 －明治剣客浪漫譚－」、1996年のアニメ「るろうに剣心 明治剣客浪漫譚」"
+ },
+ "106": {
+  "tmdbId": 70523,
+  "mediaType": "tv",
+  "match": "confirmed"
+ },
+ "107": {
+  "tmdbId": 326247,
+  "mediaType": "tv",
+  "match": "estimated"
+ }
+}

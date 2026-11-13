@@ -141,6 +141,8 @@ export interface Settings {
   tmdbPersonalToken: string;
   lastBackupAt: string | null;
   seedImportedAt: string | null;
+  /** 同梱の TMDb 作品情報を反映した版（同じ版は二度反映しない） */
+  tmdbMetadataVersion?: number | null;
 }
 
 export const DEFAULT_SETTINGS: Settings = {

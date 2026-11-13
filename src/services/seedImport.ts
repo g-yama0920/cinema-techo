@@ -2,6 +2,7 @@ import type { ChangeSet } from '../data/repository';
 import { nowISO } from '../domain/dates';
 import { STATUS_LABEL } from '../domain/labels';
 import type { NormalizedSeed, SeedRecord, SeedWatchItem } from '../domain/seed';
+import { metadataPatch, type TmdbMetadataFile } from '../domain/tmdbMetadata';
 import { newId, titleKey } from '../domain/text';
 import {
   RESERVED_LEGACY_MAX,
@@ -51,7 +52,7 @@ const isWatched = (s: WatchStatus) => s === 'watched' || s === 'pending';
  * 冪等性: 元番号（legacyId）・見たいリスト元番号（legacyWatchlistNumber）が既にあるものは追加しない。
  * 既存データ（ユーザーが後から変えた評価など）は上書きしない。差分は diffs / updates として別に返す。
  */
-export function planSeedImport(seed: NormalizedSeed, snap: LibrarySnapshot, now: string = nowISO()): SeedPlan {
+export function planSeedImport(seed: NormalizedSeed, snap: LibrarySnapshot, now: string = nowISO(), metadata?: TmdbMetadataFile | null): SeedPlan {
   const rows: SeedPlanRow[] = [];
   const warnings: string[] = [];
   const works: Work[] = [];
@@ -150,6 +151,8 @@ export function planSeedImport(seed: NormalizedSeed, snap: LibrarySnapshot, now:
       usedCatalog.add(catalogNo);
     }
     const work = recordToWork(r, catalogNo, now);
+    // 同梱の TMDb 作品情報（ポスター・あらすじなど）を、元番号で対応づけて空欄に入れる
+    if (metadata) Object.assign(work, metadataPatch(work, metadata, now) ?? {});
     works.push(work);
     newByLegacy.set(r.legacyId, work);
     let wlNo: number | null = null;

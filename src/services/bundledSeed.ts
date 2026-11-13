@@ -7,8 +7,12 @@
  * テストなどで同梱データを使わないビルドにする場合は SEED_BUNDLE=off でビルドする。
  */
 import { csvToObjects } from '../domain/reconcile';
+import type { TmdbMetadataFile } from '../domain/tmdbMetadata';
 
-const jsonFiles = import.meta.glob<unknown>('/seed/*.json', { import: 'default' });
+// 作品一覧のデータ（tmdb_*.json は作品情報なので除く）
+const jsonFiles = import.meta.glob<unknown>(['/seed/*.json', '!/seed/tmdb_*.json'], { import: 'default' });
+// TMDb の作品情報（ポスター・あらすじなど。元番号で対応づける）
+const metadataFiles = import.meta.glob<TmdbMetadataFile>('/seed/tmdb_metadata.json', { import: 'default' });
 const csvFiles = import.meta.glob<string>('/seed/*.csv', { query: '?raw', import: 'default' });
 
 const PREFERRED = ['movie_tracker_full_catalog', 'movie_tracker_seed'];
@@ -42,4 +46,11 @@ export async function loadBundledSeed(): Promise<BundledSeed | null> {
   if (jsonKey) return { name: jsonKey.split('/').pop()!, data: await jsonFiles[jsonKey](), kind: 'json', csv };
   if (csv) return { name: csv.name, data: csvToObjects(csv.text), kind: 'csv', csv: null };
   return null;
+}
+
+/** 同梱の TMDb 作品情報。無ければ null */
+export async function loadBundledMetadata(): Promise<TmdbMetadataFile | null> {
+  if (!__BUNDLE_SEED__) return null;
+  const key = Object.keys(metadataFiles)[0];
+  return key ? metadataFiles[key]() : null;
 }

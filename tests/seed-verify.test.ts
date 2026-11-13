@@ -14,6 +14,8 @@ import { reconcileWithCsv } from '../src/domain/reconcile';
 import { normalizeSeed, summarizeSeed } from '../src/domain/seed';
 import { computeStats } from '../src/domain/stats';
 import { freshRepo, importSeed, loadFixture as loadJson } from './helpers';
+import type { TmdbMetadataFile } from '../src/domain/tmdbMetadata';
+import { planSeedImport } from '../src/services/seedImport';
 import { csvToObjects } from '../src/domain/reconcile';
 
 /** JSON でも CSV でも読めるようにする */
@@ -84,6 +86,24 @@ describe.skipIf(!path)(`実データの確認（${path}）`, () => {
     }
     console.log(`\n[seed] 1行ずつの照合：${raw.length}行、不一致 ${mismatches.length} 件`, mismatches.slice(0, 20));
     expect(mismatches).toEqual([]);
+  });
+
+  it.skipIf(!existsSync('seed/tmdb_metadata.json'))('同梱の TMDb 作品情報：紐付けた作品にポスターが入り、評価・状態・見たい番号は変わらない', async () => {
+    const meta = JSON.parse(readFileSync('seed/tmdb_metadata.json', 'utf8')) as TmdbMetadataFile;
+    const raw = loadFixture(path!);
+    const { repo } = freshRepo();
+    const plan = planSeedImport(normalizeSeed(raw), await repo.load(), 'now', meta);
+    await repo.applyChanges(plan.changes, 'merge');
+    const idx = buildIndex(await repo.load());
+    const linked = idx.bundles.filter((b) => b.work.tmdbId != null);
+    expect(linked).toHaveLength(Object.keys(meta.items).length);
+    expect(linked.every((b) => b.work.posterPath)).toBe(true);
+    // 同じ TMDb 作品を2つの作品に付けていない
+    expect(new Set(linked.map((b) => `${b.work.tmdbMediaType}:${b.work.tmdbId}`)).size).toBe(linked.length);
+    const by = (s: string) => idx.bundles.filter((b) => b.user.status === s).length;
+    expect([by('watched'), by('pending'), by('unwatched'), by('want'), by('unconfirmed')]).toEqual([expected.rated, expected.pending, expected.unwatched, expected.want, expected.unconfirmed]);
+    expect(computeStats(idx, { kind: 'all' }, 'all').averageRating!.toFixed(2)).toBe(expected.average.toFixed(2));
+    console.log(`\n[tmdb] ポスターあり ${linked.length} / ${idx.bundles.length}、種類未確認 ${idx.bundles.filter((b) => b.work.type === 'other').length}、確認待ち ${idx.bundles.filter((b) => b.work.needsReview).length}`);
   });
 
   it.skipIf(!csvPath)(`CSV（${csvPath}）と照合して差異がない`, () => {

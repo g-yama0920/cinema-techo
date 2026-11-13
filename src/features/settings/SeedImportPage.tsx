@@ -5,7 +5,9 @@ import type { ChangeSet } from '../../data/repository';
 import { STATUS_LABEL, WORK_TYPE_LABEL } from '../../domain/labels';
 import { csvToObjects, reconcileWithCsv } from '../../domain/reconcile';
 import { normalizeSeed, summarizeSeed, type NormalizedSeed } from '../../domain/seed';
-import { hasBundledSeed, loadBundledSeed } from '../../services/bundledSeed';
+import { hasBundledSeed, loadBundledMetadata, loadBundledSeed } from '../../services/bundledSeed';
+import type { TmdbMetadataFile } from '../../domain/tmdbMetadata';
+import { nowISO } from '../../domain/dates';
 import { planSeedImport } from '../../services/seedImport';
 import { IconAlert, IconCheck, IconChevronLeft, IconUpload } from '../../ui/icons';
 import { Button, ErrorState, PageHeader } from '../../ui/primitives';
@@ -19,7 +21,8 @@ export function SeedImportPage() {
   const repo = useRepo();
   const toast = useToast();
   const navigate = useNavigate();
-  const [source, setSource] = useState<{ name: string; seed: NormalizedSeed; fromCsv: boolean } | null>(null);
+  const [source, setSource] = useState<{ name: string; seed: NormalizedSeed; fromCsv: boolean; bundled?: boolean } | null>(null);
+  const [metadata, setMetadata] = useState<TmdbMetadataFile | null>(null);
   const [csv, setCsv] = useState<{ name: string; text: string } | null>(null);
   const [parseError, setParseError] = useState<string | null>(null);
   const [applyDiffs, setApplyDiffs] = useState(false);
@@ -31,7 +34,8 @@ export function SeedImportPage() {
     if (bundled && !source)
       loadBundledSeed().then((s) => {
         if (!s) return;
-        setSource({ name: s.name, seed: normalizeSeed(s.data), fromCsv: s.kind === 'csv' });
+        setSource({ name: s.name, seed: normalizeSeed(s.data), fromCsv: s.kind === 'csv', bundled: true });
+        loadBundledMetadata().then(setMetadata);
         if (s.csv) setCsv(s.csv);
       });
   }, [bundled]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -75,7 +79,11 @@ export function SeedImportPage() {
   };
 
   const summary = source ? summarizeSeed(source.seed) : null;
-  const plan = useMemo(() => (source && !source.seed.errors.length ? planSeedImport(source.seed, index.snapshot) : null), [source, index.snapshot]);
+  // 同梱データを取り込む場合だけ、同梱の作品情報（ポスターなど）を元番号で対応づけて使う
+  const plan = useMemo(
+    () => (source && !source.seed.errors.length ? planSeedImport(source.seed, index.snapshot, nowISO(), source.bundled ? metadata : null) : null),
+    [source, index.snapshot, metadata],
+  );
   const recon = useMemo(() => (source && csv ? reconcileWithCsv(source.seed, csv.text) : null), [source, csv]);
   const allWarnings = source ? [...source.seed.warnings, ...(plan?.warnings ?? [])] : [];
   const updatable = plan ? plan.diffs.filter((d) => !d.conflict).length : 0;

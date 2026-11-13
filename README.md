@@ -38,6 +38,15 @@ cp movie_tracker_full_catalog.json movie_tracker_full_catalog.csv seed/
 npm run verify:seed
 ```
 
+### 作品情報（ポスター・あらすじなど）
+
+`seed/tmdb_metadata.json` に TMDb の作品情報を同梱しています（107作品中100作品）。作品番号（元番号）で対応づけ、
+初回の自動登録時、または既に登録済みの端末では次に開いたときに一度だけ、**空欄だけ**を埋めます（評価・視聴状況・メモは変えません）。
+
+- 紐付け表 `seed/tmdb_decisions.json`：自動43件（タイトル・区分が一致する候補が1件）・利用者が承認47件・利用者が一任し推定で選択10件、紐付けなし7件
+- 作り直す：`NODE_USE_ENV_PROXY=1 node scripts/tmdb-build-metadata.mjs`（TMDb の認証はネットワークの中継で付与）
+- 候補の洗い出し：`node scripts/tmdb-match.mjs seed/movie_tracker_full_catalog.csv`
+
 ### 分類
 
 | 表示 | 意味 | 視聴済みに数える |

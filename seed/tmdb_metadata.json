@@ -1,0 +1,6552 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-13T10:38:21.423Z",
+ "source": "TMDB (This product uses the TMDB API but is not endorsed or certified by TMDB.) / 配信情報: JustWatch",
+ "items": {
+  "1": {
+   "tmdbId": 46437,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "キングダム",
+   "originalTitle": "キングダム",
+   "posterPath": "/c0kLtHi4K08asQkj48CWLxS3YY.jpg",
+   "releaseYear": 2012,
+   "synopsis": "圧倒的スケールで描く、\n\n初の春秋戦国アニメ！\n\n紀元前、中国。時代は春秋戦国時代。西方の国、秦で戦災孤児として暮らしていた二人の少年、信と漂の夢は、日々鍛錬を積み、いつか戦で武功を立てて天下の大将軍になること。そんな二人にある転機が訪れる。王宮に仕える大臣、昌文君の目に留まった漂が王宮に召し上げられたのだ。だがほどなくして王宮の勢力争いに巻き込まれ大けがを負った漂が、命からがら故郷へと戻ってくる。そして漂から託された地図を頼りに訪れた村で信は、漂とうり二つの少年、政と出会う。この少年こそ秦王、嬴政…後の始皇帝であった。",
+   "genres": [
+    "アクション・アドベンチャー",
+    "アニメーション",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "森田成一",
+    "福山潤",
+    "釘宮理恵",
+    "日笠陽子",
+    "細谷佳正",
+    "野島裕史",
+    "堀内賢雄",
+    "園崎未恵"
+   ],
+   "runtime": 25,
+   "seasonCount": 6,
+   "episodeCount": 156,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "2": {
+   "tmdbId": 1034220,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "Winny",
+   "originalTitle": "Winny",
+   "posterPath": "/AuUyrYiS5Ix3EZIvik4rGcDLxgo.jpg",
+   "releaseYear": 2023,
+   "synopsis": "2002年、開発者・金子勇（東出昌大）は、簡単にファイルを共有できる革新的なソフト「Winny」を開発、試用版を「２ちゃんねる」に公開をする。彗星のごとく現れた「Winny」は、本人同士が直接データのやりとりができるシステムで、瞬く間にシェアを伸ばしていく。しかし、その裏で大量の映画やゲーム、音楽などが違法アップロードされ、ダウンロードする若者も続出、次第に社会問題へ発展していく。  次々に違法コピーした者たちが逮捕されていく中、開発者の金子も著作権法違反幇助の容疑をかけられ、2004年に逮捕されてしまう。サイバー犯罪に詳しい弁護士・壇俊光（三浦貴大）は、「開発者が逮捕されたら弁護します」と話していた矢先、開発者金子氏逮捕の報道を受けて、急遽弁護を引き受けることになり、弁護団を結成。金子と共に裁判で警察の逮捕の不当性を主張するも、第一審では有罪判決を下されてしまう…。しかし、運命の糸が交差し、世界をも揺るがす事件へと発展する——。  なぜ、一人の天才開発者が日本の国家組織に潰されてしまったのか。  本作は、開発者の未来と権利を守るために、権力やメディアと戦った男たちの真実を基にした物語である。",
+   "genres": [
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "松本優作"
+   ],
+   "cast": [
+    "東出昌大",
+    "三浦貴大",
+    "皆川猿時",
+    "和田正人",
+    "木竜麻生",
+    "池田大",
+    "金子大地",
+    "阿部進之介"
+   ],
+   "runtime": 127,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Nihon Eiga Net Amazon Channel",
+     "logoPath": "/Aub93A9YrlNxUCFtT8MFhy5w5wc.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "3": {
+   "tmdbId": 42509,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "STEINS;GATE",
+   "originalTitle": "Steins;Gate",
+   "posterPath": "/6iysgZr6Upm5RlAlVFo5f4D9euu.jpg",
+   "releaseYear": 2011,
+   "synopsis": "舞台は2010年夏の秋葉原。厨二病から抜け出せない大学生である岡部倫太郎は、「未来ガジェット研究所」を立ち上げ、用途不明の発明品を日々生み出していた。 だが、ある日、偶然にも過去へとメールが送れる「タイムマシン」を作り出す。 世紀の発明と興奮を抑えきれずに、興味本位で過去への干渉を繰り返す。 その結果、世界を巻き込む大きな悲劇が、岡部たちに訪れることになるのだが… 悲劇を回避するために、岡部の孤独な戦いが始まる。果たして彼は、運命を乗り越えることができるのか！？",
+   "genres": [
+    "アニメーション",
+    "SF・ファンタジー",
+    "ミステリー",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "宮野真守",
+    "今井麻美",
+    "花澤香菜",
+    "関智一",
+    "田村ゆかり",
+    "桃井はるこ",
+    "小林ゆう"
+   ],
+   "runtime": 24,
+   "seasonCount": 1,
+   "episodeCount": 24,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Toei Animation Channel  Amazon Channel",
+     "logoPath": "/4kODbXQH5KChF2iIxYz80pmV6c1.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "4": {
+   "tmdbId": 45782,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "ソードアート・オンライン",
+   "originalTitle": "ソードアート・オンライン",
+   "posterPath": "/htNohqrYEwuz4fCa9ATVF90s58S.jpg",
+   "releaseYear": 2012,
+   "synopsis": "2022年。人類はついに完全なる仮想空間を実現した。VRMMORPG（仮想大規模オンラインロールプレイングゲーム）「ソードアート・オンライン」のプレイヤーの一人であるキリト。SAOの世界を満喫していた彼は、ログインした他の1万人のプレイヤーと共にゲームマスターから恐るべき託宣を聞かされる。それは、ゲームをクリアすることだけが、この世界から脱出する唯一の方法であること。そして、このゲーム内でゲームオーバーは、現実世界での“死”を意味すること。それが、このゲームの恐るべき全貌であった。キリトは、いち早くこのMMOの“真実”を受け入れ、パーティーを組まないソロプレイヤーとして、終わりの見えない死闘に身を投じていく……。",
+   "genres": [
+    "アニメーション",
+    "SF・ファンタジー",
+    "アクション・アドベンチャー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "松岡禎丞",
+    "戸松遥",
+    "平田広明",
+    "茅野愛衣",
+    "日高里菜",
+    "安元洋貴",
+    "千葉一伸",
+    "前田佳織里"
+   ],
+   "runtime": 24,
+   "seasonCount": 4,
+   "episodeCount": 96,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "5": {
+   "tmdbId": 113622,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "シーシュポス: The Myth",
+   "originalTitle": "시지프스 : the myth",
+   "posterPath": "/84SaepuKD8OVOlENmvahEkJkeUx.jpg",
+   "releaseYear": 2021,
+   "synopsis": null,
+   "genres": [
+    "SF・ファンタジー",
+    "ドラマ",
+    "ミステリー",
+    "アクション・アドベンチャー"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "진혁"
+   ],
+   "cast": [
+    "チョ・スンウ",
+    "パク・シネ",
+    "チェ・ジョンヒョプ",
+    "ソン・ドンイル",
+    "태인호",
+    "태원석",
+    "チョン・グクファン",
+    "허준석"
+   ],
+   "runtime": 72,
+   "seasonCount": 1,
+   "episodeCount": 16,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "6": {
+   "tmdbId": 76757,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "ゴールデンカムイ",
+   "originalTitle": "ゴールデンカムイ",
+   "posterPath": "/rVRpYvsyPgUUsuK0kQbya67ROPZ.jpg",
+   "releaseYear": 2018,
+   "synopsis": "明治時代後期。「不死身の杉元」の異名を持つ日露戦争の英雄・杉元佐一は、ある目的のために大金を手に入れるべく北海道にいた。そこにアイヌから奪われた莫大な埋蔵金という、一攫千金のチャンスが舞い込む。埋蔵金は網走監獄に収監中の男によって隠匿され、24人の脱獄囚の身体に刻まれた刺青がその在り処を示す手がかりだという。そんな折、ヒグマの襲撃を受けた杉元を、ひとりのアイヌの少女が救う。名をアシ(リ)パというその少女は、埋蔵金を奪った男に父親を殺されていた。さらに杉元の動きに呼応するように、かねてより埋蔵金を狙って暗躍していた北の最強部隊・第七師団や刺青を背負う脱獄囚たちの動きも顕在化していた。",
+   "genres": [
+    "アクション・アドベンチャー",
+    "アニメーション",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "小林親弘",
+    "白石晴香",
+    "菅生隆之",
+    "伊藤健太郎",
+    "細谷佳正",
+    "関俊彦",
+    "中田譲治",
+    "津田健次郎"
+   ],
+   "runtime": 24,
+   "seasonCount": 5,
+   "episodeCount": 62,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "7": {
+   "tmdbId": 61628,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "ワールドトリガー",
+   "originalTitle": "ワールドトリガー",
+   "posterPath": "/nLqkR8Pe0IVRCgSK0dYUkqvXr0r.jpg",
+   "releaseYear": 2014,
+   "synopsis": "三門市。人口28万人。ある日この町に異世界への門が開いた。｢近界民(ネイバー)｣後にそう呼ばれる異次元からの侵略者が門付近の地域を蹂躙、街は恐怖に包まれた。近界民に地球上の兵器は効果が薄く、都市の壊滅は時間の問題と思われた。しかし、その時突如現れた謎の一団が近界民を撃退。近界民の技術を独自に研究し、｢こちら側｣の世界を守るため戦う組織、界境防衛器官｢ボーダー｣。彼らはわずかな期間で巨大な基地を作り上げ、近界民に対する防衛体制を整えた。それから4年。門は依然として開いているにも拘わらず、三門市を出て行く人間は驚くほど少ない。高校生の三雲修もまた、ボーダーに所属していた。ある日、修のクラスに転校生がやってきた。空閑遊真と名乗った少年は、何故かボーダーの人間にのみ携帯を許される｢トリガー｣と呼ばれる武器を持っていた。修に問いただされた遊真は言う。『俺は門の向こうの世界から来た。お前らが言うとこの｢近界民｣ってやつだ』遊真と修、二人の物語が動き始める。",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "田村奈央",
+    "中村悠一",
+    "村中知",
+    "梶裕貴",
+    "田中秀幸",
+    "浦和めぐみ",
+    "中尾衣里",
+    "岡本信彦"
+   ],
+   "runtime": 23,
+   "seasonCount": 3,
+   "episodeCount": 99,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Toei Animation Channel  Amazon Channel",
+     "logoPath": "/4kODbXQH5KChF2iIxYz80pmV6c1.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "8": {
+   "tmdbId": 110316,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "今際の国のアリス",
+   "originalTitle": "今際の国のアリス",
+   "posterPath": "/i0i7kGDrArtM1sCd8niZDC7iboV.jpg",
+   "releaseYear": 2020,
+   "synopsis": "2人の悪友とともに街をぶらつく青年が迷い込んだ、危険渦巻く不思議な世界。死を免れる方法はただ一つ。命がけの難題をクリアし、滞在許可を手に入れること。",
+   "genres": [
+    "ミステリー",
+    "ドラマ",
+    "アクション・アドベンチャー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "山﨑賢人",
+    "土屋太鳳"
+   ],
+   "runtime": null,
+   "seasonCount": 3,
+   "episodeCount": 22,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "9": {
+   "tmdbId": 43865,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "PSYCHO-PASS サイコパス",
+   "originalTitle": "PSYCHO-PASS サイコパス",
+   "posterPath": "/aX6S3P8xiz9nJwXjaka5e9kT6f4.jpg",
+   "releaseYear": 2012,
+   "synopsis": "舞台は、人間のあらゆる心理状態や性格傾向の計測を可能とし、それを数値化する機能を持つ「シビュラシステム」が導入された西暦2112年の日本。人々はこの値を通称「PSYCHO-PASS」と呼び習わし、有害なストレスから解放された「理想的な人生」を送るため、その数値を指標として生きていた。その中でも、犯罪に関しての数値は「犯罪係数」として計測され、たとえ罪を犯していない者でも、規定値を超えれば「潜在犯」として裁かれていた。そのような監視社会においても発生する犯罪を抑圧するため、厚生省管轄の警察組織「公安局」の刑事は、シビュラシステムと有機的に接続されている特殊拳銃「ドミネーター」を用いて、治安維持活動を行っていた。本作品は、このような時代背景の中で働く公安局刑事課一係所属メンバーたちの活動と葛藤を描く",
+   "genres": [
+    "アニメーション",
+    "犯罪",
+    "SF・ファンタジー",
+    "アクション・アドベンチャー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "梶裕貴",
+    "花澤香菜",
+    "中村悠一",
+    "関智一",
+    "櫻井孝宏",
+    "佐倉綾音",
+    "沢城みゆき"
+   ],
+   "runtime": 28,
+   "seasonCount": 3,
+   "episodeCount": 41,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "10": {
+   "tmdbId": 249906,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "地面師たち",
+   "originalTitle": "地面師たち",
+   "posterPath": "/nLWB1eM761a3kAj1zQtKzapaQoU.jpg",
+   "releaseYear": 2024,
+   "synopsis": "100億円の市場価値を持つ希少な土地に目をつけた地面師詐欺集団は、あらゆる手段を使って前代未聞の巨額詐欺を成功させようとするが...。",
+   "genres": [
+    "犯罪"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "大根仁"
+   ],
+   "cast": [
+    "綾野剛",
+    "豊川悦司",
+    "北村一輝",
+    "小池栄子",
+    "ピエール瀧",
+    "染谷将太",
+    "山田孝之",
+    "松岡依都美"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 7,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "11": {
+   "tmdbId": 210269,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "サンクチュアリ -聖域-",
+   "originalTitle": "サンクチュアリ -聖域-",
+   "posterPath": "/s99QEFuN5WwDC5Gygr2oeiJyHxg.jpg",
+   "releaseYear": 2023,
+   "synopsis": "世界的な知名度を誇り、1500年以上日本の伝統文化として、また神事として、神秘のベールに包まれている大相撲。その戦いが行われる土俵は、まさに”サンクチュアリ”（聖域）。これは、崖っぷちに追いやられた一人の無軌道な若者が、金・女・名声、その全てが土俵に埋まっていると信じ、力士へと上り詰めていく男の物語。",
+   "genres": [
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "江口カン"
+   ],
+   "cast": [
+    "一ノ瀬ワタル",
+    "染谷将太",
+    "ピエール瀧",
+    "小雪",
+    "忽那汐里",
+    "寺本莉緒",
+    "松尾スズキ",
+    "田口トモロヲ"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 8,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "12": {
+   "tmdbId": 90955,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "全裸監督",
+   "originalTitle": "全裸監督",
+   "posterPath": "/tTFixV61n0SErumUFHUZcwh1KK8.jpg",
+   "releaseYear": 2019,
+   "synopsis": "バブル景気に沸いた1980年代の日本に、逆境をチャンスに変えた奴がいた。男の名は村西とおる。彼こそが、エロの概念を覆し、AV業界に革命を起こした伝説の風雲児。",
+   "genres": [
+    "コメディ",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "山田孝之",
+    "満島真之介",
+    "森田望智",
+    "玉山鉄二",
+    "柄本時生",
+    "伊藤沙莉",
+    "後藤剛範",
+    "國村隼"
+   ],
+   "runtime": null,
+   "seasonCount": 2,
+   "episodeCount": 16,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "13": {
+   "tmdbId": 65249,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "僕だけがいない街",
+   "originalTitle": "僕だけがいない街",
+   "posterPath": "/2xo5jNOwXGP41umcmxzZgPxGpaI.jpg",
+   "releaseYear": 2016,
+   "synopsis": "漫画家としてデビューするも、いまひとつ結果を出せずに毎日を過ごす青年．藤沼悟。 彼は、彼の身にしか起こらない、ある不可思議な現象に不満を感じていた。 ーリバイバル（再上映） 何か「悪い事」が起こる直前まで時が巻き戻る現象。 それは、その原因が取り除かれるまで何度も繰り返される。 ……まるで、誰かに「お前が防げ」と強制サれているかのように。 しかし、ある日起きた事件をきっかけに、その現象に大きな変化が訪れる。 自らの過去に向き合う時、悟が目撃する真実とは？ そして、悟の未来はー？",
+   "genres": [
+    "アニメーション",
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "満島真之介",
+    "土屋太鳳",
+    "高山みなみ"
+   ],
+   "runtime": 25,
+   "seasonCount": 1,
+   "episodeCount": 12,
+   "watchProviders": [
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "14": {
+   "tmdbId": 126849,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "ミステリと言う勿れ",
+   "originalTitle": "ミステリと言う勿れ",
+   "posterPath": "/cAKsyOCBbac5SY0Do9iGOSKnb4O.jpg",
+   "releaseYear": 2022,
+   "synopsis": "菅田さん演じる主人公・久能整（くのう・ととのう）は、天然パーマにコンプレックスを持つ、友だちも彼女もひとりもいない、カレーをこよなく愛する大学生。社会で「当たり前のこと」として流されていることに常に疑問を持ち、とことん考え抜く性格で、膨大な知識と独自の価値観による持論をあざやかに展開します。たとえ周囲で何が起きていようとも喋らずにはいられないため、「うざい、面倒くさい」と言われ続けて生きて来た青年です。\n\nそんな整がある日、身に覚えのない殺人事件の容疑をかけられることに。\n\n刑事たちから取り調べを受ける中、整は事件の裏に隠されたヒントや、刑事たちが抱えている悩みの存在に気づいていきます。そして、特に「事件を解決したい」という思いはないまま、ただただ思いつくことをマイペースに話すうちに、いつのまにか事件の謎だけでなく、人の心まで解きほぐしてしまうのです。",
+   "genres": [
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "松山博昭",
+    "相沢友子"
+   ],
+   "cast": [
+    "菅田将暉",
+    "伊藤沙莉",
+    "尾上松也",
+    "筒井道隆",
+    "永山瑛太",
+    "白石麻衣",
+    "鈴木浩介",
+    "門脇麦"
+   ],
+   "runtime": 60,
+   "seasonCount": 1,
+   "episodeCount": 12,
+   "watchProviders": [
+    {
+     "name": "FOD Channel Amazon Channel",
+     "logoPath": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "15": {
+   "tmdbId": 60863,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "ハイキュー!!",
+   "originalTitle": "ハイキュー!!",
+   "posterPath": "/qNKaeunuUdL0smnowVVgShCkWZ4.jpg",
+   "releaseYear": 2014,
+   "synopsis": "ふとしたきっかけでバレーボールに魅せられた少年、日向翔陽。部員がいない逆風にも負けず、やっとの思いで出場した中学最初で最後の公式戦で、日向のチームは「コート上の王様」と異名をとる天才プレーヤー、影山飛雄に惨敗。リベンジを誓い烏野高校バレー部の門を叩いた日向だが、何とそこにはにっくきライバル、影山の姿が…!?",
+   "genres": [
+    "アニメーション",
+    "コメディ",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "村瀬歩",
+    "石川界人"
+   ],
+   "runtime": 24,
+   "seasonCount": 4,
+   "episodeCount": 85,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Tencent Video",
+     "logoPath": "/oxcvMEkpFb1x4I2xQuRH1yxuJoA.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "16": {
+   "tmdbId": 220542,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "薬屋のひとりごと",
+   "originalTitle": "薬屋のひとりごと",
+   "posterPath": "/5ZZlbaJleRsAO08qWK6ZTOe9g3Z.jpg",
+   "releaseYear": 2023,
+   "synopsis": "大陸の中央に位置するとある大国。その国の帝の妃たちが住む後宮に一人の娘がいた。名前は、猫猫(マオマオ)。花街で薬師をやっていたが、現在は後宮で下働き中である。ある日、帝の御子たちが皆短命であることを知る。今現在いる二人の御子もともに病で次第に弱っている話を聞いた猫猫は、興味本位でその原因を調べ始める。呪いなどあるわけないと言わんばかりに。美形の宦官・壬氏(ジンシ)は、猫猫を帝の寵妃の毒見役にする。人間には興味がないが、毒と薬の執着は異常、そんな花街育ちの薬師が巻き込まれる噂や事件。きれいな薔薇にはとげがある、女の園は毒だらけ、噂と陰謀事欠かず。壬氏からどんどん面倒事を押し付けられながらも、仕事をこなしていく猫猫。稀代の毒好き娘が今日も後宮内を駆け回る。",
+   "genres": [
+    "アニメーション",
+    "ミステリー",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "悠木碧",
+    "大塚剛央",
+    "小西克幸"
+   ],
+   "runtime": 23,
+   "seasonCount": 1,
+   "episodeCount": 60,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "17": {
+   "tmdbId": 55925,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "半沢直樹",
+   "originalTitle": "半沢直樹",
+   "posterPath": "/4Qnk3QvC8gxTWH5uM8thovg1j4Q.jpg",
+   "releaseYear": 2013,
+   "synopsis": "“倍返しだ!!”のフレーズで社会現象を巻き起こした、堺雅人主演のTBS系ドラマ。バブル末期に銀行へ入行し、業務の中心を担う世代となった半沢直樹。上司からの強引な指示によって5億円の融資を取り付けるが……。バンカーとしての葛藤と奮闘を描く。",
+   "genres": [
+    "ドラマ",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "堺雅人",
+    "上戸彩",
+    "及川光博",
+    "賀来賢人",
+    "香川照之",
+    "北大路欣也",
+    "六代目 片岡愛之助",
+    "夏目三久"
+   ],
+   "runtime": 54,
+   "seasonCount": 2,
+   "episodeCount": 20,
+   "watchProviders": [
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "18": {
+   "tmdbId": 31816,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "ドラゴン桜",
+   "originalTitle": "ドラゴン桜",
+   "posterPath": "/eUKp3FyfMYDN2N3U5bhKuGdBG22.jpg",
+   "releaseYear": 2005,
+   "synopsis": "主人公・桜木は、元暴走族のリーダーで今は冴えない三流弁護士。倒産寸前・偏差値36の龍山高校の負債整理をするはずが、ふとしたことから方針を変更。自分の野望実現のために、日本一のエリート校として生まれ変わらせようと動き出す。しかし、集まったのは将来に夢も希望も持てない生徒たち…。果たして、龍山高校と生徒たちの運命は！？",
+   "genres": [
+    "ドラマ",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "阿部寛",
+    "長澤まさみ",
+    "南沙良",
+    "髙橋海人",
+    "平手友梨奈",
+    "加藤清史郎",
+    "鈴鹿央士",
+    "志田彩良"
+   ],
+   "runtime": 60,
+   "seasonCount": 2,
+   "episodeCount": 21,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "19": {
+   "tmdbId": 6964,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "ガリレオ",
+   "originalTitle": "ガリレオ",
+   "posterPath": "/qJ5h8LufzdLBtax3N0gQt6ZSP34.jpg",
+   "releaseYear": 2007,
+   "synopsis": "帝都大学理工学部物理学科准教授・湯川学が明晰な頭脳で事件のさなかに起きる超常現象を科学的に解き明かして事件を解決する。",
+   "genres": [
+    "ドラマ",
+    "ミステリー",
+    "犯罪"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "成田岳",
+    "西谷弘",
+    "西坂瑞城",
+    "澤田鎌作"
+   ],
+   "cast": [
+    "福山雅治",
+    "吉高由里子",
+    "北村一輝",
+    "澤部佑",
+    "渡辺いっけい"
+   ],
+   "runtime": null,
+   "seasonCount": 2,
+   "episodeCount": 21,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD Channel Amazon Channel",
+     "logoPath": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    }
+   ]
+  },
+  "20": {
+   "tmdbId": 1464533,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "爆弾",
+   "originalTitle": "爆弾",
+   "posterPath": "/b9FKunFkcYTVF9eEVS8muztAy9p.jpg",
+   "releaseYear": 2025,
+   "synopsis": "物語の幕開けは、酔った勢いで自販機と店員に暴行を働き、警察に連行された一人の謎の中年男。彼は自らを「スズキタゴサク」と名乗り、霊感が働くと称して都内に仕掛けられた爆弾の存在を予告！秋葉原での爆破を皮切りに、この後一時間おきに３回爆発すると予知していく。そして、刑事たちの問いかけをのらりくらりとかわしつつ、次第に爆弾に関する謎めいた“クイズ”を出し始めるのだった・・・彼は、いったい何者なのか！？そして仕掛けられた“爆弾”の正体とは！？",
+   "genres": [
+    "スリラー",
+    "ミステリー",
+    "犯罪"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "永井聡"
+   ],
+   "cast": [
+    "山田裕貴",
+    "伊藤沙莉",
+    "染谷将太",
+    "渡部篤郎",
+    "佐藤二朗",
+    "寛一郎",
+    "坂東龍汰",
+    "片岡千之助"
+   ],
+   "runtime": 136,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "21": {
+   "tmdbId": 117933,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "サマータイムレンダ",
+   "originalTitle": "サマータイムレンダ",
+   "posterPath": "/36RTVhPywiKnOToLsa692DIi3iS.jpg",
+   "releaseYear": 2022,
+   "synopsis": "「潮が死んだーー。」幼馴染・小舟潮の訃報を聞いた網代慎平は、2年ぶりに故郷である和歌山市・日都ヶ島に帰ってきた。家族や友人との再会。滞りなく行われていく葬儀。しかし、親友・菱形窓は「潮の死には不審な点があり、他殺の可能性がある」と慎平に告げる。翌日、近隣の一家が突如として全員消えてしまう事件が発生。時を同じくして、慎平はある不吉な噂を耳にする。「自分にそっくりな“影”を見た者は死ぬ。影に殺される――！」さらに、潮の妹・澪が「お姉ちゃんが亡くなる3日前に影を見た」と言いだして......!?",
+   "genres": [
+    "アニメーション",
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "花江夏樹",
+    "永瀬アンナ",
+    "白砂沙帆",
+    "日笠陽子",
+    "浦山迅",
+    "小野賢章",
+    "河瀬茉希",
+    "大塚明夫"
+   ],
+   "runtime": 24,
+   "seasonCount": 1,
+   "episodeCount": 25,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "22": {
+   "tmdbId": 88803,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "ヴィンランド・サガ",
+   "originalTitle": "ヴィンランド・サガ",
+   "posterPath": "/ySPYLN1sHmgRdqdfLOE092JlNTp.jpg",
+   "releaseYear": 2019,
+   "synopsis": "千年期の終わり頃、あらゆる地に現れ暴虐の限りを尽くした最強の集団、ヴァイキング。最強と謳われた戦士の息子トルフィンは、幼くして戦場を生き場所とし、幻の大陸\"ヴィンランド\"を目指す――激動の時代で巻き起こる、本当の戦士の物語（サガ）。",
+   "genres": [
+    "アニメーション",
+    "戦争・政治",
+    "アクション・アドベンチャー",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "上村祐翔",
+    "武内駿輔"
+   ],
+   "runtime": 25,
+   "seasonCount": 2,
+   "episodeCount": 48,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "23": {
+   "tmdbId": 240411,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "ダンダダン",
+   "originalTitle": "ダンダダン",
+   "posterPath": "/dse3OM0apuA6HZt4gznRMmUirM3.jpg",
+   "releaseYear": 2024,
+   "synopsis": "霊媒師の家系に生まれた女子高生・モモ＜綾瀬桃＞と、同級生でオカルトマニアのオカルン＜高倉健＞。モモがクラスのいじめっ子からオカルンを助けたことをきっかけに話すようになった2人だったが、「幽霊は信じているが宇宙人否定派」のモモと、「宇宙人は信じているが幽霊否定派」のオカルンで口論に。互いに否定する宇宙人と幽霊を信じさせるため、モモはUFOスポットの病院廃墟へ、オカルンは心霊スポットのトンネルへ。そこで2人は、理解を超越した圧倒的怪奇に出会う。窮地の中で秘めた力を覚醒させるモモと、呪いの力を手にしたオカルンが、迫りくる怪奇に挑む！運命の恋も始まる！？オカルティックバトル＆青春物語、開幕！",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "コメディ",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "若山詩音",
+    "花江夏樹",
+    "田中真弓",
+    "水樹奈々"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 24,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD Channel Amazon Channel",
+     "logoPath": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "24": {
+   "tmdbId": 129600,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "範馬刃牙",
+   "originalTitle": "範馬刃牙",
+   "posterPath": "/qjfAG3NAOK2wPLMqz1Z81SBTJfB.jpg",
+   "releaseYear": 2021,
+   "synopsis": "数々の強敵との死闘を経て成長した刃牙は、地上最強の生物と言われる父・範馬勇次郎との対決の時が熟しつつあった。そして、勇次郎と闘う前のなスパーリング相手として、まずはMr.アンチェインこと、ビスケット・オリバと闘おうと考える。オリバが現在いる場所は、通称「ブラックペンタゴン」と呼ばれる、凶悪な犯罪者たちが集められた刑務所。刃牙はオリバと闘うために、ブラックペンタゴンに自ら収監されるが、そこにはオリバは勿論、他にも超弩級の猛者たちが待ち構えていた!!",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "島﨑信長",
+    "大塚明夫",
+    "小山力也",
+    "古谷徹",
+    "草尾毅",
+    "柴田秀勝",
+    "土師孝也",
+    "三宅健太"
+   ],
+   "runtime": 24,
+   "seasonCount": 2,
+   "episodeCount": 39,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "25": {
+   "tmdbId": 42009,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "ブラック・ミラー",
+   "originalTitle": "Black Mirror",
+   "posterPath": "/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg",
+   "releaseYear": 2011,
+   "synopsis": "人間の醜さと最新のテクノロジーなどをテーマに、ひねりを効かせた予想外のストーリーを描き出す、現実の枠をこえたオムニバスシリーズ。",
+   "genres": [
+    "SF・ファンタジー",
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "イギリス"
+   ],
+   "directors": [
+    "Charlie Brooker"
+   ],
+   "cast": [],
+   "runtime": null,
+   "seasonCount": 7,
+   "episodeCount": 33,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "26": {
+   "tmdbId": 37854,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "ワンピース",
+   "originalTitle": "ワンピース",
+   "posterPath": "/8f33Q5AuM2G5ZqFeusbIqDjr3cI.jpg",
+   "releaseYear": 1999,
+   "synopsis": "海賊王を夢見る少年モンキー・D・ルフィを主人公とする、「ひとつなぎの大秘宝（ワンピース）」を巡る海洋冒険ロマン。",
+   "genres": [
+    "アクション・アドベンチャー",
+    "コメディ",
+    "アニメーション"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "田中真弓",
+    "中井和哉",
+    "矢口真里",
+    "岡村明美",
+    "山口勝平",
+    "平田広明",
+    "大谷育江",
+    "山口由里子"
+   ],
+   "runtime": 24,
+   "seasonCount": 23,
+   "episodeCount": 1180,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "27": {
+   "tmdbId": 1654940,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "余命一年、男をかう",
+   "originalTitle": "余命一年、男をかう",
+   "posterPath": "/lkEQXQ1YpMCzCrLOBxHLGdCHLVb.jpg",
+   "releaseYear": 2026,
+   "synopsis": "柴咲コウ×赤楚衛二 W主演のNetflix映画『余命一年、男をかう』2026年世界独占配信",
+   "genres": [
+    "ロマンス",
+    "ドラマ",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "風間太樹"
+   ],
+   "cast": [
+    "柴咲コウ",
+    "赤楚衛二",
+    "筒井道隆",
+    "西田尚美",
+    "鳴海唯",
+    "宮世琉弥",
+    "近藤公園",
+    "濱田マリ"
+   ],
+   "runtime": 109,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "28": {
+   "tmdbId": 90293,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "攻殻機動隊 SAC_2045",
+   "originalTitle": "攻殻機動隊 SAC_2045",
+   "posterPath": "/8vfXWaTHkD9DHup0VD8gtHeE2wn.jpg",
+   "releaseYear": 2020,
+   "synopsis": "世界が直面する深刻な金融危機と、AIを駆使した\"サスティナブル・ウォー\"の脅威。サイバー空間でうごめく人類滅亡の危機と戦うべく、公安9課が再び動き出す。",
+   "genres": [
+    "アニメーション",
+    "ドラマ",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "士郎正宗"
+   ],
+   "cast": [
+    "田中敦子",
+    "大塚明夫",
+    "山寺宏一",
+    "仲野裕",
+    "大川透",
+    "小野塚貴志",
+    "山口太郎",
+    "玉川砂記子"
+   ],
+   "runtime": 25,
+   "seasonCount": 2,
+   "episodeCount": 24,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "29": {
+   "tmdbId": 581389,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "スペース・スウィーパーズ",
+   "originalTitle": "승리호",
+   "posterPath": "/iFz0eyAY18wLv2KWiIjH8bKprsV.jpg",
+   "releaseYear": 2021,
+   "synopsis": "2092年、金になるゴミと見果てぬ夢を追いかけて、宇宙を駆け回る4人組が偶然見つけた子供のロボット。その裏には、一触即発の危険な秘密が隠されていた。",
+   "genres": [
+    "ドラマ",
+    "ファンタジー",
+    "サイエンスフィクション"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "조성희"
+   ],
+   "cast": [
+    "ソン・ジュンギ",
+    "キム・テリ",
+    "ユ・ヘジン",
+    "チン・ソンギュ",
+    "リチャード・アーミテージ",
+    "キム・ムヨル",
+    "박예린",
+    "Oh Ji-yul"
+   ],
+   "runtime": 136,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "31": {
+   "tmdbId": 81315,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "宇宙を駆けるよだか",
+   "originalTitle": "宇宙を駆けるよだか",
+   "posterPath": "/kUf5M8nXEFfTIqhc5J9zQ0kr3YI.jpg",
+   "releaseYear": 2018,
+   "synopsis": "明るくて容姿端麗な小日向“あゆみ”は、幼馴染で長年の思い人であった水本公史郎こと、“しろちゃん”に告白をされる。家族にも、友達にも、恋人にも恵まれたあゆみは順風満帆とも言える生活を手にし、期待を胸にしろちゃんとの初めてのデートの日を迎える。赤い月が出ている空の下、待ち合わせ場所に向かうあゆみに非通知の電話が掛かる。電話の相手は同じクラスの決して容姿が優れているとは言えない女子の海根然子。彼女の自殺予告に驚くあゆみは助けに行こうとするも、ビルから飛び降りる彼女の自殺現場に遭遇する。そして目を覚ますと、あゆみと海根の身体は入れ替わってしまっていた。\n\n彼氏であるしろちゃんに、家族、そして友達まで奪われてしまったあゆみ。周りの誰からも入れ替わってしまったことに気付かれず、その容姿も相まって、みんなから疎まれ虐げられる学校生活を送る羽目になるが、文化祭準備の日に転機が訪れる。学年の人気者でしろちゃんの親友である火賀俊平があゆみと海根が入れ替わっていることに気付いたのだ。\n\n元に戻る方法を模索しているうちに距離を近づけて行くあゆみと火賀。そんな二人の前に現れるのは入れ替わりを研究しているという宇金真緒。宇金によれば、入れ替わりをした人物は多数存在し、自身もまた入れ替わりをしたのだと語る。入れ替わりの条件は「赤月の日に行うこと」「なりたい相手に見られていること」「かならず死ぬこと」の三つ。しかし、それと同時に彼女が語るのは「同じことを繰り返しても元には戻れず、どちらかが死んでしまう」という衝撃の事実だった。",
+   "genres": [
+    "ドラマ",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "Shiki Kawabata",
+    "岡田道尚",
+    "松山博昭"
+   ],
+   "cast": [
+    "富田望生",
+    "清原果耶",
+    "重岡大毅",
+    "神山智洋",
+    "関めぐみ",
+    "六角慎司",
+    "鈴木美羽",
+    "霧島れいか"
+   ],
+   "runtime": 40,
+   "seasonCount": 1,
+   "episodeCount": 6,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "32": {
+   "tmdbId": 222972,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "ペンディングトレイン―8時23分、明日 君と",
+   "originalTitle": "ペンディングトレイン―8時23分、明日 君と",
+   "posterPath": "/ydie9S4sYSoFraqz28ndwg8jKbu.jpg",
+   "releaseYear": 2023,
+   "synopsis": "8時23分、いつもと変わらない朝。都心へと向かう電車では、SNSをチェックしたり動画を見たりとほとんどの乗客がスマートフォンを見ていた。昨日と同じ今日を迎える、誰もがそう思っていた。しかし、突如として都心へと向かう電車の一両が未来の荒廃した世界にワープしてしまう。SNSはおろかスマートフォン自体が役に立たない世界に突然放り出された乗客たち。偶然か運命か･･･乗り合わせていた乗客たちによる、生き抜くためのサバイバル生活が幕を開ける。",
+   "genres": [
+    "ドラマ",
+    "SF・ファンタジー",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "岡本伸吾",
+    "加藤尚樹",
+    "田中健太"
+   ],
+   "cast": [
+    "山田裕貴",
+    "赤楚衛二",
+    "上白石萌歌",
+    "井之脇海",
+    "古川琴音",
+    "藤原丈一郎",
+    "日向亘",
+    "片岡凜"
+   ],
+   "runtime": 58,
+   "seasonCount": 1,
+   "episodeCount": 10,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "33": {
+   "tmdbId": 207468,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "怪獣８号",
+   "originalTitle": "怪獣８号",
+   "posterPath": "/A6JOsCdFFTxtbDnKAfE0iY6jOiE.jpg",
+   "releaseYear": 2024,
+   "synopsis": "日常的に怪獣が人々をおびやかす世界。怪獣を討伐する「日本防衛隊」への入隊を志していた日比野カフカは、いつしかその夢を諦め、怪獣専門清掃業者で働いていた。「二人で怪獣を全滅させよう」かつてそう誓い合った幼なじみの第3部隊隊長・亜白ミナの活躍と、防衛隊を目指す後輩・市川レノとの出会いをきっかけに再び夢を追い始めるカフカ。しかしその矢先、謎の小型怪獣によって巨大な力をもつ“怪獣に変身”してしまう！『怪獣8号』と名付けられた日本中から追われる存在になったカフカは、それでも防衛隊員への夢を諦めず、怪獣災害に立ち向かうのだった――。",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "福西勝也",
+    "瀬戸麻沙美",
+    "加藤渉",
+    "ファイルーズあい",
+    "河西健吾"
+   ],
+   "runtime": 24,
+   "seasonCount": 1,
+   "episodeCount": 23,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "34": {
+   "tmdbId": 86031,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "Dr.STONE",
+   "originalTitle": "Dr.STONE",
+   "posterPath": "/dLlnzbDCblBXcJqFLXyvN43NIwp.jpg",
+   "releaseYear": 2019,
+   "synopsis": "全人類が、謎の現象により一瞬で石化して数千年――。超人的な頭脳を持つ、根っからの科学少年・千空が目覚める。「石器時代から現代文明まで、科学史200万年を駆け上がってやる！」。絶体絶命の状況で、千空は仲間を探し、世界を取り戻すことを決意する！",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "コメディ",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "小林裕介",
+    "古川慎",
+    "市ノ瀬加那",
+    "沼倉愛美",
+    "佐藤元",
+    "河西健吾",
+    "鈴木崚汰",
+    "高橋花林"
+   ],
+   "runtime": 24,
+   "seasonCount": 4,
+   "episodeCount": 94,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Tencent Video",
+     "logoPath": "/oxcvMEkpFb1x4I2xQuRH1yxuJoA.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "35": {
+   "tmdbId": 117465,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "地獄楽",
+   "originalTitle": "地獄楽",
+   "posterPath": "/fusvI9NECr7T97JpRwV50BKTk9p.jpg",
+   "releaseYear": 2023,
+   "synopsis": "死罪を宣告された悪名高い忍は、極楽浄土とされる島から不老不死の仙薬を持ち帰れば無罪放免になると告げられる。面妖な島で始まる死罪人たちによる仙薬の争奪戦、生還するのは果たして誰だ!?",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "賀来ゆうじ"
+   ],
+   "cast": [
+    "小林千晃",
+    "花守ゆみり",
+    "木村良平",
+    "高橋李依",
+    "稲田徹",
+    "市川蒼",
+    "小市眞琴",
+    "山下大輝"
+   ],
+   "runtime": 25,
+   "seasonCount": 1,
+   "episodeCount": 25,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "36": {
+   "tmdbId": 112613,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "王様ランキング",
+   "originalTitle": "王様ランキング",
+   "posterPath": "/gaK5RosxmhRAtE2sX757dyICLJM.jpg",
+   "releaseYear": 2021,
+   "synopsis": "国の豊かさ、抱えている強者どもの数、そして王様自身がいかに勇者のごとく強いか、それらを総合的にランキングしたもの、それが〝王様ランキング〟である。主人公のボッジは、王様ランキング７位のボッス王が統治する王国の第一王子として生まれた。ところがボッジは、生まれつき耳が聞こえず、まともに剣すら振れぬほど非力であり、家臣はもちろん民衆からも「とても王の器ではない」と蔑まれていた。そんなボッジにできた初めての友達、カゲ。カゲとの出会い、そして小さな勇気によって、ボッジの人生は大きく動きだす———— 。",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "日向未南",
+    "村瀬歩",
+    "梶裕貴",
+    "江口拓也",
+    "上田燿司",
+    "山下大輝"
+   ],
+   "runtime": 23,
+   "seasonCount": 1,
+   "episodeCount": 23,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "37": {
+   "tmdbId": 75214,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "ヴァイオレット・エヴァーガーデン",
+   "originalTitle": "ヴァイオレット・エヴァーガーデン",
+   "posterPath": "/2pV3XjjwRjevbaHoWH0Z3orOSrL.jpg",
+   "releaseYear": 2018,
+   "synopsis": "元軍人のヴァイオレット・エヴァーガーデンが見つけたのは、手紙を代筆する仕事。手紙を通して触れる様々な人の気持ちが、愛を知らない彼女の心に優しい光を灯す。",
+   "genres": [
+    "アニメーション",
+    "ドラマ",
+    "SF・ファンタジー",
+    "戦争・政治"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "石川由依",
+    "浪川大輔",
+    "子安武人",
+    "遠藤綾",
+    "戸松遥",
+    "内山昂輝",
+    "茅原実里"
+   ],
+   "runtime": 25,
+   "seasonCount": 1,
+   "episodeCount": 13,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "38": {
+   "tmdbId": 31572,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "ルパン三世",
+   "originalTitle": "ルパン三世",
+   "posterPath": "/8jLjAXdwn3BsMB4VpOa8PSplgfw.jpg",
+   "releaseYear": 1971,
+   "synopsis": "狙った獲物は必ず奪う神出鬼没の大泥棒･ルパン三世は、名高き怪盗ルパンの孫。早撃ち0.3秒のクールなガンマン･次元大介、特異の斬鉄剣でどんなものでも真っ二つのサムライ･十三代石川五ェ門、謎の美女･峰不二子ら仲間とともに、ルパンを捕まえるのが生きがいの警視庁の敏腕･銭形警部や、白乾児、摩毛狂介たちの暗黒街の強敵を相手にしつつ、今日も華麗にお宝を頂戴するのだった。",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "栗田貫一",
+    "大塚明夫",
+    "沢城みゆき",
+    "浪川大輔",
+    "山寺宏一"
+   ],
+   "runtime": 25,
+   "seasonCount": 6,
+   "episodeCount": 300,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "39": {
+   "tmdbId": 13916,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "anime",
+   "title": "DEATH NOTE",
+   "originalTitle": "DEATH NOTE",
+   "posterPath": "/iigTJJskR1PcjjXqxdyJwVB3BoU.jpg",
+   "releaseYear": 2006,
+   "synopsis": "｢そのノートに名前を書かれた人間は死ぬ｣という力を持つ、死神が落とした恐るべき“デスノート”。天才的な頭脳を持ち、退屈を持て余していた高校生･夜神月（ヤガミ･ライト）がそれを拾った時から、すべては始まった。デスノートを使って、世の中に溢れる犯罪者たちに次々と死の制裁を下していく月は、いつしか“キラ”と呼ばれるようになる。果たして月＝キラは、世界を救う救世主なのか。それとも独裁的な殺人者なのか。キラを崇拝する者、その行為を否定する者。世界は大きく揺れ動いていく。",
+   "genres": [
+    "アニメーション",
+    "ミステリー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "宮野真守",
+    "山口勝平",
+    "中村獅童",
+    "平野綾",
+    "日髙のり子",
+    "佐々木望",
+    "斉藤貴美子",
+    "内田直哉"
+   ],
+   "runtime": 22,
+   "seasonCount": 1,
+   "episodeCount": 37,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Toei Animation Channel  Amazon Channel",
+     "logoPath": "/4kODbXQH5KChF2iIxYz80pmV6c1.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "40": {
+   "tmdbId": 846967,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "嘘喰い",
+   "originalTitle": "嘘喰い",
+   "posterPath": "/pA1S8w1bcjowzcu41re6bfZmsFx.jpg",
+   "releaseYear": 2022,
+   "synopsis": "賞金20億円。嘘を見破れなければ、即死──。天才ギャンブラー“ 嘘喰い”こと斑目貘が、日本の政財界そして裏社会をも支配する会員制の闇ギャンブル倶楽部“賭郎”に挑む。待ち受けるのは、賭郎の会員権を所有する一流の権力者にして欲望にまみれた凶悪なイカサマ師たちとの頭脳心理戦。嘘vs嘘。イカサマも、殺し合いも、なんでもありの≪超危険なデス・ゲーム≫に没入せよ。",
+   "genres": [
+    "ミステリー",
+    "スリラー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "中田秀夫"
+   ],
+   "cast": [
+    "横浜流星",
+    "佐野勇斗",
+    "白石麻衣",
+    "本郷奏多",
+    "森崎ウィン",
+    "櫻井海音",
+    "村上弘明",
+    "三浦翔平"
+   ],
+   "runtime": 119,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "41": {
+   "tmdbId": 81181,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "dele",
+   "originalTitle": "dele",
+   "posterPath": "/wkwXhNhoBBaPKfd3VEZ4FKH53Vu.jpg",
+   "releaseYear": 2018,
+   "synopsis": "ベストセラー作家・本多孝好の原案・脚本を、山田孝之と菅田将暉の共演でTVドラマ化。クライアントの依頼で、死後に不都合なデジタル記録を抹消する“dele．life”のスタッフが、さまざまなケースに挑む。",
+   "genres": [
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "常廣丈太",
+    "瀧本智行"
+   ],
+   "cast": [
+    "山田孝之",
+    "菅田将暉",
+    "麻生久美子"
+   ],
+   "runtime": 45,
+   "seasonCount": 1,
+   "episodeCount": 8,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "TELESA Amazon Channel",
+     "logoPath": "/4VCejDvZLh7zIFNvrNPDfgSbPQi.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "42": {
+   "tmdbId": 110534,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "D.P. -脱走兵追跡官-",
+   "originalTitle": "D.P.",
+   "posterPath": "/rotQbixZeEMtrJkNLQmQMi8Acwy.jpg",
+   "releaseYear": 2021,
+   "synopsis": "兵役義務により入隊した青年が、軍の脱走兵を追跡する部隊に配属されることに。任務にあたるなかで、脱走した兵士たちがそれぞれ抱える過酷な現実が見えてくる。",
+   "genres": [
+    "ドラマ",
+    "アクション・アドベンチャー",
+    "犯罪"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "김보통",
+    "한준희"
+   ],
+   "cast": [
+    "チョン・ヘイン",
+    "ク・ギョファン",
+    "キム・ソンギュン",
+    "ソン・ソック",
+    "チョン・ソギョン",
+    "キム・ジヒョン",
+    "지진희",
+    "Bae Na-ra"
+   ],
+   "runtime": 50,
+   "seasonCount": 2,
+   "episodeCount": 12,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "43": {
+   "tmdbId": 849869,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "キル・ボクスン",
+   "originalTitle": "길복순",
+   "posterPath": "/fL3ZY5kppnSGRhjDoPUcxTCp9ly.jpg",
+   "releaseYear": 2023,
+   "synopsis": "暗殺業界トップの組織MKで伝説の超一流の殺し屋でありながら、10代の娘をもつシングルマザーとして二重生活をおくるキル・ボクスン。殺しのミッションと人を育てるミッションの狭間で葛藤しながら、キル・ボクスンはMKの任務の完全遂行を拒否し、戦いを余儀なくされる。",
+   "genres": [
+    "アクション",
+    "ドラマ",
+    "スリラー",
+    "犯罪"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "변성현"
+   ],
+   "cast": [
+    "チョン・ドヨン",
+    "ソル・ギョング",
+    "김시아",
+    "イ・ソム",
+    "ク・ギョファン",
+    "キム・ソンオ",
+    "イ・ヨン",
+    "ファン・ジョンミン"
+   ],
+   "runtime": 137,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "44": {
+   "tmdbId": 874476,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "さがす",
+   "originalTitle": "さがす",
+   "posterPath": "/pvWQzNklnNPiCcoHGD7kUqj4TBO.jpg",
+   "releaseYear": 2022,
+   "synopsis": "大阪の下町で平穏に暮らす原田智と中学生の娘・楓。「お父ちゃんな、指名手配中の連続殺人犯見たんや。捕まえたら300万もらえるで」。いつもの冗談だと思い、相手にしない楓。しかし、その翌朝、 智は煙のように姿を消す。ひとり残された楓は孤独と不安を押し殺し、父をさがし始めるが、警察でも「大人の失踪は結末が決まっている」と相手にもされない。それでも必死に手掛かりを求めていくと、日雇い現場に父の名前があることを知る。「お父ちゃん!」だが、その声に振り向いたのはまったく知らない若い男だった。失意に打ちひしがれる中、無造作に貼られた「連続殺人犯」の指名手配チラシを見る 楓。そこには日雇い現場で振り向いた若い男の顔写真があった――。",
+   "genres": [
+    "スリラー",
+    "ミステリー",
+    "ドラマ",
+    "犯罪"
+   ],
+   "country": [
+    "日本",
+    "韓国"
+   ],
+   "directors": [
+    "片山慎三"
+   ],
+   "cast": [
+    "佐藤二朗",
+    "伊東蒼",
+    "清水尋也",
+    "森田望智",
+    "松岡依都美",
+    "Shotaro Ishii",
+    "成嶋瞳子",
+    "品川徹"
+   ],
+   "runtime": 124,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "45": {
+   "tmdbId": 61888,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "悪人",
+   "originalTitle": "悪人",
+   "posterPath": "/icrnqu2se8RDPENEMzDesyc2YE6.jpg",
+   "releaseYear": 2010,
+   "synopsis": "若い女性保険外交員の殺人事件。ある金持ちの大学生に疑いがかけられるが、捜査を進めるうちに土木作業員、清水祐一（妻夫木聡）が真犯人として浮上してくる。しかし、祐一はたまたま出会った光代（深津絵里）を車に乗せ、警察の目から逃れるように転々とする。そして、次第に二人は強く惹かれ合うようになり……。",
+   "genres": [
+    "犯罪",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "李相日"
+   ],
+   "cast": [
+    "妻夫木聡",
+    "深津絵里",
+    "岡田将生",
+    "満島ひかり",
+    "塩見三省",
+    "池内万作",
+    "光石研",
+    "余貴美子"
+   ],
+   "runtime": 140,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "46": {
+   "tmdbId": 1356890,
+   "mediaType": "movie",
+   "match": "auto",
+   "suggestedType": "movie",
+   "title": "正体",
+   "originalTitle": "正体",
+   "posterPath": "/cU5xE8RY51yywGmMmYJ23znOoCi.jpg",
+   "releaseYear": 2024,
+   "synopsis": "染井為人による同名小説を「ヴィレッジ」の藤井道人監督、横浜流星主演で映画化。殺人事件の容疑者として逮捕された鏑木が脱走した。又貫刑事は、潜伏し逃走を続ける鏑木と各地で出会った沙耶香らを取り調べるが、それぞれ出会った鏑木はまったく別人の姿であった。",
+   "genres": [
+    "スリラー",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "藤井道人"
+   ],
+   "cast": [
+    "横浜流星",
+    "吉岡里帆",
+    "森本慎太郎",
+    "山田杏奈",
+    "山田孝之",
+    "遠藤雄弥",
+    "原日出子",
+    "木野花"
+   ],
+   "runtime": 120,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "48": {
+   "tmdbId": 70626,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "秘密の森",
+   "originalTitle": "비밀의 숲",
+   "posterPath": "/3UdGJF8LzGobRgGPYUx8t8LlmiC.jpg",
+   "releaseYear": 2017,
+   "synopsis": "頭は切れるが冷徹な検察官と、破天荒な女性刑事。正反対の2人が追うのは、ある殺人事件の真相。だが彼らの前に、組織内部に横行する深刻な不正が立ちはだかる。",
+   "genres": [
+    "犯罪",
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "이수연",
+    "アン・ギルホ",
+    "유제원",
+    "박현석"
+   ],
+   "cast": [
+    "チョ・スンウ",
+    "ペ・ドゥナ",
+    "イ・ジュニョク",
+    "チョン・ヘジン",
+    "チェ・ムソン",
+    "ユン・セア",
+    "박성근",
+    "チョン・ベス"
+   ],
+   "runtime": null,
+   "seasonCount": 2,
+   "episodeCount": 32,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Tencent Video",
+     "logoPath": "/oxcvMEkpFb1x4I2xQuRH1yxuJoA.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "49": {
+   "tmdbId": 110356,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "マイネーム: 偽りと復讐",
+   "originalTitle": "마이 네임",
+   "posterPath": "/9sj6qpJPYrnDmAZ87PM6myWcrcF.jpg",
+   "releaseYear": 2021,
+   "synopsis": "自分のすぐそばで命を奪われた父。たとえどんな代償を払うことになろうとも必ず仇(かたき)を討つと誓った娘は、犯罪組織のボスの後ろ盾を受け、警察へと潜入する。",
+   "genres": [
+    "犯罪",
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "キム・ジンミン",
+    "Kim Ba-da"
+   ],
+   "cast": [
+    "ハン・ソヒ",
+    "パク・ヒスン",
+    "アン・ボヒョン",
+    "キム・サンホ",
+    "イ・ハクジュ",
+    "チャン・ユル"
+   ],
+   "runtime": 50,
+   "seasonCount": 1,
+   "episodeCount": 8,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "50": {
+   "tmdbId": 261792,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "全領域異常解決室",
+   "originalTitle": "全領域異常解決室",
+   "posterPath": "/7upF6jPqMvgouYioPiFKYHQaF6Y.jpg",
+   "releaseYear": 2024,
+   "synopsis": "最先端科学でも解決できない“不可解な異常事件”に挑む本格ミステリードラマ",
+   "genres": [
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "広瀬アリス",
+    "藤原竜也",
+    "小日向文世",
+    "柿澤勇人",
+    "福本莉子",
+    "小宮璃央",
+    "迫田孝也",
+    "成海璃子"
+   ],
+   "runtime": 44,
+   "seasonCount": 1,
+   "episodeCount": 10,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD Channel Amazon Channel",
+     "logoPath": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "51": {
+   "tmdbId": 204541,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "三体",
+   "originalTitle": "三体",
+   "posterPath": "/q2sNliRi4j0ncXKUO1x0MldR20A.jpg",
+   "releaseYear": 2023,
+   "synopsis": "三部作のうち、第一作の映像化。１話40分前後、全24話。霊河影視制作（上海）有限公司などにより制作され、2023年1月15日放送・配信開始。中国ではテンセント・ビデオによって配信され、記録的なヒットとなった。日本ではまずWOWOWで2023年10月より放送・配信されたのち、U-NEXT、Amazonプライムビデオでも配信された。",
+   "genres": [
+    "ドラマ",
+    "ミステリー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "中国"
+   ],
+   "directors": [
+    "Liu Cixin",
+    "杨磊"
+   ],
+   "cast": [
+    "张鲁一",
+    "ユー・ホーフェイ",
+    "Chen Jin",
+    "王子文",
+    "Lin Yongjian",
+    "李小冉",
+    "He Dujuan",
+    "王传君"
+   ],
+   "runtime": 43,
+   "seasonCount": 1,
+   "episodeCount": 30,
+   "watchProviders": [
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Tencent Video",
+     "logoPath": "/oxcvMEkpFb1x4I2xQuRH1yxuJoA.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "52": {
+   "tmdbId": 704933,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "仮面病棟",
+   "originalTitle": "仮面病棟",
+   "posterPath": "/vp34eSLZFqwBklvUHTCmghbGNW1.jpg",
+   "releaseYear": 2020,
+   "synopsis": "医師の速水(坂口健太郎)は、一日だけの当直医として元精神科病院に出向く。だがピエロの仮面をかぶった凶悪犯が突然押し入り、傷を負った女子大生の瞳(永野芽郁)と院内に立てこもる。速水は、身元のわからない64人の入院患者や病院の職員らと一緒に監禁されてしまう。",
+   "genres": [
+    "犯罪",
+    "スリラー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "木村ひさし"
+   ],
+   "cast": [
+    "坂口健太郎",
+    "永野芽郁",
+    "内田理央",
+    "江口のりこ",
+    "大谷亮平",
+    "高嶋政伸",
+    "笠松将"
+   ],
+   "runtime": 114,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "54": {
+   "tmdbId": 138183,
+   "mediaType": "tv",
+   "match": "estimated",
+   "suggestedType": "anime",
+   "title": "賭ケグルイ双",
+   "originalTitle": "賭ケグルイ双",
+   "posterPath": "/br3Xpg2jIpg5Gb0tG5TXjg4uGbj.jpg",
+   "releaseYear": 2022,
+   "synopsis": "この名門学園では、人間の優劣はギャンブルの勝敗だけで決まる。弱肉強食の階級制度の頂点に上り詰めるため、早乙女芽亜里は人生のすべてを賭けた勝負に挑む!",
+   "genres": [
+    "アニメーション",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "田中美海",
+    "本泉莉奈",
+    "大地葉",
+    "甲斐田裕子",
+    "古賀葵",
+    "山下誠一郎",
+    "高橋李依"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 6,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "56": {
+   "tmdbId": 94423,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "日本沈没2020",
+   "originalTitle": "日本沈没2020",
+   "posterPath": "/4cAN9ssi58CLuS3HCv3TfyVXPQp.jpg",
+   "releaseYear": 2020,
+   "synopsis": "度重なる地震に見舞われ、沈み始めた日本列島。この未曽有の惨事に混乱しつつも、前向きに生き抜こうと模索する一家には、数々の試練が待ち受けていた。",
+   "genres": [
+    "SF・ファンタジー",
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "武田太一",
+    "上田麗奈",
+    "村中知",
+    "佐々木優子",
+    "てらそままさき",
+    "吉野裕行",
+    "森なな子",
+    "小野賢章"
+   ],
+   "runtime": 24,
+   "seasonCount": 1,
+   "episodeCount": 10,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "57": {
+   "tmdbId": 93405,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "イカゲーム",
+   "originalTitle": "오징어 게임",
+   "posterPath": "/uFWMh3Z7ysKqMgyIpOTFr9Abk4e.jpg",
+   "releaseYear": 2021,
+   "synopsis": "勝てば天国、負ければ...即死。賞金に目がくらみ、奇妙なゲームへの招待を受けた参加者たちを待っていたのは、昔ながらの遊びを取り入れた死のゲームだった。",
+   "genres": [
+    "アクション・アドベンチャー",
+    "ミステリー",
+    "ドラマ"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "ファン・ドンヒョク"
+   ],
+   "cast": [
+    "イ・ジョンジェ",
+    "イム・シワン",
+    "ウィ・ハジュン",
+    "チョ・ユリ",
+    "イ・ビョンホン",
+    "パク・ギュヨン",
+    "カン・エシム",
+    "イ・ジヌク"
+   ],
+   "runtime": null,
+   "seasonCount": 3,
+   "episodeCount": 22,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "58": {
+   "tmdbId": 646380,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "ドント・ルック・アップ",
+   "originalTitle": "Don't Look Up",
+   "posterPath": "/mlxtSGTXaSL9rHb9rGU1TuOhH4R.jpg",
+   "releaseYear": 2021,
+   "synopsis": "巨大彗星(すいせい)が地球に衝突する可能性を必死に訴える2人の天文学者。だが、情報が氾濫する世界では、誰ひとりとしてその警告に耳を貸そうとせず...。",
+   "genres": [
+    "コメディ",
+    "サイエンスフィクション",
+    "ドラマ"
+   ],
+   "country": [
+    "アメリカ"
+   ],
+   "directors": [
+    "アダム・マッケイ"
+   ],
+   "cast": [
+    "レオナルド・ディカプリオ",
+    "ジェニファー・ローレンス",
+    "メリル・ストリープ",
+    "ケイト・ブランシェット",
+    "ロブ・モーガン",
+    "ジョナ・ヒル",
+    "マーク・ライランス",
+    "タイラー・ペリー"
+   ],
+   "runtime": 138,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "59": {
+   "tmdbId": 101,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "レオン",
+   "originalTitle": "Léon",
+   "posterPath": "/jpsi605USbZyqCvgOU3RZ5yzm25.jpg",
+   "releaseYear": 1994,
+   "synopsis": "リュック・ベッソンが初めてアメリカで製作したバイオレンス・アクション。ニューヨークを舞台に、凄腕の殺し屋レオンと12歳の少女マチルダの純愛と戦いを描く。大都会の片隅で出会った孤独なふたりの葛藤と壮絶なアクション・シーンがほどよくブレンドされた佳作。",
+   "genres": [
+    "犯罪",
+    "ドラマ",
+    "アクション"
+   ],
+   "country": [
+    "フランス"
+   ],
+   "directors": [
+    "リュック・ベッソン"
+   ],
+   "cast": [
+    "ジャン・レノ",
+    "ナタリー・ポートマン",
+    "ゲイリー・オールドマン",
+    "ダニー・アイエロ",
+    "ピーター・アペル",
+    "マイケル・バダルコ",
+    "エレン・グリーン",
+    "フランク・センジャー"
+   ],
+   "runtime": 133,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "60": {
+   "tmdbId": 85937,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "鬼滅の刃",
+   "originalTitle": "鬼滅の刃",
+   "posterPath": "/7Uj6vqmznWQ3w3hpQ1eIY9mMyMw.jpg",
+   "releaseYear": 2019,
+   "synopsis": "時は大正、日本。炭を売る心優しき少年・炭治郎は、ある日鬼に家族を皆殺しにされてしまう。さらに唯一生き残った妹の禰豆子は鬼に変貌してしまった。絶望的な現実に打ちのめされる炭治郎だったが妹を人間に戻し、家族を殺した鬼を討つため、“鬼狩り”の道を進む決意をする。人と鬼とが織りなす哀しき兄妹の物語が、今、始まる――！",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "花江夏樹",
+    "鬼頭明里",
+    "下野紘",
+    "松岡禎丞"
+   ],
+   "runtime": null,
+   "seasonCount": 5,
+   "episodeCount": 63,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "61": {
+   "tmdbId": 114410,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "チェンソーマン",
+   "originalTitle": "チェンソーマン",
+   "posterPath": "/mIz0eKhzHuSPeRSePCyoCt9bKVp.jpg",
+   "releaseYear": 2022,
+   "synopsis": "『チェンソーの悪魔』ポチタと共にデビルハンターとして暮らす少年デンジ。親が遺した借金返済のため、ド底辺の日々を送る中、裏切りに遭い殺されてしまう。薄れる意識の中、デンジはポチタと契約し、悪魔の心臓 を持つもの 『 チェンソーマン 』として蘇る ── 。",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "SF・ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "戸谷菊之介",
+    "楠木ともり",
+    "坂田将吾",
+    "ファイルーズあい"
+   ],
+   "runtime": 24,
+   "seasonCount": 1,
+   "episodeCount": 12,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Toei Animation Channel  Amazon Channel",
+     "logoPath": "/4kODbXQH5KChF2iIxYz80pmV6c1.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "62": {
+   "tmdbId": 221731,
+   "mediaType": "movie",
+   "match": "estimated",
+   "suggestedType": "movie",
+   "title": "るろうに剣心 京都大火編",
+   "originalTitle": "るろうに剣心 京都大火編",
+   "posterPath": "/e5F3ll1UJrBsp9TJVeGLackXqFn.jpg",
+   "releaseYear": 2014,
+   "synopsis": "かつて人斬り抜刀斎と呼ばれた伝説の人斬り、緋村剣心。刀を置き、平穏な生活を送る剣心は、ある日、剣心から影の人斬り役を引き継いだ志々雄真実が京都でその名をとどろかせていることを知る。政府が派遣した討伐隊は志々雄を前に成すすべがなく、最後の望みとして剣心に白羽の矢が立つ。志々雄の野心を阻止すべく剣心は京都へ向かう。",
+   "genres": [
+    "アクション",
+    "アドベンチャー",
+    "ドラマ",
+    "ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "大友啓史"
+   ],
+   "cast": [
+    "佐藤健",
+    "武井咲",
+    "青木崇高",
+    "大八木 凯斗",
+    "蒼井優",
+    "江口洋介",
+    "伊勢谷友介",
+    "田中泯"
+   ],
+   "runtime": 139,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "63": {
+   "tmdbId": 698201,
+   "mediaType": "movie",
+   "match": "estimated",
+   "suggestedType": "movie",
+   "title": "東京リベンジャーズ",
+   "originalTitle": "東京リベンジャーズ",
+   "posterPath": "/q8Q2VBt3rP0cSG3hNerIQuogLAH.jpg",
+   "releaseYear": 2021,
+   "synopsis": "フリーターの花垣武道(北村匠海)は、高校時代の恋人・橘日向(今田美桜)と彼女の弟・直人(杉野遥亮)が殺され、その死に巨悪組織・東京卍會が絡んでいることを知る。その翌日、駅のホームで何者かに押されて電車が迫る線路に落とされる武道。目を覚ますと不良だった10年前にタイムリープしていた。そんな武道の前に直人が現れ、彼と握手した武道は再び現代に戻る。",
+   "genres": [
+    "アクション",
+    "ドラマ",
+    "犯罪"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "英勉"
+   ],
+   "cast": [
+    "北村匠海",
+    "吉沢亮",
+    "山田裕貴",
+    "杉野遥亮",
+    "今田美桜",
+    "磯村勇斗",
+    "鈴木伸之",
+    "間宮祥太朗"
+   ],
+   "runtime": 119,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "64": {
+   "tmdbId": 619803,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "犯罪都市 THE ROUNDUP",
+   "originalTitle": "범죄도시 2",
+   "posterPath": "/3BhBTW0DZOjOEzOcjg2xJdEDthg.jpg",
+   "releaseYear": 2022,
+   "synopsis": "韓国の人気犯罪アクション「犯罪都市」(2017) の続編。前作に続いて人気俳優マ・ドンソクが演じるワイルドな刑事マ・ソクトは、冷酷な凶悪犯罪者と対決へ。\r ソウル・クムチョン区の警察の“強力班”に所属する刑事マ・ソクトとその上司チョン・イルマン班長は、ベトナムで自首をした韓国人犯罪者の身柄を引き取ろうと現地に飛ぶ。犯罪者はカンという男に命を狙われているので自首したと語り、カンはベトナムに来た裕福な韓国人を誘拐しては身代金を奪っていた。マ・ソクトは現地の警察に制止されながらも、カンを捕まえようと捜査を開始。だがカンは韓国に向かい、マ・ソクトは後を追う。",
+   "genres": [
+    "アクション",
+    "犯罪",
+    "スリラー"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "イ・サンヨン"
+   ],
+   "cast": [
+    "マ・ドンソク",
+    "ソン・ソック",
+    "チェ・グィファ",
+    "パク・ジファン",
+    "ホ・ドンウォン",
+    "하준",
+    "정재광",
+    "남문철"
+   ],
+   "runtime": 106,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "65": {
+   "tmdbId": 97766,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "RUGAL/ルーガル",
+   "originalTitle": "루갈",
+   "posterPath": "/odeAVdSnvzC3r4NzjK7MyKKeJ3J.jpg",
+   "releaseYear": 2020,
+   "synopsis": null,
+   "genres": [
+    "アクション・アドベンチャー",
+    "犯罪",
+    "ミステリー",
+    "SF・ファンタジー",
+    "ドラマ"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "Rilmae",
+    "Do Hyun-joo",
+    "Kang Chul Woo"
+   ],
+   "cast": [
+    "チェ・ジニョク",
+    "パク・ソンウン",
+    "조동혁",
+    "정혜인",
+    "김민상",
+    "Park Sun-ho",
+    "パク・チョンハク",
+    "チ・デハン"
+   ],
+   "runtime": 60,
+   "seasonCount": 1,
+   "episodeCount": 16,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "66": {
+   "tmdbId": 429617,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "スパイダーマン：ファー・フロム・ホーム",
+   "originalTitle": "Spider-Man: Far From Home",
+   "posterPath": "/tUzyW3leKzGeIcsMWld6cYhcO4b.jpg",
+   "releaseYear": 2019,
+   "synopsis": "高校生のピーター・パーカー(トム・ホランド)は夏休みを迎え、親友のネッド(ジェイコブ・バタロン)やMJ(ゼンデイヤ)たちとヨーロッパへ旅行に行く。ところが、ピーターの前にS.H.I.E.L.D.の長官ニック・フューリー(サミュエル・L・ジャクソン)が現れ、彼にある任務を与える。",
+   "genres": [
+    "アクション",
+    "アドベンチャー",
+    "サイエンスフィクション"
+   ],
+   "country": [
+    "アメリカ"
+   ],
+   "directors": [
+    "ジョン・ワッツ"
+   ],
+   "cast": [
+    "トム・ホランド",
+    "ジェイク・ギレンホール",
+    "サミュエル・Ｌ・ジャクソン",
+    "マリサ・トメイ",
+    "ジョン・ファヴロー",
+    "ゼンデイヤ",
+    "ジェイコブ・バタロン",
+    "トニー・レヴォロリ"
+   ],
+   "runtime": 129,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Apple TV",
+     "logoPath": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Apple TV Amazon Channel",
+     "logoPath": "/rerVCu9auZrgxTTiZu1criqrQzg.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Sony Pictures Core Amazon Channel",
+     "logoPath": "/uNyIRlzYb0Hf7Ix6Q3MKms0ERgA.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "67": {
+   "tmdbId": 361358,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "信長協奏曲",
+   "originalTitle": "信長協奏曲",
+   "posterPath": "/7m7NfEha4TllaCrtq9Sq22rPhhk.jpg",
+   "releaseYear": 2016,
+   "synopsis": "戦国時代にタイムスリップした高校生サブローは、くしくも自分と同じ顔をした織田信長と出会い、信長として生きることになった。だが本来の歴史通りなら、まもなく信長には最期の時が訪れるはず。そんな中、信長を恨む秀吉は暗殺を企て、明智光秀となってサブローを見守る本物の信長も、嫉妬から寝首をかく機をうかがいだす。サブローは運命にあらがって生き抜くことを決意し、本能寺で愛する帰蝶と結婚しようとする。",
+   "genres": [
+    "アクション",
+    "コメディ",
+    "サイエンスフィクション"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "松山博昭"
+   ],
+   "cast": [
+    "小栗旬",
+    "柴咲コウ",
+    "向井理",
+    "山田孝之",
+    "水原希子",
+    "藤ヶ谷太輔",
+    "濱田岳",
+    "古田新太"
+   ],
+   "runtime": 126,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "68": {
+   "tmdbId": 1133602,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "BAD LANDS バッド・ランズ",
+   "originalTitle": "BAD LANDS バッド・ランズ",
+   "posterPath": "/AeF7NhtpTo2OCZ0o9a7wBRUfjaE.jpg",
+   "releaseYear": 2023,
+   "synopsis": "＜持たざる者＞が＜持つ者＞から生きる糧を掠め取り生き延びてきたこの地で、特殊詐欺に加担するネリと弟・ジョー。二人はある夜、思いがけず“億を超える大金”を手にしてしまう。 金を引き出す…ただそれだけだったはずの2人に迫る様々な巨悪。 果たして、ネリとジョーはこの＜危険な地＞から逃れられるのか。",
+   "genres": [
+    "アクション",
+    "犯罪"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "原田眞人"
+   ],
+   "cast": [
+    "安藤サクラ",
+    "山田涼介",
+    "生瀬勝久",
+    "吉原光夫",
+    "大場泰正",
+    "淵上泰史",
+    "縄田カノン",
+    "Suzume Kamo"
+   ],
+   "runtime": 143,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "70": {
+   "tmdbId": 223500,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "WIND BREAKER",
+   "originalTitle": "WIND BREAKER",
+   "posterPath": "/c2wfIKUPcQY0tiyiOmY7ItHtNO9.jpg",
+   "releaseYear": 2024,
+   "synopsis": "人を傷つける者、物を壊す者、悪意を持ち込む者何人も例外なくボウフウリンが粛清する――！偏差値は最底辺、ケンカは最強。超不良校として名高い、風鈴高校。その「てっぺん」を獲るため、街の“外”からやってきた高校1年生・桜遥。しかし、現在の風鈴高校は“防風鈴”と名付けられ街を守る集団となっていて――！？不良高校生・桜の英雄伝説、ここに開幕！",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "内田雄馬",
+    "千葉翔也",
+    "内山昂輝",
+    "島﨑信長",
+    "鈴木崚汰",
+    "中村悠一",
+    "小林千晃",
+    "松岡洋平"
+   ],
+   "runtime": 24,
+   "seasonCount": 1,
+   "episodeCount": 25,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "71": {
+   "tmdbId": 131041,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "ブルーロック",
+   "originalTitle": "ブルーロック",
+   "posterPath": "/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg",
+   "releaseYear": 2022,
+   "synopsis": "世界一のエゴイストでなければ、世界一のストライカーにはなれない。日本を W 杯優勝に導くストライカーを育てるため、日本フットボール連合はある計画を立ち上げる。その名も、“ブルーロック（青い監獄）”プロジェクト。集められたのは 300 人の高校生。しかも、全員 FW（フォワード）。299 人のサッカー生命を犠牲に誕生する、日本サッカーに革命を起こすストライカーとは──？",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "浦和希",
+    "海渡翼",
+    "小野友樹",
+    "斉藤壮馬",
+    "諏訪部順一",
+    "島﨑信長",
+    "松岡禎丞"
+   ],
+   "runtime": 23,
+   "seasonCount": 1,
+   "episodeCount": 38,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "72": {
+   "tmdbId": 45783,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "黒子のバスケ",
+   "originalTitle": "黒子のバスケ",
+   "posterPath": "/fAzQrphU6I8jLwvVyU63XrIFIpt.jpg",
+   "releaseYear": 2012,
+   "synopsis": "帝光中学校バスケットボール部。部員数は100を超え、全中3連覇を誇る超強豪校。その輝かしい歴史の中でも特に「最強」と呼ばれ、無敗を誇った10年に1人の天才が5人同時にいた世代は、「キセキの世代」と呼ばれている。\n\nが、「キセキの世代」には奇妙な噂があった。誰も知らない、試合記録も無い、にもかかわらず、天才5人が一目置いていた選手がもう1人、「幻の6人目」がいたと。",
+   "genres": [
+    "アニメーション",
+    "コメディ",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "小野賢章",
+    "小野友樹",
+    "諏訪部順一",
+    "小野大輔",
+    "木村良平",
+    "神谷浩史",
+    "鈴村健一",
+    "斎藤千和"
+   ],
+   "runtime": 24,
+   "seasonCount": 3,
+   "episodeCount": 75,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "73": {
+   "tmdbId": 231873,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "忘却バッテリー",
+   "originalTitle": "忘却バッテリー",
+   "posterPath": "/k3HudWK59tnvyQmPKaV4rhma9cH.jpg",
+   "releaseYear": 2024,
+   "synopsis": "中学球界で名を馳せた完全無欠の剛腕投手・清峰葉流火、切れ者捕手の“智将”・要圭の怪物バッテリー。全国の強豪校からスカウトを受けていた彼らが進学したのは何故か野球無名校の東京都立小手指高校だった。さらに圭は記憶喪失で野球に関する知識も失っていた。そしてかつて彼らに敗れ散り野球から遠ざかっていた天才たちも、偶然同じ高校に入学しており…。",
+   "genres": [
+    "アニメーション",
+    "ドラマ",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "増田俊樹",
+    "宮野真守",
+    "阿座上洋平",
+    "島﨑信長",
+    "梶裕貴",
+    "山谷祥生",
+    "大塚剛央",
+    "石井マーク"
+   ],
+   "runtime": 24,
+   "seasonCount": 2,
+   "episodeCount": 13,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD Channel Amazon Channel",
+     "logoPath": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Toei Animation Channel  Amazon Channel",
+     "logoPath": "/4kODbXQH5KChF2iIxYz80pmV6c1.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "74": {
+   "tmdbId": 1188258,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "青春18x2 君へと続く道",
+   "originalTitle": "青春18x2 君へと続く道",
+   "posterPath": "/hLpopZEzeq8fqdSqgdhvatf9Rrw.jpg",
+   "releaseYear": 2024,
+   "synopsis": "始まりは18年前の台湾――  高校生・ジミーのバイト先に現れた日本から来た4つ年上のバックパッカー・アミ。ひと夏を同じ店で働き過ごすことになった2人だったが、次第にジミーはアミに淡い恋心を抱いていく。夜道をバイクで2人乗りしたり、映画を観に行ったり、2人の距離は縮まっていったが、突然、アミが日本に帰ることに。気持ちの整理がつかないジミーに、アミは“ひとつの約束”を提案する。  時が経ち、あるきっかけで久々に実家を訪れたジミーは、日本に戻ったアミから18年前に届いたハガキを見つける。  初恋の記憶がよみがえったジミーは、過去と向き合い、今を見つめるため、初めての日本での一人旅へ。アミとの思い出の曲を聞きながら列車に乗り、ジミーが向かうのは彼女の故郷。  ジミーはアミとの再会を果たせるのか―。",
+   "genres": [
+    "ロマンス",
+    "ドラマ"
+   ],
+   "country": [
+    "日本",
+    "台湾"
+   ],
+   "directors": [
+    "藤井道人"
+   ],
+   "cast": [
+    "許光漢",
+    "清原果耶",
+    "ジョセフ・チャン",
+    "道枝駿佑",
+    "黒木華",
+    "山中崇",
+    "松重豊",
+    "黒木瞳"
+   ],
+   "runtime": 124,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "75": {
+   "tmdbId": 736146,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "ヤクザと家族 The Family",
+   "originalTitle": "ヤクザと家族 The Family",
+   "posterPath": "/oXOx1RgVLC5nY7veyaqPi8C3vmW.jpg",
+   "releaseYear": 2021,
+   "synopsis": "1999年、覚せい剤が原因で父親を亡くした山本賢治は、柴咲組組長の柴咲博の危機を救ったことからヤクザの世界に足を踏み入れる。2005年、ヤクザとして名を上げていく賢治は、自分と似た境遇で育った女性と出会い、家族を守るための決断をする。それから時は流れ、2019年、14年間の刑務所暮らしを終えた賢治だったが、柴咲組は暴力団対策法の影響で激変していた。",
+   "genres": [
+    "犯罪",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "藤井道人"
+   ],
+   "cast": [
+    "綾野剛",
+    "舘ひろし",
+    "尾野真千子",
+    "北村有起哉",
+    "市原隼人",
+    "磯村勇斗",
+    "寺島しのぶ",
+    "二ノ宮隆太郎"
+   ],
+   "runtime": 136,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "76": {
+   "tmdbId": 447523,
+   "mediaType": "movie",
+   "match": "estimated",
+   "suggestedType": "movie",
+   "title": "闇金ウシジマくん ザ・ファイナル",
+   "originalTitle": "闇金ウシジマくん ザ・ファイナル",
+   "posterPath": "/8b7gkmNKEiD9IPzTyLapD0DJ0Fq.jpg",
+   "releaseYear": 2016,
+   "synopsis": "山田孝之が、違法な高金利で金を貸す闇金融業者・丑嶋馨に扮する「闇金ウシジマくん」シリーズの最終章。ウシジマが闇金融の世界に身を置くことになった過去の因縁が明らかにされる。ある日、ウシジマの中学時代の同級生・竹本優希がカウカウファイナンスに現れ、生活のための金を貸してほしいと言うが、ウシジマはその頼みを断る。金を借りられずに事務所を去った竹本は、住み込みで労働ができるという「純愛の家」に入居することになるが、「純愛の家」の実態は、入居者に過酷な労働を強いる貧困ビジネスだった。ウシジマの中学時代を知る竹本役を永山絢斗が演じ、真飛聖、真野恵里菜、YOUNG DAIS、安藤政信、間宮祥太朗ら豪華キャストがシリーズのラストを飾る。",
+   "genres": [
+    "コメディ",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "山口雅俊"
+   ],
+   "cast": [
+    "山田孝之",
+    "綾野剛",
+    "崎本大海",
+    "やべきょうすけ",
+    "最上もが",
+    "高橋メアリージュン",
+    "マキタスポーツ",
+    "永山絢斗"
+   ],
+   "runtime": 130,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "78": {
+   "tmdbId": 248087,
+   "mediaType": "movie",
+   "match": "estimated",
+   "suggestedType": "movie",
+   "title": "永遠の0",
+   "originalTitle": "永遠の0",
+   "posterPath": "/zGGa0729JQrfVk4bXBKQLGeW4Ga.jpg",
+   "releaseYear": 2013,
+   "synopsis": "司法試験浪人の健太郎は、結果を出せないことで進路に疑問を抱き始めていた。そんなとき、彼は今の祖父とは血のつながりがなく、宮部久蔵という血縁上の祖父が太平洋戦争末期に特攻で命を落としていた事実を知る。そのときの祖父が自分と同じ26歳だったと聞き、健太郎は祖父の人生をたどり始める。だが当時の祖父を知る人々は、宮部は天才的なパイロットながら、生還に執着する臆病者、卑怯者だったと口をそろえて非難するのだった。",
+   "genres": [
+    "戦争",
+    "ドラマ",
+    "アクション",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "山崎貴"
+   ],
+   "cast": [
+    "岡田准一",
+    "三浦春馬",
+    "井上真央",
+    "夏八木勲",
+    "風吹ジュン",
+    "吹石一恵",
+    "新井浩文",
+    "濱田岳"
+   ],
+   "runtime": 144,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "79": {
+   "tmdbId": 216228,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "THE DAYS",
+   "originalTitle": "THE DAYS",
+   "posterPath": "/sr7HeOURI38pZjaF5qlP6xfvhKl.jpg",
+   "releaseYear": 2023,
+   "synopsis": "未曽有の原子力災害が発生した福島第一原発。責任を問う批判の声と英雄としての称賛を浴びながら、政府、会社組織、現場担当者たちは、命をも奪いかねない見えない脅威に立ち向かう。",
+   "genres": [
+    "ドラマ",
+    "犯罪"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "西浦正記",
+    "中田秀夫"
+   ],
+   "cast": [
+    "役所広司",
+    "竹野内豊",
+    "小日向文世",
+    "小林薫",
+    "音尾琢真",
+    "光石研",
+    "遠藤憲一",
+    "石田ゆり子"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 8,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "80": {
+   "tmdbId": 1024621,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "ちひろさん",
+   "originalTitle": "ちひろさん",
+   "posterPath": "/aF0CmJl2rP7MvKxgNzKdKOk03rJ.jpg",
+   "releaseYear": 2023,
+   "synopsis": "元風俗嬢の主人公・ちひろが、とある海辺の町の小さなお弁当屋さんで働きながら、心に傷や悩みを抱えて上手く生きることができない人々と交流し、彼女の言葉や行動がそれぞれの人々の生き方に影響を与えていく物語。",
+   "genres": [
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "今泉力哉"
+   ],
+   "cast": [
+    "有村架純",
+    "豊嶋花",
+    "若葉竜也",
+    "佐久間由衣",
+    "Van",
+    "リリー・フランキー",
+    "風吹ジュン",
+    "平田満"
+   ],
+   "runtime": 131,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "81": {
+   "tmdbId": 61678,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "ミセン-未生-",
+   "originalTitle": "미생",
+   "posterPath": "/2uljxb5RGofOZQ8novBaYO8YxNN.jpg",
+   "releaseYear": 2014,
+   "synopsis": null,
+   "genres": [
+    "コメディ",
+    "ドラマ"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "キム・ウォンソク",
+    "윤태호"
+   ],
+   "cast": [
+    "イム・シワン",
+    "イ・ソンミン",
+    "カン・ソラ",
+    "カン・ハヌル",
+    "ピョン・ヨハン",
+    "キム・デミョン",
+    "パク・ヘジュン",
+    "イ・ギョンヨン"
+   ],
+   "runtime": 75,
+   "seasonCount": 1,
+   "episodeCount": 20,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Tencent Video",
+     "logoPath": "/oxcvMEkpFb1x4I2xQuRH1yxuJoA.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "82": {
+   "tmdbId": 496243,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "パラサイト 半地下の家族",
+   "originalTitle": "기생충",
+   "posterPath": "/xOvSmS1oMZUBUTqNU8slwRIokaZ.jpg",
+   "releaseYear": 2019,
+   "synopsis": "過去に度々事業に失敗、計画性も仕事もないが楽天的な父キム・ギテク。そんな甲斐性なしの夫に強くあたる母チュンスク。大学受験に落ち続け、若さも能力も持て余している息子ギウ。美大を目指すが上手くいかず、予備校に通うお金もない娘ギジョンは、“ 半地下住宅”で 暮らす貧しい4人家族だ。“半地下”の家は、暮らしにくい。窓を開ければ、路上で散布される消毒剤が入ってくる。電波が悪い。Wi-Fiも弱い。水圧が低いからトイレが家の一番高い位置に鎮座している。家族全員、ただただ“普通の暮らし”がしたい。受験経験は豊富だが学歴のないギウは、ある時、エリート大学生の友人から留学中の代打を頼まれる。ギウが向かった先は、IT企業の社長パク・ドンイク一家が暮らす高台の大豪邸だった。",
+   "genres": [
+    "コメディ",
+    "スリラー",
+    "ドラマ"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "ポン・ジュノ"
+   ],
+   "cast": [
+    "ソン・ガンホ",
+    "イ・ソンギュン",
+    "チョ・ヨジョン",
+    "チェ・ウシク",
+    "パク・ソダム",
+    "イ・ジョンウン",
+    "チャン・ヘジン",
+    "박명훈"
+   ],
+   "runtime": 133,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "buy"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "83": {
+   "tmdbId": 75820,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "ミスター・サンシャイン",
+   "originalTitle": "미스터 션샤인",
+   "posterPath": "/9U8Rqv5H6z9mOCdgzRsI3jsYBKT.jpg",
+   "releaseYear": 2018,
+   "synopsis": "1871年、辛未洋擾の際にアメリカに渡った青年が、再び祖国朝鮮の土を踏む。そこで待ち受けていたのは、運命を変える出会いと抗いきれない歴史のうねり。",
+   "genres": [
+    "ドラマ"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "이응복",
+    "キム・ウンスク"
+   ],
+   "cast": [
+    "イ・ビョンホン",
+    "キム・テリ",
+    "ユ・ヨンソク",
+    "キム・ミンジョン",
+    "ピョン・ヨハン",
+    "キム・ガプス",
+    "チェ・ムソン",
+    "이호재"
+   ],
+   "runtime": 75,
+   "seasonCount": 1,
+   "episodeCount": 24,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "84": {
+   "tmdbId": 614560,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "Mank/マンク",
+   "originalTitle": "Mank",
+   "posterPath": "/wgznsUH6XzCb4giBRcGYyMiZAsc.jpg",
+   "releaseYear": 2020,
+   "synopsis": "映画史に残る名作として知られる『市民ケーン』の共同脚本家であるハーマン・J・マンキーウィッツの伝記映画。女優のマリオン・デイヴィス、プロデューサーのアーヴィング・タルバーグなど、数多くの映画人が登場する。監督のフィンチャーは、『市民ケーン』の撮影監督グレッグ・トーランドの表現主義的な技法を再現するために、白黒で撮影をおこなった",
+   "genres": [
+    "ドラマ",
+    "歴史"
+   ],
+   "country": [
+    "アメリカ"
+   ],
+   "directors": [
+    "デヴィッド・フィンチャー"
+   ],
+   "cast": [
+    "ゲイリー・オールドマン",
+    "アマンダ・サイフリッド",
+    "リリー・コリンズ",
+    "アーリス・ハワード",
+    "トム・ペルフリー",
+    "サム・トラウトン",
+    "フェルディナンド・キングズレー",
+    "タペンス・ミドルトン"
+   ],
+   "runtime": 132,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "85": {
+   "tmdbId": 118043,
+   "mediaType": "tv",
+   "match": "estimated",
+   "suggestedType": "drama",
+   "title": "自由の国アメリカ: 闘いと変革の150年",
+   "originalTitle": "Amend: The Fight for America",
+   "posterPath": "/sGjTwbXSwKiyvkNURipvicW6scJ.jpg",
+   "releaseYear": 2021,
+   "synopsis": "アメリカの平等を求める闘いは、大きな犠牲を払いながら時代を変革してきた。ウィル・スミスをホストに、合衆国憲法修正第14条をめぐる自由と平等の歴史に迫る。",
+   "genres": [
+    "ドキュメンタリー",
+    "戦争・政治"
+   ],
+   "country": [
+    "アメリカ"
+   ],
+   "directors": [
+    "トム・イェリン",
+    "Robe Imbriano"
+   ],
+   "cast": [
+    "ウィル・スミス",
+    "ブライアン・スティーヴンソン"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 6,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "86": {
+   "tmdbId": 120089,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "SPY×FAMILY",
+   "originalTitle": "SPY×FAMILY",
+   "posterPath": "/vaIREdPGZOnW9Jrs86mheVVlIQQ.jpg",
+   "releaseYear": 2022,
+   "synopsis": "人はみな　誰にも見せぬ自分を　持っている――世界各国が水面下で熾烈な情報戦を繰り広げていた時代。東国(オスタニア)と西国(ウェスタリス)は、十数年間にわたる冷戦状態にあった。西国の情報局対東課〈WISE〉所属である凄腕スパイの〈黄昏〉は、東西平和を脅かす危険人物、東国の国家統一党総裁ドノバン・デズモンドの動向を探るため、ある極秘任務を課せられる。その名も、オペレーション〈梟〉。内容は、“一週間以内に家族を作り、デズモンドの息子が通う名門校の懇親会に潜入せよ”。〈黄昏〉は、精神科医ロイド・フォージャーに扮し、家族を作ることに。だが、彼が出会った娘・アーニャは心を読むことができる超能力者、妻・ヨルは殺し屋だった！3人の利害が一致したことで、お互いの正体を隠しながら共に暮らすこととなる。ハプニング連続の仮初めの家族に、世界の平和は託された――。",
+   "genres": [
+    "アニメーション",
+    "アクション・アドベンチャー",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "江口拓也",
+    "種﨑敦美",
+    "早見沙織",
+    "松田健一郎"
+   ],
+   "runtime": 24,
+   "seasonCount": 3,
+   "episodeCount": 50,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "free"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "87": {
+   "tmdbId": 93816,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "GREAT PRETENDER",
+   "originalTitle": "GREAT PRETENDER",
+   "posterPath": "/F8GyqlAlKLEZ42ERAP2ymWc8MN.jpg",
+   "releaseYear": 2020,
+   "synopsis": "枝村真人は、自称\"日本一の天才詐欺師\"。国際的な凄腕詐欺師をだまそうとしたことをきっかけに、真人は世界を股に掛けた壮大なだまし合いに巻き込まれてゆく。",
+   "genres": [
+    "アニメーション",
+    "ドラマ",
+    "コメディ",
+    "アクション・アドベンチャー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "小松由佳",
+    "武内駿輔",
+    "間宮康弘",
+    "興津和幸",
+    "加瀬康之",
+    "かぬか光明",
+    "伊瀬茉莉也"
+   ],
+   "runtime": 24,
+   "seasonCount": 2,
+   "episodeCount": 27,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "88": {
+   "tmdbId": 728754,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "STAND BY ME ドラえもん2",
+   "originalTitle": "STAND BY ME ドラえもん2",
+   "posterPath": "/gPJLUn3rUr9bl39t8l0hOqkzoj2.jpg",
+   "releaseYear": 2020,
+   "synopsis": "　8月7日の誕生日、0点の答案を見つけたママに叱られたのび太は、他の答案を天井裏に隠そうとして今は亡きおばあちゃんがよく直してくれたぬいぐるみを発見する。  　おばあちゃんを懐かしむあまりにのび太は、ドラえもんと共におばあちゃんが生きていた時代へ向かう。小学生になったのび太を少しも疑わず受け入れるおばあちゃん。そして、「のびちゃんのお嫁さんに会いたい」というおばあちゃんにしずかとの結婚式を見せる約束をする。  　しかし、ドラえもんに未来が変わったかもしれないと言われたのび太がタイムテレビで確認すると、結婚式当日、青年のび太はどこかへ逃げ出してしまっていた。  　果たして、ドラえもんとのび太は青年のび太を連れ戻し、しずかと結婚させることができるのか、そしておばあちゃんとの約束を果たすことができるのか。",
+   "genres": [
+    "アニメーション",
+    "アドベンチャー",
+    "コメディ",
+    "サイエンスフィクション",
+    "ドラマ",
+    "ファミリー",
+    "ファンタジー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "八木竜一",
+    "山崎貴"
+   ],
+   "cast": [
+    "水田わさび",
+    "大原めぐみ",
+    "かかずゆみ",
+    "木村昴",
+    "関智一",
+    "バカリズム",
+    "羽鳥慎一",
+    "宮本信子"
+   ],
+   "runtime": 96,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "89": {
+   "tmdbId": 78685,
+   "mediaType": "tv",
+   "match": "estimated",
+   "suggestedType": "drama",
+   "title": "コンフィデンスマンJP",
+   "originalTitle": "コンフィデンスマンJP",
+   "posterPath": "/28Coe4j6p1FdYXBMEafJrzdq39A.jpg",
+   "releaseYear": 2018,
+   "synopsis": "この物語の主人公・ダー子 は年齢不詳、正体不明、とにかく規格外で無軌道なコンフィデンスウーマン。お金とファッションとおいしい食べ物に目がない、やや天然な女性。都内の高級ホテルのスイートルームに居を構え、業界を牛耳る悪徳大富豪たちをターゲットに日夜、詐欺の計画を練っています。彼女の目的は、彼らのばく大な財産を根こそぎだまし取ること。行動を共にするのは真面目で小心者の若きコンフィデンスマン・ボクちゃん  と、百戦錬磨のベテランコンフィデンスマン・リチャード 。このチームが、悪徳企業のドンやマフィアのボスなど欲望にまみれた金の亡者たちから、あらゆる手段を使って金を巻き上げようとチームとして動きます。武器は、ダー子の天才的知能と抜群の集中力。彼女は、あらゆる職業の専門知識を短期間でマスターし、さまざまな職業人になりすまします。彼らは、抜群のチームワークで常識外れの作戦を仕掛け、一度狙ったターゲットは絶対に逃しません。だまし、だまされ、時には味方さえ欺くことも。彼らが、どんな奇想天外なトリックでターゲットから巧妙に金を奪うのか。予想もつかないだまし合いの始まりです！",
+   "genres": [
+    "コメディ",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "古沢良太",
+    "三橋利行",
+    "金井紘",
+    "田中亮"
+   ],
+   "cast": [
+    "長澤まさみ",
+    "東出昌大",
+    "小日向文世",
+    "小手伸也",
+    "マイケル・キダ"
+   ],
+   "runtime": 54,
+   "seasonCount": 1,
+   "episodeCount": 10,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD Channel Amazon Channel",
+     "logoPath": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "90": {
+   "tmdbId": 512195,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "レッド・ノーティス",
+   "originalTitle": "Red Notice",
+   "posterPath": "/j4BG5K3rjhqE4NgUh3QbPu3qnN0.jpg",
+   "releaseYear": 2021,
+   "synopsis": "最重要指名手配犯である美術品泥棒とFBIプロファイラー。敵対する2人が、出し抜かれてばかりの共通の宿敵を捕まえるために、仕方なく手を組むことに。",
+   "genres": [
+    "アクション",
+    "コメディ",
+    "犯罪"
+   ],
+   "country": [
+    "アメリカ"
+   ],
+   "directors": [
+    "Rawson Marshall Thurber"
+   ],
+   "cast": [
+    "ドウェイン・ジョンソン",
+    "ライアン・レイノルズ",
+    "ガル・ガドット",
+    "リトゥ・アルヤ",
+    "クリス・ディアマントポロス",
+    "Ivan Mbakop",
+    "Vincenzo Amato",
+    "Rafael Petardi"
+   ],
+   "runtime": 117,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "91": {
+   "tmdbId": 224740,
+   "mediaType": "tv",
+   "match": "auto",
+   "suggestedType": "drama",
+   "title": "あいの里",
+   "originalTitle": "あいの里",
+   "posterPath": "/8mo4ZHKkvTcBPSmjDDtaGVgEAOn.jpg",
+   "releaseYear": 2023,
+   "synopsis": "さまざまな経歴を持つ35歳以上の男女が、田舎の古民家で共同生活を送りながらパートナー探しに挑む。もう一度恋がしたい彼らに運命の出会いはあるのか、それとも一人で去ることになるのか。",
+   "genres": [
+    "リアリティ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "田村淳",
+    "ベッキー"
+   ],
+   "runtime": null,
+   "seasonCount": 3,
+   "episodeCount": 61,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "92": {
+   "tmdbId": 322570,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "Tシャツが乾くまで",
+   "originalTitle": "Tシャツが乾くまで",
+   "posterPath": "/u4FV6Y2JtTaGpVp94V7Vp0JR3R3.jpg",
+   "releaseYear": 2026,
+   "synopsis": "ある夏の日、二組の夫婦がとある事故に巻き込まれてしまう。それがきっかけで、当たり前に続いていくと思っていた二組の夫婦の幸せな日常が、突如として崩れ去っていくことに。さらに、その事故が暴いたのは、愛する人の“第３金曜日の秘密”だった——。第３金曜日、行方不明、Ｔシャツ…これらのワードが意味することとは？あらすじさえ語れない、「二組の夫婦の喪失から始まる“愛”と“秘密”の物語」がこの夏、幕を開ける。",
+   "genres": [
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "土井裕泰"
+   ],
+   "cast": [
+    "蒼井優",
+    "中島歩",
+    "高橋文哉",
+    "夏帆",
+    "松山ケンイチ",
+    "久保田薫",
+    "臼田あさ美",
+    "リリー・フランキー"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 10,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "93": {
+   "tmdbId": 296286,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "anime",
+   "title": "スーパーの裏でヤニ吸うふたり",
+   "originalTitle": "スーパーの裏でヤニ吸うふたり",
+   "posterPath": "/aRTMLZWEtBUy4fG01aqVicRD2wx.jpg",
+   "releaseYear": 2026,
+   "synopsis": "社畜街道をひた走る、くたびれ中年男性の佐々木。彼のひそやかな癒しといえば、日ごろから愛煙する煙草と、行きつけのスーパーで働く女性店員 山田さんのにこやかな接客くらい。仕事に疲れたある夜、癒しを求めてスーパーに向かうが、目当ての山田さんはおらず、今どき煙草を吸える場所もなし…。意気消沈した佐々木に「ここなら吸える」と声をかけてきたのは、田山という女性だった――。",
+   "genres": [
+    "アニメーション",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "佐藤拓也",
+    "星希成奏",
+    "行成とあ",
+    "豊口めぐみ",
+    "安田陸矢",
+    "日笠陽子",
+    "高橋伸也"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 12,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "94": {
+   "tmdbId": 240274,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "春になったら",
+   "originalTitle": "春になったら",
+   "posterPath": "/qUvd2EMzmYnPMF3506rdCa7KG3f.jpg",
+   "releaseYear": 2024,
+   "synopsis": "【３カ月後に結婚する娘と、３カ月後に世を去る父】\n\n母を亡くし、反発しながらも支え合ってきた父娘が\n\n‟結婚までにやりたいこと”と‟死ぬまでにやりたいこと“をかなえていく、\n\nかけがえのない３カ月を描いたハートフル・ホームドラマ！",
+   "genres": [
+    "ファミリー",
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "松本佳奈",
+    "穐山茉由",
+    "福田靖"
+   ],
+   "cast": [
+    "奈緒",
+    "木梨憲武",
+    "濱田岳",
+    "深澤辰哉",
+    "見上愛",
+    "光石研",
+    "筒井真理子",
+    "小林聡美"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 11,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "KANTELE DOGA CHANNEL Amazon Channel",
+     "logoPath": "/szRwvghaO0x2aIUFAvE7ScPXAtf.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "95": {
+   "tmdbId": 131305,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "セレブリティ",
+   "originalTitle": "셀러브리티",
+   "posterPath": "/8pJRqiJ0XDq2L9tMMbGuTeNQbwQ.jpg",
+   "releaseYear": 2023,
+   "synopsis": "貧乏な訪問販売員から、瞬く間にInstagramの超人気インフルエンサーとなったソ・アリ。だがその先には、想像を絶する危険な世界が待ち受けていた。受賞歴をもつキム・チョルギュ監督作。",
+   "genres": [
+    "ドラマ",
+    "ミステリー"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "김철규",
+    "김이영"
+   ],
+   "cast": [
+    "パク・ギュヨン",
+    "강민혁",
+    "イ・チョンア",
+    "이동건",
+    "チョン・ヒョソン",
+    "한으뜸",
+    "한재인",
+    "박예니"
+   ],
+   "runtime": 45,
+   "seasonCount": 1,
+   "episodeCount": 12,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "96": {
+   "tmdbId": 257221,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "恋愛バトルロワイヤル",
+   "originalTitle": "恋愛バトルロワイヤル",
+   "posterPath": "/gfHPmrpmYcrTUHO6NejkWgezIhg.jpg",
+   "releaseYear": 2024,
+   "synopsis": "男女交際禁止という厳しい校則が設けられた超エリート高校でひとりの生徒が始めた秘密の活動。それは、退学の危機に直面した違反者をお金と引き換えに助けるというもので...。",
+   "genres": [
+    "ドラマ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "岡野真紀子",
+    "梶原富治",
+    "Yasuhiro Miyoshi",
+    "安川有果"
+   ],
+   "cast": [
+    "見上愛",
+    "宮世琉弥",
+    "水沢林太郎",
+    "豊田裕大",
+    "本田響矢",
+    "中山翔貴",
+    "和内璃乃",
+    "秋田汐梨"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 8,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "97": {
+   "tmdbId": 96462,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "サイコだけど大丈夫",
+   "originalTitle": "사이코지만 괜찮아",
+   "posterPath": "/HKVk1KiNYzIiRQJQOMZfSeZYvC.jpg",
+   "releaseYear": 2020,
+   "synopsis": "愛を知らない人気童話作家と、精神病棟で献身的に働く男。辛い思いを抱えて生きる2人の運命が交錯する時、互いの心に癒やしをもたらす、新たな人生の扉が開く。",
+   "genres": [
+    "ドラマ",
+    "コメディ"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "박신우",
+    "チョ・ヨン"
+   ],
+   "cast": [
+    "キム・スヒョン",
+    "ソ・イェジ",
+    "オ・ジョンセ",
+    "パク・ギュヨン"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 16,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "98": {
+   "tmdbId": 64840,
+   "mediaType": "tv",
+   "match": "estimated",
+   "suggestedType": "drama",
+   "title": "シグナル",
+   "originalTitle": "시그널",
+   "posterPath": "/mB6FlHFK0A4DPyuGTrlM4QgEkIH.jpg",
+   "releaseYear": 2016,
+   "synopsis": "警察のプロファイラーのパク・ヘヨンはある日、廃棄処分寸前の壊れた無線機から聞こえてくる声を耳にする。声の主は15年前の未解決事件を追うイ・ジェハン刑事だった。時効まであと数日となったその未解決事件の有力な手がかりを、無線を通じてジェハンから教えられたヘヨンは、かつてジェハンの後輩だったチャ・スヒョン刑事と共に事件を解決。その後も、ヘヨンは半信半疑のままジェハンとの交信を続けるうち、彼が過去の人間だと知る。一方、スヒョンは15年前に失踪したジェハンの行方を捜し続けていた。",
+   "genres": [
+    "犯罪",
+    "ミステリー",
+    "SF・ファンタジー",
+    "ドラマ"
+   ],
+   "country": [
+    "韓国"
+   ],
+   "directors": [
+    "キム・ウニ",
+    "キム・ウォンソク"
+   ],
+   "cast": [
+    "イ・ジェフン",
+    "キム・ヘス",
+    "チョ・ジヌン"
+   ],
+   "runtime": null,
+   "seasonCount": 2,
+   "episodeCount": 24,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Disney Plus",
+     "logoPath": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Tencent Video",
+     "logoPath": "/oxcvMEkpFb1x4I2xQuRH1yxuJoA.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "99": {
+   "tmdbId": 682110,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "オクトパスの神秘: 海の賢者は語る",
+   "originalTitle": "My Octopus Teacher",
+   "posterPath": "/hvTVZb7hBC8tZAGoEhH5eiMJu2B.jpg",
+   "releaseYear": 2020,
+   "synopsis": "南アフリカの海中に生息するタコに魅(み)せられた映像作家。タコとのふれ合いを通して特別な絆を築く中、海の神秘に重ねて人生を見つめ直す。",
+   "genres": [
+    "ドキュメンタリー"
+   ],
+   "country": [
+    "南アフリカ",
+    "イギリス"
+   ],
+   "directors": [
+    "Pippa Ehrlich",
+    "James Reed"
+   ],
+   "cast": [
+    "Craig Foster",
+    "Tom Foster"
+   ],
+   "runtime": 85,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "100": {
+   "tmdbId": 93016,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "天才の頭の中: ビル・ゲイツを解読する",
+   "originalTitle": "Inside Bill's Brain: Decoding Bill Gates",
+   "posterPath": "/5RIVJnpIkPt90EwJQwPzqS1UTPG.jpg",
+   "releaseYear": 2019,
+   "synopsis": "自身の人生に影響を与えた人々との思い出や、今なお追い続けている壮大かつ大胆な目標について語る世界有数のビリオネア、ビル・ゲイツの思考を探る。",
+   "genres": [
+    "ドキュメンタリー"
+   ],
+   "country": [
+    "アメリカ"
+   ],
+   "directors": [
+    "Davis Guggenheim"
+   ],
+   "cast": [
+    "ビル・ゲイツ",
+    "Melinda Gates",
+    "Davin Orness",
+    "Alex Bueermann",
+    "Mohammed Albaaj"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 3,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "101": {
+   "tmdbId": 216290,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "M-1グランプリ",
+   "originalTitle": "M-1グランプリ",
+   "posterPath": "/cg9jazHW9bQVGmkQNYpwVtdg5vO.jpg",
+   "releaseYear": 2001,
+   "synopsis": "真の漫才日本一を決める大会",
+   "genres": [
+    "トーク",
+    "リアリティ",
+    "ドキュメンタリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "島田紳助",
+    "谷良一"
+   ],
+   "cast": [],
+   "runtime": null,
+   "seasonCount": 2,
+   "episodeCount": 21,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video",
+     "logoPath": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD Channel Amazon Channel",
+     "logoPath": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FANY Channel Select Amazon Channel",
+     "logoPath": "/rcr3jderrtA8zQyNAYiFvdYx0Ef.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Prime Video with Ads",
+     "logoPath": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "102": {
+   "tmdbId": 220783,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "名アシスト有吉",
+   "originalTitle": "名アシスト有吉",
+   "posterPath": "/jBFQKSQ51WweZl4wg3W70oATrv0.jpg",
+   "releaseYear": 2023,
+   "synopsis": "2023年3月14日からNetflixにて配信されるバラエティ番組",
+   "genres": [
+    "コメディ",
+    "リアリティ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "有吉弘行"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 10,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "103": {
+   "tmdbId": 1369010,
+   "mediaType": "movie",
+   "match": "confirmed",
+   "suggestedType": "movie",
+   "title": "ブラック・ショーマン",
+   "originalTitle": "ブラック・ショーマン",
+   "posterPath": "/bE0oMAmJg1YUZWQVSn2nRKavMcv.jpg",
+   "releaseYear": 2025,
+   "synopsis": "元中学校教師である神尾英一が何者かに殺された。2か月後に結婚を控えていた神尾真世（有村架純）だったが、父・英一の突然の訃報を受け、実家のある町に戻る。その町はコロナウイルスの蔓延以降、観光客も遠のき、活気を失ってしまっていた。そんな折に起こった殺人事件……。教師として多くの教え子から慕われていた英一はなぜ殺されなければならなかったのか。真実を知りたいと願う真世の前に現れたのは叔父の神尾武史（福山雅治）。かつてラスベガスで名を馳せた元マジシャンだ。卓越したマジック（＋手癖の悪さ）とメンタリスト級の巧みな人間観察＆誘導尋問を武器にして、武史は、姪・真世と共に、大切な家族が殺された殺人事件の謎に挑む―― !!",
+   "genres": [
+    "ミステリー"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [
+    "田中亮"
+   ],
+   "cast": [
+    "福山雅治",
+    "有村架純",
+    "成田凌",
+    "仲村トオル",
+    "生田絵梨花",
+    "森崎ウィン",
+    "生瀬勝久",
+    "岡崎紗絵"
+   ],
+   "runtime": 127,
+   "seasonCount": null,
+   "episodeCount": null,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "rent"
+    },
+    {
+     "name": "FOD",
+     "logoPath": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+     "kind": "rent"
+    },
+    {
+     "name": "Apple TV Store",
+     "logoPath": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+     "kind": "buy"
+    }
+   ]
+  },
+  "104": {
+   "tmdbId": 311842,
+   "mediaType": "tv",
+   "match": "estimated",
+   "suggestedType": "anime",
+   "title": "FX戦士くるみちゃん",
+   "originalTitle": "FX戦士くるみちゃん",
+   "posterPath": "/6Tf1ETXseEoNAMyofy3aRoJtqaR.jpg",
+   "releaseYear": 2026,
+   "synopsis": "ゆるふわJDたちの、ちょっとキケン(!?)なお金稼ぎのおはなしですっ!\n\n　　チャートが1mmうごくたび、涙があふれてとまらない――!! 楽してお金儲けをしたいすべての人へ送る、心臓ゆさぶる女子大生・FX・コミックス!",
+   "genres": [
+    "アニメーション",
+    "コメディ"
+   ],
+   "country": [
+    "日本"
+   ],
+   "directors": [],
+   "cast": [
+    "鈴木愛奈",
+    "瀬戸麻沙美",
+    "伊藤彩沙",
+    "岡咲美保",
+    "加瀬康之",
+    "石川英郎",
+    "能登麻美子",
+    "広瀬ゆうき"
+   ],
+   "runtime": 24,
+   "seasonCount": 1,
+   "episodeCount": 12,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    }
+   ]
+  },
+  "106": {
+   "tmdbId": 70523,
+   "mediaType": "tv",
+   "match": "confirmed",
+   "suggestedType": "drama",
+   "title": "ダーク",
+   "originalTitle": "Dark",
+   "posterPath": "/gw8ZlIXEg6SIx3FgMEQqmBkPYKV.jpg",
+   "releaseYear": 2017,
+   "synopsis": "ドイツの小さな町で起こった子供の失踪事件をきっかけに、ほころび始める4家族の絆と暴かれる暗い秘密。3世代にわたる奇怪な謎の真相が、今明らかになる。",
+   "genres": [
+    "犯罪",
+    "ドラマ",
+    "SF・ファンタジー",
+    "ミステリー"
+   ],
+   "country": [
+    "ドイツ"
+   ],
+   "directors": [
+    "バラン・ボー・オダー",
+    "ジャンテエ・フリース"
+   ],
+   "cast": [
+    "ルイス・ホフマン"
+   ],
+   "runtime": null,
+   "seasonCount": 3,
+   "episodeCount": 26,
+   "watchProviders": [
+    {
+     "name": "Netflix",
+     "logoPath": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Hulu",
+     "logoPath": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "U-NEXT",
+     "logoPath": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Netflix Standard with Ads",
+     "logoPath": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Anime Times Amazon Channel",
+     "logoPath": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "dAnime Amazon Channel",
+     "logoPath": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+     "kind": "flatrate"
+    },
+    {
+     "name": "Amazon Video",
+     "logoPath": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+     "kind": "rent"
+    }
+   ]
+  },
+  "107": {
+   "tmdbId": 326247,
+   "mediaType": "tv",
+   "match": "estimated",
+   "suggestedType": "anime",
+   "title": "フールナイト",
+   "originalTitle": "フールナイト",
+   "posterPath": "/vTTr4YG3qIUq6E5uahU0fWSWch7.jpg",
+   "releaseYear": 2026,
+   "synopsis": null,
+   "genres": [
+    "アニメーション",
+    "ドラマ",
+    "SF・ファンタジー",
+    "ミステリー"
+   ],
+   "country": [
+    "日本",
+    "アメリカ"
+   ],
+   "directors": [
+    "湯川淳"
+   ],
+   "cast": [
+    "内山昂輝",
+    "寿美菜子",
+    "榎木淳弥",
+    "遠藤綾",
+    "水内清光"
+   ],
+   "runtime": null,
+   "seasonCount": 1,
+   "episodeCount": 12,
+   "watchProviders": []
+  }
+ },
+ "unresolved": {
+  "30": "候補：2005年の映画「ニュー・ワールド」、2013年の韓国映画「新しき世界」、2020年のドラマ「ブレイブ・ニュー・ワールド」。元の分類（SF）と合う候補を特定できません",
+  "47": "作品の同定をしない指定（版が不明）",
+  "53": "候補：1989年の映画「アビス」、2019年の韓国ドラマ「アビス」、2023年の映画「アビス」",
+  "55": "候補：2009年の日本映画、2021年のドラマ、2014年の韓国映画（いずれも「さまよう刃」）",
+  "69": "候補：2024年の日本ドラマ「Destiny」ほか。元の分類（バトル・アクション）と合うか確認が必要",
+  "77": "候補：2010年の映画、2019年のアニメ映画「HUMAN LOST 人間失格」、2021年の韓国ドラマ「LOST 人間失格」",
+  "105": "候補：2023年のアニメ「るろうに剣心 －明治剣客浪漫譚－」、1996年のアニメ「るろうに剣心 明治剣客浪漫譚」"
+ }
+}

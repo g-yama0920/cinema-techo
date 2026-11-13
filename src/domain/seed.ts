@@ -482,7 +482,8 @@ function readDeclared(root: Obj, declared: NormalizedSeed['declared']) {
   }
 }
 
-const REVIEW_FLAG_TEXT = '作品の特定（版・原作との区別など）が未確認です。確認するまで作品情報と自動で紐付けません。';
+export const REVIEW_FLAG_TEXT = '作品の特定（版・原作との区別など）が未確認です。確認するまで作品情報と自動で紐付けません。';
+export const UNKNOWN_TYPE_TEXT = '種類（映画・ドラマ・アニメ）が未確認です';
 const UNKNOWN_TYPE = /^(unknown|不明|未確認|種類未確認|種別不明|other|その他)$/i;
 
 function reviewFlagText(v: unknown): string | null {
@@ -505,7 +506,7 @@ function toRecord(o: Obj, legacyId: number, warnings: string[], errors: string[]
   const typeUnknown = UNKNOWN_TYPE.test(toStr(typeRaw).normalize('NFKC'));
   let type = typeUnknown ? 'other' : parseWorkType(typeRaw);
   let needsReview: string | null = reviewFlagText(pick(o, K.reviewFlag));
-  if (typeUnknown) needsReview = needsReview ?? '種類（映画・ドラマ・アニメ）が未確認です';
+  if (typeUnknown) needsReview = needsReview ?? UNKNOWN_TYPE_TEXT;
   else if (type === 'other') needsReview = needsReview ?? `映像作品ではない可能性があります（種別: ${toStr(typeRaw)}）`;
   if (!type) {
     type = 'other';
