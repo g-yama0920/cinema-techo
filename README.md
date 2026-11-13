@@ -23,10 +23,11 @@ npm run e2e          # 実画面での受け入れ確認（Playwright / 375px）
 
 正式データ `movie_tracker_full_catalog.json` と照合用 `movie_tracker_full_catalog.csv` を使います。
 
-1. **同梱して自動投入（おすすめ）**：2つのファイルを `seed/` に置いてビルドすると、
+1. **同梱して自動投入（現在の公開版）**：`seed/movie_tracker_full_catalog.csv` をアプリに同梱しています。
    データが空の端末で初めて開いたときに全作品が自動で登録されます（既にデータがある端末では何もしません）
-   - `seed/*.json`・`seed/*.csv` は `.gitignore` 済み（個人データを誤ってコミットしないため）
-   - 公開サーバーに置く場合、同梱したファイルの中身は誰でも取得できる点に注意
+   - 利用者の了承のもと、この CSV だけはリポジトリに含めて公開しています（中身は誰でも取得できます）
+   - それ以外の `seed/*.json`・`seed/*.csv` は `.gitignore` 済み
+   - 同梱データを使わないビルドは `SEED_BUNDLE=off npm run build`（画面操作テスト用）
 2. **アプリから**：設定 →「初期データを取り込む」で JSON（と照合用 CSV）を選ぶ。CSV（schema_version 2 の列構成）だけでも取り込めます。
    件数・平均評価・CSV との照合結果・注意事項・一覧を確認してから取り込めます
 

@@ -1,10 +1,8 @@
 # seed/
 
-正式データをここに置くと、ビルド時にアプリへ同梱され、データが空の端末で初回起動したときに自動で登録されます。
+アプリに同梱する初期データです。データが空の端末で初めて開いたときに自動で登録されます。
 
-- `movie_tracker_full_catalog.json`（正式データ）
-- `movie_tracker_full_catalog.csv`（照合用・任意）
+- `movie_tracker_full_catalog.csv`：全107作品（利用者の了承のもと公開・同梱）
+- そのほかの `*.json`・`*.csv` は `.gitignore` 済み（置いた場合はローカルのビルドにだけ同梱されます）
 
-このフォルダの `*.json`・`*.csv` は `.gitignore` 済みです（個人データを誤ってコミットしないため）。
-
-実データで作業完了条件を確認: `npm run verify:seed`
+実データで作業完了条件を確認: `npm run verify:seed`（GitHub の自動テストでも毎回実行）

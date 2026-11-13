@@ -8,6 +8,8 @@ dev-dist
 # 個人データ（初期データ）は誤公開を防ぐため既定でコミットしない
 seed/*.json
 seed/*.csv
+# 利用者の了承のもと公開版に同梱する全作品データ（初回起動時に自動登録）
+!seed/movie_tracker_full_catalog.csv
 test-results
 playwright-report
 
