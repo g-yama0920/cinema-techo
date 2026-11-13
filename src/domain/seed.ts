@@ -38,6 +38,10 @@ export interface SeedRecord {
   episodeCount: number | null;
   synopsis: string | null;
   needsReview: string | null;
+  /** 元データの分類（利用者の原文） */
+  sourceCategory: string | null;
+  /** 元データのメモ（利用者の感想とは別に保存） */
+  importNote: string | null;
   tmdbId: number | null;
   tmdbMediaType: 'movie' | 'tv' | null;
   posterPath: string | null;
@@ -83,8 +87,10 @@ type Obj = Record<string, unknown>;
 
 const K = {
   no: ['no', 'workno', 'worknumber', 'catalogno', 'catalognumber', 'number', 'num', 'legacyid', 'legacyno', 'seq', 'index', '番号', '作品番号', '作品no', '管理番号', 'id'],
-  wlNo: ['watchlistno', 'watchlistnumber', 'wantno', 'wantnumber', 'wishlistno', 'wlno', 'fixednumber', '見たい番号', '見たいno', '見たいリスト番号', 'リスト番号'],
-  reviewFlag: ['needsreview', 'needsconfirmation', 'reviewnote', 'confirmation', 'ambiguity', 'ambiguous', 'pendingconfirmation', '確認待ち', '確認事項', '要確認', '要確認理由'],
+  wlNo: ['watchlistfixednumber', 'watchlistfixedno', 'watchlistno', 'watchlistnumber', 'wantno', 'wantnumber', 'wishlistno', 'wlno', 'fixednumber', 'fixedno', '見たい番号', '見たいno', '見たいリスト番号', '見たい固定番号', 'リスト番号'],
+  reviewFlag: ['metadatareviewrequired', 'reviewrequired', 'needsreview', 'needsconfirmation', 'reviewnote', 'confirmation', 'ambiguity', 'ambiguous', 'pendingconfirmation', '確認待ち', '確認事項', '要確認', '要確認理由'],
+  sourceCategory: ['sourcecategory', 'sourcecategories', 'originalcategory', 'usercategory', '元の分類', '分類（原文）'],
+  importNote: ['notes', 'note', 'datanote', 'remarks', '備考', 'データメモ'],
   tmdbId: ['tmdbid', 'tmdb'],
   tmdbMediaType: ['tmdbmediatype', 'tmdbtype'],
   poster: ['posterpath', 'poster', 'posterurl', 'ポスター'],
@@ -95,7 +101,7 @@ const K = {
   rating: ['rating', 'score', 'stars', 'star', 'evaluation', 'myrating', 'rate', '評価', '星', '点数', 'スコア'],
   status: ['status', 'state', 'watchstatus', 'ratingstatus', '状態', 'ステータス', '視聴状態', '評価状態'],
   watched: ['watchedon', 'watcheddate', 'watchedat', 'viewedon', 'vieweddate', 'seenon', 'seendate', 'datewatched', 'watchdate', '視聴日', '鑑賞日', '見た日'],
-  review: ['review', 'comment', 'comments', 'memo', 'note', 'notes', 'impression', 'thoughts', '感想', 'メモ', 'コメント', '備考', 'レビュー'],
+  review: ['review', 'comment', 'comments', 'memo', 'impression', 'thoughts', '感想', 'メモ', 'コメント', 'レビュー'],
   tags: ['tags', 'tag', 'labels', 'タグ'],
   genres: ['genres', 'genre', 'ジャンル'],
   country: ['country', 'countries', 'productioncountry', 'origin', '制作国', '国', '製作国'],
@@ -395,7 +401,7 @@ export function normalizeSeed(input: unknown): NormalizedSeed {
       plannedDate: planned?.precision === 'day' ? planned.value : null,
       releaseDate: release?.precision === 'day' ? release.value : null,
       availableOn: toList(pick(o, K.services) ?? pick(o, K.platform)),
-      note: toStr(pick(o, K.review)),
+      note: toStr(pick(o, K.importNote) ?? pick(o, K.review)),
     };
     // 1) 作品番号で明示的に対応 → 2) 同じ見たい番号 → 3) 同じタイトルの「見たい」記録
     const match =
@@ -476,12 +482,15 @@ function readDeclared(root: Obj, declared: NormalizedSeed['declared']) {
   }
 }
 
+const REVIEW_FLAG_TEXT = '作品の特定（版・原作との区別など）が未確認です。確認するまで作品情報と自動で紐付けません。';
+const UNKNOWN_TYPE = /^(unknown|不明|未確認|種類未確認|種別不明|other|その他)$/i;
+
 function reviewFlagText(v: unknown): string | null {
   if (v == null || v === false) return null;
-  if (v === true) return '元データで確認待ちとされています';
+  if (v === true) return REVIEW_FLAG_TEXT;
   const s = toStr(v);
   if (!s || /^(false|no|none|なし|不要|0)$/i.test(s)) return null;
-  if (/^(true|yes|あり|要|1)$/i.test(s)) return '元データで確認待ちとされています';
+  if (/^(true|yes|あり|要|1)$/i.test(s)) return REVIEW_FLAG_TEXT;
   return s;
 }
 
@@ -493,9 +502,11 @@ function toRecord(o: Obj, legacyId: number, warnings: string[], errors: string[]
   }
   const notes: string[] = [];
   const typeRaw = pick(o, K.type);
-  let type = parseWorkType(typeRaw);
+  const typeUnknown = UNKNOWN_TYPE.test(toStr(typeRaw).normalize('NFKC'));
+  let type = typeUnknown ? 'other' : parseWorkType(typeRaw);
   let needsReview: string | null = reviewFlagText(pick(o, K.reviewFlag));
-  if (type === 'other') needsReview = needsReview ?? `映像作品ではない可能性があります（種別: ${toStr(typeRaw)}）`;
+  if (typeUnknown) needsReview = needsReview ?? '種類（映画・ドラマ・アニメ）が未確認です';
+  else if (type === 'other') needsReview = needsReview ?? `映像作品ではない可能性があります（種別: ${toStr(typeRaw)}）`;
   if (!type) {
     type = 'other';
     needsReview = needsReview ?? (typeRaw ? `種別「${toStr(typeRaw)}」を判別できません` : '種別（映画・ドラマ・アニメ）が未設定です');
@@ -581,6 +592,8 @@ function toRecord(o: Obj, legacyId: number, warnings: string[], errors: string[]
     episodeCount: toInt(pick(o, K.episodes)),
     synopsis: toStr(pick(o, K.synopsis)) || null,
     needsReview,
+    sourceCategory: toStr(pick(o, K.sourceCategory)) || null,
+    importNote: toStr(pick(o, K.importNote)) || null,
     tmdbId: toInt(pick(o, K.tmdbId)),
     tmdbMediaType: tmdbMedia === 'movie' || tmdbMedia === 'tv' ? tmdbMedia : null,
     posterPath: /^(\/|https:\/\/)/.test(poster) ? poster : null,

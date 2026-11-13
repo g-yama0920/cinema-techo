@@ -227,6 +227,15 @@ export function planSeedImport(seed: NormalizedSeed, snap: LibrarySnapshot, now:
     );
   }
 
+  // 取り込んだ見たいリストの初期の並び順は、固定番号の順（No.1 が先頭）にする
+  const basePriority = Math.max(0, ...snap.watchlist.filter((e) => e.status === 'active').map((e) => e.priority));
+  watchlist
+    .filter((e) => e.status === 'active')
+    .sort((a, b) => a.fixedNumber - b.fixedNumber)
+    .forEach((e, i) => {
+      e.priority = basePriority + i + 1;
+    });
+
   const added = rows.filter((r) => r.action === 'add').length;
   return {
     changes: {
@@ -319,6 +328,8 @@ function recordToWork(r: SeedRecord, catalogNo: number, now: string): Work {
     watchProviders: [],
     watchProvidersFetchedAt: null,
     needsReview: r.needsReview,
+    sourceCategory: r.sourceCategory,
+    importNote: r.importNote,
     source: 'seed',
     createdAt: now,
     updatedAt: now,

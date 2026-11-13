@@ -166,6 +166,8 @@ export class DexieRepository implements LibraryRepository {
         watchProviders: w.watchProviders ?? [],
         watchProvidersFetchedAt: w.watchProvidersFetchedAt ?? null,
         needsReview: w.needsReview ?? null,
+        sourceCategory: w.sourceCategory ?? null,
+        importNote: w.importNote ?? null,
         source: w.source ?? 'manual',
         createdAt: now,
         updatedAt: now,

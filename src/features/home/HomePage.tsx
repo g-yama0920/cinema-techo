@@ -67,12 +67,17 @@ export function HomePage() {
       {featured && <Hero bundle={featured.bundle} label={featured.label} />}
 
       {/* 数字 */}
-      <section aria-label="記録の概要" className="mt-5 grid grid-cols-4 gap-2">
-        <Stat label="今年見た" value={counts.thisYear} unit="本" />
-        <Stat label="今月見た" value={counts.thisMonth} unit="本" />
-        <Stat label="評価済み" value={counts.rated} unit="本" to="/works?status=watched&sort=rating-desc" />
+      <section aria-label="記録の概要" className="mt-5 grid grid-cols-5 gap-1.5 md:gap-2">
+        <Stat label="評価済み" value={counts.rated} unit="本" to="/works?type=all&status=watched&sort=rating-desc" />
+        <Stat label="評価保留" value={counts.pending} unit="本" to="/works?type=all&status=pending" />
+        <Stat label="未視聴" value={counts.unwatched} unit="本" to="/works?type=all&status=unwatched" />
+        <Stat label="未確認" value={counts.unconfirmed} unit="本" to="/works?type=all&status=unconfirmed&view=list" />
         <Stat label="見たい" value={counts.want} unit="本" to="/watchlist" accent />
       </section>
+      <p className="mt-2 text-xs text-ink-soft">
+        今年見た <span className="font-bold text-ink">{counts.thisYear}</span> 本 ・ 今月見た <span className="font-bold text-ink">{counts.thisMonth}</span> 本
+        <span className="ml-1">（視聴日が分かる記録のみ）</span>
+      </p>
 
       <div className="mt-4 space-y-2">
         <BackupReminder />
@@ -236,8 +241,8 @@ function Hero({ bundle, label }: { bundle: WorkBundle; label: string }) {
 function Stat({ label, value, unit, to, accent }: { label: string; value: number; unit: string; to?: string; accent?: boolean }) {
   const inner = (
     <>
-      <span className={`num block text-[32px] leading-none md:text-5xl ${accent ? 'text-red' : ''}`}>{value}</span>
-      <span className="mt-1 block text-[11px] font-bold text-ink-soft">
+      <span className={`num block text-[28px] leading-none md:text-5xl ${accent ? 'text-red' : ''}`}>{value}</span>
+      <span className="mt-1 block text-[10.5px] font-bold whitespace-nowrap text-ink-soft md:text-xs">
         {label}
         <span className="sr-only">{unit}</span>
       </span>

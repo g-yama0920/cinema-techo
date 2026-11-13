@@ -110,7 +110,7 @@ export function WorksPage() {
             { value: 'movie', label: '映画' },
             { value: 'drama', label: 'ドラマ' },
             { value: 'anime', label: 'アニメ' },
-            ...(hasOther ? [{ value: 'other' as const, label: 'その他' }] : []),
+            ...(hasOther ? [{ value: 'other' as const, label: '種類未確認' }] : []),
           ]}
         />
 

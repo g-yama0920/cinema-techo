@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router';
 import { useLibrary, useRepo } from '../../data/LibraryProvider';
 import type { ChangeSet } from '../../data/repository';
 import { STATUS_LABEL, WORK_TYPE_LABEL } from '../../domain/labels';
-import { reconcileWithCsv } from '../../domain/reconcile';
+import { csvToObjects, reconcileWithCsv } from '../../domain/reconcile';
 import { normalizeSeed, summarizeSeed, type NormalizedSeed } from '../../domain/seed';
 import { hasBundledSeed, loadBundledSeed } from '../../services/bundledSeed';
 import { planSeedImport } from '../../services/seedImport';
@@ -19,7 +19,7 @@ export function SeedImportPage() {
   const repo = useRepo();
   const toast = useToast();
   const navigate = useNavigate();
-  const [source, setSource] = useState<{ name: string; seed: NormalizedSeed } | null>(null);
+  const [source, setSource] = useState<{ name: string; seed: NormalizedSeed; fromCsv: boolean } | null>(null);
   const [csv, setCsv] = useState<{ name: string; text: string } | null>(null);
   const [parseError, setParseError] = useState<string | null>(null);
   const [applyDiffs, setApplyDiffs] = useState(false);
@@ -31,26 +31,46 @@ export function SeedImportPage() {
     if (bundled && !source)
       loadBundledSeed().then((s) => {
         if (!s) return;
-        setSource({ name: s.name, seed: normalizeSeed(s.data) });
+        setSource({ name: s.name, seed: normalizeSeed(s.data), fromCsv: false });
         if (s.csv) setCsv(s.csv);
       });
   }, [bundled]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  /**
+   * JSON があれば JSON を正式データとして使い、CSV は照合に使う。
+   * CSV だけを選んだ場合（JSON が無い場合）は CSV を正式データとして取り込む。
+   */
   const onFiles = async (files: FileList | null) => {
     if (!files?.length) return;
     setParseError(null);
-    for (const file of Array.from(files)) {
-      const text = (await file.text()).replace(/^﻿/, '');
-      if (/\.csv$/i.test(file.name) || file.type === 'text/csv') {
-        setCsv({ name: file.name, text });
-        continue;
-      }
+    const list = await Promise.all(Array.from(files).map(async (f) => ({ f, text: (await f.text()).replace(/^\uFEFF/, '') })));
+    const isCsv = (f: File) => /\.csv$/i.test(f.name) || f.type === 'text/csv';
+    const jsonFile = list.find((x) => !isCsv(x.f));
+    const csvFile = list.find((x) => isCsv(x.f));
+    if (jsonFile) {
       try {
-        setSource({ name: file.name, seed: normalizeSeed(JSON.parse(text)) });
+        setSource({ name: jsonFile.f.name, seed: normalizeSeed(JSON.parse(jsonFile.text)), fromCsv: false });
         setApplyDiffs(false);
       } catch {
-        setParseError(`「${file.name}」を JSON として読み込めませんでした。`);
+        setParseError(`「${jsonFile.f.name}」を JSON として読み込めませんでした。`);
+        return;
       }
+      setCsv(csvFile ? { name: csvFile.f.name, text: csvFile.text } : null);
+      return;
+    }
+    if (csvFile) {
+      if (source && !source.fromCsv) {
+        setCsv({ name: csvFile.f.name, text: csvFile.text });
+        return;
+      }
+      const rows = csvToObjects(csvFile.text);
+      if (!rows.length) {
+        setParseError(`「${csvFile.f.name}」に作品の行がありません。`);
+        return;
+      }
+      setSource({ name: csvFile.f.name, seed: normalizeSeed(rows), fromCsv: true });
+      setCsv(null);
+      setApplyDiffs(false);
     }
   };
 
@@ -91,17 +111,17 @@ export function SeedImportPage() {
 
       <div className="mt-5 space-y-5">
         <p className="text-[15px]">
-          正式データ <code className="font-bold">movie_tracker_full_catalog.json</code> を取り込みます。照合用の CSV も一緒に選ぶと、内容が一致しているか確認できます。
+          全作品のデータ（<code className="font-bold">movie_tracker_full_catalog.json</code> または <code className="font-bold">.csv</code>）を取り込みます。JSON と CSV を一緒に選ぶと、JSON を取り込み、CSV で内容が一致しているか確認します。CSV だけでも取り込めます。
           評価値はそのまま保持し、日付が無い記録に日付を補うことはしません。何度取り込んでも同じ作品は増えません。
         </p>
 
         <label className="flex min-h-16 cursor-pointer items-center justify-center gap-2 border border-dashed border-line bg-paper-light px-4 text-center font-bold hover:bg-paper-deep">
           <IconUpload size={22} />
-          {source ? '別のファイルを選ぶ' : 'JSON（と照合用 CSV）を選ぶ'}
+          {source ? '別のファイルを選ぶ' : 'JSON または CSV を選ぶ'}
           <input type="file" multiple accept="application/json,.json,text/csv,.csv" className="sr-only" onChange={(e) => onFiles(e.target.files)} />
         </label>
         <p className="text-xs text-ink-soft">
-          {source ? `JSON：${source.name}` : 'JSON：未選択'}　／　{csv ? `照合用CSV：${csv.name}` : '照合用CSV：未選択（任意）'}
+          {source ? `取り込むファイル：${source.name}${source.fromCsv ? '（CSV）' : ''}` : '取り込むファイル：未選択'}　／　{csv ? `照合用CSV：${csv.name}` : source?.fromCsv ? '' : '照合用CSV：未選択（任意）'}
           {bundled && '　※アプリに同梱された初期データを読み込んでいます'}
         </p>
 

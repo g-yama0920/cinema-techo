@@ -224,6 +224,8 @@ function Detail({ bundle }: { bundle: WorkBundle }) {
                   <Unknown label="取得できていません" />
                 )}
               </Row>
+              {work.sourceCategory && <Row k="元の分類">{work.sourceCategory}</Row>}
+              {work.importNote && <Row k="データメモ">{work.importNote}</Row>}
               <Row k="管理番号">
                 <span className="num">No.{padNo(work.catalogNo)}</span>
                 {work.legacyId != null && <span className="ml-2 text-xs text-ink-soft">（既存記録の No.{work.legacyId}）</span>}
@@ -406,7 +408,7 @@ function TitleBlock({ bundle }: { bundle: WorkBundle }) {
       </p>
       <h1 className="mt-1 text-[24px] leading-[1.25] font-black text-balance md:text-4xl md:leading-tight">{work.title}</h1>
       {work.edition && <p className="mt-0.5 text-sm font-bold text-teal">{work.edition}</p>}
-      {work.alternateTitles.length > 0 && <p className="mt-1 text-xs text-ink-soft">別題：{work.alternateTitles.join(' / ')}</p>}
+      {work.alternateTitles.length > 0 && <p className="mt-1 text-xs text-ink-soft">原文・別表記：{work.alternateTitles.join(' / ')}</p>}
       <div className="mt-2.5 flex flex-wrap gap-1.5">
         <StatusBadge status={user.status} />
         {wl && <span className="inline-flex h-5 items-center rounded-sm bg-mustard px-1.5 text-[10.5px] font-bold text-black">見たい No.{wl.fixedNumber}</span>}

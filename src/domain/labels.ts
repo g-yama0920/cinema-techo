@@ -4,7 +4,7 @@ export const WORK_TYPE_LABEL: Record<WorkType, string> = {
   movie: '映画',
   drama: 'ドラマ',
   anime: 'アニメ',
-  other: 'その他・要確認',
+  other: '種類未確認',
 };
 
 export const WORK_TYPE_EN: Record<WorkType, string> = {

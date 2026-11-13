@@ -19,7 +19,7 @@ export function worksToCsv(index: LibraryIndex): string {
   const header = [
     '管理番号', '元番号', 'タイトル', '別題', '版・補足', '種別', '公開年', '状態', '評価',
     '最終視聴日', '視聴回数', 'ジャンル', '制作国', '監督', '出演', '上映時間(分)', 'シーズン数', '話数',
-    'タグ', '感想メモ', '見たい番号', '元の見たい番号', 'TMDb ID', 'TMDb種別', '要確認', '登録日時',
+    'タグ', '感想メモ', '見たい番号', '元の見たい番号', 'TMDb ID', 'TMDb種別', '確認待ち', '元の分類', 'データメモ', '登録日時',
   ];
   const lines = [row(header)];
   for (const b of index.bundles) {
@@ -35,7 +35,7 @@ export function worksToCsv(index: LibraryIndex): string {
         w.genres.join(' / '), w.country.join(' / '), w.directors.join(' / '), w.cast.join(' / '),
         w.runtime ?? '', w.seasonCount ?? '', w.episodeCount ?? '',
         u.tags.join(' / '), u.review, wl?.fixedNumber ?? '', u.legacyWatchlistNumber ?? '',
-        w.tmdbId ?? '', w.tmdbMediaType ?? '', w.needsReview ?? '', u.addedAt,
+        w.tmdbId ?? '', w.tmdbMediaType ?? '', w.needsReview ?? '', w.sourceCategory ?? '', w.importNote ?? '', u.addedAt,
       ]),
     );
   }

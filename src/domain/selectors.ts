@@ -7,6 +7,9 @@ export interface HomeCounts {
   thisYear: number;
   thisMonth: number;
   rated: number;
+  pending: number;
+  unwatched: number;
+  unconfirmed: number;
   want: number;
 }
 
@@ -25,6 +28,9 @@ export function homeCounts(index: LibraryIndex, now = new Date()): HomeCounts {
     thisYear: year.size,
     thisMonth: month.size,
     rated: index.bundles.filter((b) => b.user.rating != null).length,
+    pending: index.bundles.filter((b) => b.user.status === 'pending').length,
+    unwatched: index.bundles.filter((b) => b.user.status === 'unwatched').length,
+    unconfirmed: index.bundles.filter((b) => b.user.status === 'unconfirmed').length,
     want: index.activeWatchlist.length,
   };
 }

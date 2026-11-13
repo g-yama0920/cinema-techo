@@ -13,11 +13,15 @@ import { buildIndex } from '../src/domain/library';
 import { reconcileWithCsv } from '../src/domain/reconcile';
 import { normalizeSeed, summarizeSeed } from '../src/domain/seed';
 import { computeStats } from '../src/domain/stats';
-import { freshRepo, importSeed, loadFixture } from './helpers';
+import { freshRepo, importSeed, loadFixture as loadJson } from './helpers';
+import { csvToObjects } from '../src/domain/reconcile';
 
-const candidates = [process.env.SEED_PATH, 'seed/movie_tracker_full_catalog.json', 'seed/movie_tracker_seed.json'].filter(Boolean) as string[];
+/** JSON でも CSV でも読めるようにする */
+const loadFixture = (p: string): unknown => (p.endsWith('.csv') ? csvToObjects(readFileSync(p, 'utf8')) : loadJson(p));
+
+const candidates = [process.env.SEED_PATH, 'seed/movie_tracker_full_catalog.json', 'seed/movie_tracker_full_catalog.csv', 'seed/movie_tracker_seed.json'].filter(Boolean) as string[];
 const path = candidates.find((p) => existsSync(p));
-const csvPath = [process.env.CSV_PATH, 'seed/movie_tracker_full_catalog.csv'].filter(Boolean).find((p) => existsSync(p!));
+const csvPath = [process.env.CSV_PATH, 'seed/movie_tracker_full_catalog.csv'].filter(Boolean).find((p) => existsSync(p!) && p !== path);
 const expected = { total: 107, rated: 44, average: 3.0, pending: 7, unwatched: 1, want: 3, unconfirmed: 52, ...JSON.parse(process.env.EXPECT ?? '{}') };
 
 describe.skipIf(!path)(`実データの確認（${path}）`, () => {
@@ -43,10 +47,43 @@ describe.skipIf(!path)(`実データの確認（${path}）`, () => {
     const stats = computeStats(idx, { kind: 'all' }, 'all');
     expect(stats.averageRating!.toFixed(2)).toBe(expected.average.toFixed(2));
     expect(idx.activeWatchlist).toHaveLength(expected.want);
+    // 見たい固定番号は 1..N で重複なし、元データの値と一致
+    const fixed = idx.activeWatchlist.map((x) => x.entry.fixedNumber).sort((a, b) => a - b);
+    expect(fixed).toEqual(Array.from({ length: expected.want }, (_, i) => i + 1));
+    console.log('\n[seed] 見たいリスト', idx.activeWatchlist.map((x) => `No.${x.entry.fixedNumber} ${x.bundle.work.title}（作品 No.${x.bundle.work.legacyId}）`));
 
     const { plan } = await importSeed(repo, raw);
     expect(plan.added).toBe(0);
     expect((await repo.load()).works).toHaveLength(expected.total);
+  });
+
+  it.skipIf(!path?.endsWith('.csv'))('CSV の1行ごとに、タイトル・星・状態・見たい番号・元番号が登録結果と完全に一致', async () => {
+    const raw = loadFixture(path!) as Record<string, string>[];
+    const { repo } = freshRepo();
+    await importSeed(repo, raw);
+    const idx = buildIndex(await repo.load());
+    const STATUS: Record<string, string> = { watched_rated: 'watched', watched_unrated: 'pending', unwatched: 'unwatched', want_to_watch: 'want', unconfirmed: 'unconfirmed' };
+    const mismatches: string[] = [];
+    for (const row of raw) {
+      const no = Number(row.legacy_id);
+      const b = idx.bundles.find((x) => x.work.legacyId === no);
+      if (!b) {
+        mismatches.push(`No.${no} が登録されていない`);
+        continue;
+      }
+      const wl = b.watchlist.find((e) => e.status === 'active');
+      const checks: [string, unknown, unknown][] = [
+        ['タイトル', b.work.title, row.title],
+        ['星', b.user.rating, row.rating ? Number(row.rating) : null],
+        ['状態', b.user.status, STATUS[row.status]],
+        ['見たい番号', wl?.fixedNumber ?? null, row.watchlist_fixed_number ? Number(row.watchlist_fixed_number) : null],
+        ['管理番号', b.work.catalogNo, no],
+        ['視聴日', b.events.find((e) => e.watchedOn)?.watchedOn ?? null, row.watched_on || null],
+      ];
+      for (const [k, got, want] of checks) if (got !== want) mismatches.push(`No.${no} ${k}: 登録=${String(got)} / CSV=${String(want)}`);
+    }
+    console.log(`\n[seed] 1行ずつの照合：${raw.length}行、不一致 ${mismatches.length} 件`, mismatches.slice(0, 20));
+    expect(mismatches).toEqual([]);
   });
 
   it.skipIf(!csvPath)(`CSV（${csvPath}）と照合して差異がない`, () => {

@@ -63,6 +63,10 @@ export interface Work {
   watchProvidersFetchedAt: string | null;
   /** 要確認の理由（例: 作品の版が未特定）。null なら確認不要 */
   needsReview: string | null;
+  /** 元データでの利用者自身の分類（例: SF・タイムリープ・ファンタジー）。公式ジャンルとは別に保存する */
+  sourceCategory?: string | null;
+  /** 元データに付いていたメモ（利用者の感想メモとは別） */
+  importNote?: string | null;
   source: 'seed' | 'manual' | 'tmdb';
   createdAt: string;
   updatedAt: string;
