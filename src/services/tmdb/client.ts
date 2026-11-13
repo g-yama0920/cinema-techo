@@ -94,6 +94,8 @@ export class TmdbClient {
     const s = this.opts.getSettings();
     if (s.tmdbMode === 'off') return false;
     if (s.tmdbMode === 'personal') return Boolean(s.tmdbPersonalToken.trim());
+    // 中継サーバーの無い公開先では確認の通信をしない（404 を出さない）
+    if (!this.opts.proxyBase && !__TMDB_PROXY__) return false;
     if (this.statusCache && Date.now() - this.statusCache.at < 60_000) return this.statusCache.ok;
     try {
       const res = await this.fetch(`${this.proxyBase()}/_status`, { headers: { accept: 'application/json' } });

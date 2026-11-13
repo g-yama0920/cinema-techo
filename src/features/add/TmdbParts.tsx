@@ -15,7 +15,7 @@ import { tmdb, useTmdb } from './useTmdb';
  * （https://www.themoviedb.org/about/logos-attribution から入手。無い場合は文字表記のみ）。
  */
 export function TmdbAttribution({ compact = false }: { compact?: boolean }) {
-  const [logo, setLogo] = useState(true);
+  const [logo, setLogo] = useState(__HAS_TMDB_LOGO__);
   return (
     <div className={`flex items-center gap-2.5 text-[11px] leading-snug text-ink-soft ${compact ? '' : 'border-t border-line pt-3'}`}>
       {logo ? (

@@ -27,6 +27,9 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+        env:
+          # GitHub Pages ではサーバー処理が動かないため TMDb 中継は使わない（設定画面の「個人トークン」で検索できる）
+          TMDB_PROXY: none
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

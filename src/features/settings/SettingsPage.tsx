@@ -306,11 +306,16 @@ function TmdbSettings() {
           ]}
         />
       </div>
-      {s.tmdbMode === 'proxy' && (
-        <p className="mt-3 text-sm">
-          公開先のサーバーレス関数（/api/tmdb）経由で検索します。API キーはサーバーの環境変数 <code className="font-bold">TMDB_READ_ACCESS_TOKEN</code> に設定し、ブラウザには渡しません。
-        </p>
-      )}
+      {s.tmdbMode === 'proxy' &&
+        (__TMDB_PROXY__ ? (
+          <p className="mt-3 text-sm">
+            公開先のサーバーレス関数（/api/tmdb）経由で検索します。API キーはサーバーの環境変数 <code className="font-bold">TMDB_READ_ACCESS_TOKEN</code> に設定し、ブラウザには渡しません。
+          </p>
+        ) : (
+          <p className="mt-3 text-sm">
+            この公開先（GitHub Pages）にはサーバー経由の検索がありません。TMDb で検索するには「個人トークン」を選び、TMDb の API 読み取りアクセストークンを入れてください。
+          </p>
+        ))}
       {s.tmdbMode === 'personal' && (
         <div className="mt-3 space-y-2">
           <Notice>

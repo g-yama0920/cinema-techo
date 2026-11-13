@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import { defineConfig, loadEnv } from 'vite';
@@ -13,7 +13,13 @@ export default defineConfig(({ mode }) => {
   return {
     // 相対パスにして、サブディレクトリに置いても動くようにする
     base: './',
-    define: { __APP_VERSION__: JSON.stringify(pkg.version) },
+    define: {
+      __APP_VERSION__: JSON.stringify(pkg.version),
+      // 静的な公開先（GitHub Pages など）では TMDb 中継サーバーが無いので確認しない（TMDB_PROXY=none でビルド）
+      __TMDB_PROXY__: JSON.stringify(process.env.TMDB_PROXY !== 'none'),
+      // TMDb の公式ロゴを public/brand/tmdb-logo.svg に置いた場合だけ表示する
+      __HAS_TMDB_LOGO__: JSON.stringify(existsSync(new URL('./public/brand/tmdb-logo.svg', import.meta.url))),
+    },
     plugins: [
       react(),
       tailwindcss(),
