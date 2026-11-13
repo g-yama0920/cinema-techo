@@ -1,5 +1,5 @@
 // 実画面での作業完了条件の確認（Playwright / Chromium / 375px）。
-//   npm run build && npx vite preview --port 4173 &  →  npm run e2e
+//   SEED_BUNDLE=off npm run build && npx vite preview --port 4173 &  →  npm run e2e（同梱データを使わないビルドで確認する）
 // 環境変数: BASE（既定 http://localhost:4173/）、SHOTS=1 でスクリーンショットを docs/screenshots に保存
 // 使用データ: tests/fixtures/sample_full_catalog.(json|csv)（架空の作品名。構成は 107 = 評価済み44・評価保留7・未視聴1・見たい3・未確認52）
 import { readFileSync } from 'node:fs';

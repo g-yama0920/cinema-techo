@@ -31,7 +31,7 @@ export function SeedImportPage() {
     if (bundled && !source)
       loadBundledSeed().then((s) => {
         if (!s) return;
-        setSource({ name: s.name, seed: normalizeSeed(s.data), fromCsv: false });
+        setSource({ name: s.name, seed: normalizeSeed(s.data), fromCsv: s.kind === 'csv' });
         if (s.csv) setCsv(s.csv);
       });
   }, [bundled]); // eslint-disable-line react-hooks/exhaustive-deps

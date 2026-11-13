@@ -19,6 +19,8 @@ export default defineConfig(({ mode }) => {
       __TMDB_PROXY__: JSON.stringify(process.env.TMDB_PROXY !== 'none'),
       // TMDb の公式ロゴを public/brand/tmdb-logo.svg に置いた場合だけ表示する
       __HAS_TMDB_LOGO__: JSON.stringify(existsSync(new URL('./public/brand/tmdb-logo.svg', import.meta.url))),
+      // seed/ の初期データを同梱して初回に自動登録する（テスト用に同梱しないビルドは SEED_BUNDLE=off）
+      __BUNDLE_SEED__: JSON.stringify(process.env.SEED_BUNDLE !== 'off'),
     },
     plugins: [
       react(),

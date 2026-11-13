@@ -4,3 +4,4 @@
 declare const __APP_VERSION__: string;
 declare const __TMDB_PROXY__: boolean;
 declare const __HAS_TMDB_LOGO__: boolean;
+declare const __BUNDLE_SEED__: boolean;

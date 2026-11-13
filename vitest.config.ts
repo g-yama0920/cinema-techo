@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  define: { __TMDB_PROXY__: 'true', __HAS_TMDB_LOGO__: 'false', __APP_VERSION__: '"test"' },
+  define: { __TMDB_PROXY__: 'true', __HAS_TMDB_LOGO__: 'false', __BUNDLE_SEED__: 'false', __APP_VERSION__: '"test"' },
   test: {
     environment: 'jsdom',
     setupFiles: ['./tests/setup.ts'],
